@@ -11,4 +11,4 @@
 
 ## 5 kyu
 
-* https://www.codewars.com/kata/first-non-repeating-character
+* https://www.codewars.com/kata/first-non-repeating-character/train/javascript
