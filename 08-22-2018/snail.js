@@ -1,12 +1,14 @@
 function snail(matrix) {
   // a place to store the array
   const array = [];
+  // base case
+  if (matrix[0].length === 0) return array;
   // keep track of current row and column
     // initialized to 0, 0
   let row = 0;
   let col = 0;
-  let numCols = matrix.length;
-  let numRows = matrix.length;
+  const numCols = matrix.length;
+  const numRows = matrix.length;
   let colIncreasing = true;
   let colDecreasing = false;
   let rowIncreasing = false;
@@ -69,7 +71,9 @@ function snail(matrix) {
 
 function snail(matrix) {
   const array = [];
-  let matrixLength = matrix.length;
+  if (matrix[0].length === 0) return array;
+
+  const matrixLength = matrix.length;
   
   const dir = {
     right: true,
