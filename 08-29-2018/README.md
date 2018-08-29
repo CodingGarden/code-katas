@@ -14,4 +14,4 @@
 
 ## 4 kyu
 
-* https://www.codewars.com/kata/range-extraction
+* https://www.codewars.com/kata/range-extraction/train/javascript
