@@ -82,5 +82,13 @@ function validParentheses(parens, sum = 0){
   }) && sum === 0;
 }
 
+function validParentheses(parens, sum = 0){
+  return [].every.call(parens, (paren) => (sum += { '(': 1, ')': -1 }[paren]) >= 0) && sum === 0;
+}
+
+function validParentheses(parens, sum = 0){
+  return [].every.call(parens, (paren) => (sum += paren === '(' ? 1 : -1) >= 0) && sum === 0;
+}
+
 console.log(validParentheses( "()" ), true);
 console.log(validParentheses( "())" ), false);
