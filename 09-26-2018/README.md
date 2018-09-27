@@ -6,7 +6,7 @@
 
 # 6 kyu
 
-* 
+* https://www.codewars.com/kata/which-are-in
 
 # 5 kyu
 
