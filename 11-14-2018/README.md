@@ -11,7 +11,3 @@
 ## 5kyu
 
 * https://www.codewars.com/kata/did-i-finish-my-sudoku/train/javascript
-
-## 4kyu
-
-* https://www.codewars.com/kata/matrix-determinant/train/javascript
