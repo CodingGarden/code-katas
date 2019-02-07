@@ -1,8 +1,3 @@
-# Code Katas
-
-Search / Filter solutions [here](https://code-katas.now.sh/)
-
-# Episodes
 
 ## [Episode 23](./episode_023)
 

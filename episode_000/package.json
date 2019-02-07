@@ -1,0 +1,15 @@
+{
+  "name": "episode_000",
+  "version": "1.0.0",
+  "description": "![](https://i.imgur.com/nm3ulgm.jpg)",
+  "main": "generateReadme.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}

@@ -1,0 +1,715 @@
+[{
+  "episodeNum": 23,
+  "video": "https://www.youtube.com/watch?v=c_EREn-eF5s",
+  "slug": "remove-the-minimum",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_023/remove-the-minimum.js",
+  "kataName": "Remove the minimum",
+  "kyu": -7
+}, {
+  "episodeNum": 23,
+  "video": "https://www.youtube.com/watch?v=c_EREn-eF5s",
+  "slug": "rot13",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_023/rot13.js",
+  "kataName": "ROT13",
+  "kyu": -5
+}, {
+  "episodeNum": 23,
+  "video": "https://www.youtube.com/watch?v=c_EREn-eF5s",
+  "slug": "strip-comments",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_023/strip-comments.js",
+  "kataName": "Strip Comments",
+  "kyu": -4
+}, {
+  "episodeNum": 23,
+  "video": "https://www.youtube.com/watch?v=c_EREn-eF5s",
+  "slug": "title-case",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_023/title-case.js",
+  "kataName": "Title Case",
+  "kyu": -6
+}, {
+  "episodeNum": 22,
+  "video": "https://www.youtube.com/watch?v=xgW-due5ukM",
+  "slug": "delete-occurrences-of-an-element-if-it-occurs-more-than-n-times",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_022/delete-occurrences-of-an-element-if-it-occurs-more-than-n-times.js",
+  "kataName": "Delete occurrences of an element if it occurs more than n times",
+  "kyu": -6
+}, {
+  "episodeNum": 22,
+  "video": "https://www.youtube.com/watch?v=xgW-due5ukM",
+  "slug": "regex-validate-pin-code",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_022/regex-validate-pin-code.js",
+  "kataName": "Regex validate PIN code",
+  "kyu": -7
+}, {
+  "episodeNum": 22,
+  "video": "https://www.youtube.com/watch?v=xgW-due5ukM",
+  "slug": "tic-tac-toe-checker",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_022/tic-tac-toe-checker.js",
+  "kataName": "Tic-Tac-Toe Checker",
+  "kyu": -5
+}, {
+  "episodeNum": 22,
+  "video": "https://www.youtube.com/watch?v=xgW-due5ukM",
+  "slug": "vector-class",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_022/vector-class.js",
+  "kataName": "Vector class",
+  "kyu": -5
+}, {
+  "episodeNum": 21,
+  "video": "https://www.youtube.com/watch?v=LiD9TT--F5Y",
+  "slug": "did-i-finish-my-sudoku",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_021/did-i-finish-my-sudoku.js",
+  "kataName": "Did I Finish my Sudoku?",
+  "kyu": -5
+}, {
+  "episodeNum": 21,
+  "video": "https://www.youtube.com/watch?v=LiD9TT--F5Y",
+  "slug": "distributing-candies",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_021/distributing-candies.js",
+  "kataName": "distributing-candies",
+  "kyu": null
+}, {
+  "episodeNum": 21,
+  "video": "https://www.youtube.com/watch?v=LiD9TT--F5Y",
+  "slug": "vasya-clerk",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_021/vasya-clerk.js",
+  "kataName": "Vasya - Clerk",
+  "kyu": -6
+}, {
+  "episodeNum": 20,
+  "video": "https://www.youtube.com/watch?v=NGcsIUBKHiI",
+  "slug": "halloween-sweets",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_020/halloween-sweets.js",
+  "kataName": "Halloween Sweets",
+  "kyu": -5
+}, {
+  "episodeNum": 20,
+  "video": "https://www.youtube.com/watch?v=NGcsIUBKHiI",
+  "slug": "pirate-code",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_020/pirate-code.js",
+  "kataName": "Pirate Code",
+  "kyu": -7
+}, {
+  "episodeNum": 20,
+  "video": "https://www.youtube.com/watch?v=NGcsIUBKHiI",
+  "slug": "trick-or-treat",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_020/trick-or-treat.js",
+  "kataName": "trick-or-treat",
+  "kyu": null
+}, {
+  "episodeNum": 19,
+  "video": "https://www.youtube.com/watch?v=EyyiM71-r18",
+  "slug": "bouncing-balls",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_019/bouncing-balls.js",
+  "kataName": "Bouncing Balls",
+  "kyu": -6
+}, {
+  "episodeNum": 19,
+  "video": "https://www.youtube.com/watch?v=EyyiM71-r18",
+  "slug": "most-consecutive-zeros",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_019/most-consecutive-zeros.js",
+  "kataName": "most-consecutive-zeros",
+  "kyu": null
+}, {
+  "episodeNum": 19,
+  "video": "https://www.youtube.com/watch?v=EyyiM71-r18",
+  "slug": "number-combos",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_019/number-combos.js",
+  "kataName": "number-combos",
+  "kyu": null
+}, {
+  "episodeNum": 19,
+  "video": "https://www.youtube.com/watch?v=EyyiM71-r18",
+  "slug": "pascalcase-into-snake-case",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_019/pascalcase-into-snake-case.js",
+  "kataName": "pascalcase-into-snake-case",
+  "kyu": null
+}, {
+  "episodeNum": 19,
+  "video": "https://www.youtube.com/watch?v=EyyiM71-r18",
+  "slug": "sum-of-a-sequence",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_019/sum-of-a-sequence.js",
+  "kataName": "Sum of a sequence",
+  "kyu": -7
+}, {
+  "episodeNum": 18,
+  "video": "https://www.youtube.com/watch?v=qqznbb9xJa4",
+  "slug": "friend-or-foe",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_018/friend-or-foe.js",
+  "kataName": "Friend or Foe?",
+  "kyu": -7
+}, {
+  "episodeNum": 18,
+  "video": "https://www.youtube.com/watch?v=qqznbb9xJa4",
+  "slug": "greed-is-good",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_018/greed-is-good.js",
+  "kataName": "Greed is Good",
+  "kyu": -5
+}, {
+  "episodeNum": 18,
+  "video": "https://www.youtube.com/watch?v=qqznbb9xJa4",
+  "slug": "math-issues",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_018/math-issues.js",
+  "kataName": "Math Issues",
+  "kyu": -5
+}, {
+  "episodeNum": 18,
+  "video": "https://www.youtube.com/watch?v=qqznbb9xJa4",
+  "slug": "scratch",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_018/scratch.js",
+  "kataName": "scratch",
+  "kyu": null
+}, {
+  "episodeNum": 18,
+  "video": "https://www.youtube.com/watch?v=qqznbb9xJa4",
+  "slug": "which-are-in",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_018/which-are-in.js",
+  "kataName": "Which are  in?",
+  "kyu": -6
+}, {
+  "episodeNum": 17,
+  "video": "https://www.youtube.com/watch?v=jFJGnX-q0Tc",
+  "slug": "double-cola",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_017/double-cola.js",
+  "kataName": "Double Cola",
+  "kyu": -5
+}, {
+  "episodeNum": 17,
+  "video": "https://www.youtube.com/watch?v=jFJGnX-q0Tc",
+  "slug": "exponential-comparison",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_017/exponential-comparison.js",
+  "kataName": "Exponential Comparison",
+  "kyu": -6
+}, {
+  "episodeNum": 17,
+  "video": "https://www.youtube.com/watch?v=jFJGnX-q0Tc",
+  "slug": "ones-and-zeros",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_017/ones-and-zeros.js",
+  "kataName": "Ones and Zeros",
+  "kyu": -7
+}, {
+  "episodeNum": 17,
+  "video": "https://www.youtube.com/watch?v=jFJGnX-q0Tc",
+  "slug": "square-every-digit",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_017/square-every-digit.js",
+  "kataName": "Square Every Digit",
+  "kyu": -7
+}, {
+  "episodeNum": 16,
+  "video": "https://www.youtube.com/watch?v=BKBZLZ50xh8",
+  "slug": "message-from-alca",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_016/message-from-alca.js",
+  "kataName": "message-from-alca",
+  "kyu": null
+}, {
+  "episodeNum": 16,
+  "video": "https://www.youtube.com/watch?v=BKBZLZ50xh8",
+  "slug": "replace-with-alphabet-position",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_016/replace-with-alphabet-position.js",
+  "kataName": "Replace With Alphabet Position",
+  "kyu": -6
+}, {
+  "episodeNum": 16,
+  "video": "https://www.youtube.com/watch?v=BKBZLZ50xh8",
+  "slug": "valid-parentheses",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_016/valid-parentheses.js",
+  "kataName": "Valid Parentheses",
+  "kyu": -5
+}, {
+  "episodeNum": 16,
+  "video": "https://www.youtube.com/watch?v=BKBZLZ50xh8",
+  "slug": "youre-a-square",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_016/youre-a-square.js",
+  "kataName": "You're a square!",
+  "kyu": -7
+}, {
+  "episodeNum": 15,
+  "video": "https://www.youtube.com/watch?v=R49EFycGF3s",
+  "slug": "dont-rely-on-luck",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_015/dont-rely-on-luck.js",
+  "kataName": "Don't rely on luck.",
+  "kyu": -6
+}, {
+  "episodeNum": 15,
+  "video": "https://www.youtube.com/watch?v=R49EFycGF3s",
+  "slug": "find-the-capitals",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_015/find-the-capitals.js",
+  "kataName": "Find the Capitals",
+  "kyu": -7
+}, {
+  "episodeNum": 15,
+  "video": "https://www.youtube.com/watch?v=R49EFycGF3s",
+  "slug": "range-extraction",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_015/range-extraction.js",
+  "kataName": "Range Extraction",
+  "kyu": -4
+}, {
+  "episodeNum": 15,
+  "video": "https://www.youtube.com/watch?v=R49EFycGF3s",
+  "slug": "the-hashtag-generator",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_015/the-hashtag-generator.js",
+  "kataName": "The Hashtag Generator",
+  "kyu": -5
+}, {
+  "episodeNum": 14,
+  "video": "https://www.youtube.com/watch?v=dE5TV-TGfEo",
+  "slug": "duplicateEncode",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_014/duplicateEncode.js",
+  "kataName": "duplicateEncode",
+  "kyu": null
+}, {
+  "episodeNum": 14,
+  "video": "https://www.youtube.com/watch?v=dE5TV-TGfEo",
+  "slug": "memoizeFibonacci",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_014/memoizeFibonacci.js",
+  "kataName": "memoizeFibonacci",
+  "kyu": null
+}, {
+  "episodeNum": 14,
+  "video": "https://www.youtube.com/watch?v=dE5TV-TGfEo",
+  "slug": "snail",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_014/snail.js",
+  "kataName": "Snail",
+  "kyu": -4
+}, {
+  "episodeNum": 14,
+  "video": "https://www.youtube.com/watch?v=dE5TV-TGfEo",
+  "slug": "twoToOne",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_014/twoToOne.js",
+  "kataName": "twoToOne",
+  "kyu": null
+}, {
+  "episodeNum": 13,
+  "video": "https://www.youtube.com/watch?v=_xud7qSXkOw",
+  "slug": "firstNonRepeatingCharacter",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_013/firstNonRepeatingCharacter.js",
+  "kataName": "firstNonRepeatingCharacter",
+  "kyu": null
+}, {
+  "episodeNum": 13,
+  "video": "https://www.youtube.com/watch?v=_xud7qSXkOw",
+  "slug": "parity-outlier",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_013/parity-outlier.js",
+  "kataName": "parity-outlier",
+  "kyu": null
+}, {
+  "episodeNum": 13,
+  "video": "https://www.youtube.com/watch?v=_xud7qSXkOw",
+  "slug": "printer-errors",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_013/printer-errors.js",
+  "kataName": "Printer Errors",
+  "kyu": -7
+}, {
+  "episodeNum": 13,
+  "video": "https://www.youtube.com/watch?v=_xud7qSXkOw",
+  "slug": "series-sum",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_013/series-sum.js",
+  "kataName": "series-sum",
+  "kyu": null
+}, {
+  "episodeNum": 12,
+  "video": "https://www.youtube.com/watch?v=Ozp_PY1OOnw",
+  "slug": "format-string-names",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_012/format-string-names.js",
+  "kataName": "format-string-names",
+  "kyu": null
+}, {
+  "episodeNum": 12,
+  "video": "https://www.youtube.com/watch?v=Ozp_PY1OOnw",
+  "slug": "pagination-helper",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_012/pagination-helper.js",
+  "kataName": "pagination-helper",
+  "kyu": null
+}, {
+  "episodeNum": 12,
+  "video": "https://www.youtube.com/watch?v=Ozp_PY1OOnw",
+  "slug": "sum-of-odd-numbers",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_012/sum-of-odd-numbers.js",
+  "kataName": "Sum of odd numbers",
+  "kyu": -7
+}, {
+  "episodeNum": 11,
+  "video": "https://www.youtube.com/watch?v=bPTonTi42ic",
+  "slug": "counting-duplicates",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_011/counting-duplicates.js",
+  "kataName": "Counting Duplicates",
+  "kyu": -6
+}, {
+  "episodeNum": 11,
+  "video": "https://www.youtube.com/watch?v=bPTonTi42ic",
+  "slug": "square-digits",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_011/square-digits.js",
+  "kataName": "square-digits",
+  "kyu": null
+}, {
+  "episodeNum": 11,
+  "video": "https://www.youtube.com/watch?v=bPTonTi42ic",
+  "slug": "weight-for-weight",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_011/weight-for-weight.js",
+  "kataName": "Weight for weight",
+  "kyu": -5
+}, {
+  "episodeNum": 10,
+  "video": "https://www.youtube.com/watch?v=6eoqEYc5SGI",
+  "slug": "find-divisors",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_010/find-divisors.js",
+  "kataName": "find-divisors",
+  "kyu": null
+}, {
+  "episodeNum": 10,
+  "video": "https://www.youtube.com/watch?v=6eoqEYc5SGI",
+  "slug": "pete-the-baker",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_010/pete-the-baker.js",
+  "kataName": "Pete, the baker",
+  "kyu": -5
+}, {
+  "episodeNum": 10,
+  "video": "https://www.youtube.com/watch?v=6eoqEYc5SGI",
+  "slug": "spinning-words",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_010/spinning-words.js",
+  "kataName": "spinning-words",
+  "kyu": null
+}, {
+  "episodeNum": 9,
+  "video": "https://www.youtube.com/watch?v=0atKorB6tAI",
+  "slug": "character-recognition-mistakes",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_009/character-recognition-mistakes.js",
+  "kataName": "character-recognition-mistakes",
+  "kyu": null
+}, {
+  "episodeNum": 9,
+  "video": "https://www.youtube.com/watch?v=0atKorB6tAI",
+  "slug": "narcissistic-numbers",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_009/narcissistic-numbers.js",
+  "kataName": "Narcissistic Numbers ",
+  "kyu": -7
+}, {
+  "episodeNum": 9,
+  "video": "https://www.youtube.com/watch?v=0atKorB6tAI",
+  "slug": "nested-structure-compare",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_009/nested-structure-compare.js",
+  "kataName": "nested-structure-compare",
+  "kyu": null
+}, {
+  "episodeNum": 9,
+  "video": "https://www.youtube.com/watch?v=0atKorB6tAI",
+  "slug": "regex-password",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_009/regex-password.js",
+  "kataName": "regex-password",
+  "kyu": null
+}, {
+  "episodeNum": 8,
+  "video": "https://www.youtube.com/watch?v=M_K7azm9i6o",
+  "slug": "are-they-the-same",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_008/are-they-the-same.js",
+  "kataName": "Are they the \"same\"?",
+  "kyu": -6
+}, {
+  "episodeNum": 8,
+  "video": "https://www.youtube.com/watch?v=M_K7azm9i6o",
+  "slug": "growth-population",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_008/growth-population.js",
+  "kataName": "growth-population",
+  "kyu": null
+}, {
+  "episodeNum": 8,
+  "video": "https://www.youtube.com/watch?v=M_K7azm9i6o",
+  "slug": "rot13",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_008/rot13.js",
+  "kataName": "ROT13",
+  "kyu": -5
+}, {
+  "episodeNum": 8,
+  "video": "https://www.youtube.com/watch?v=M_K7azm9i6o",
+  "slug": "twice-linear",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_008/twice-linear.js",
+  "kataName": "Twice linear",
+  "kyu": -4
+}, {
+  "episodeNum": 8,
+  "video": "https://www.youtube.com/watch?v=M_K7azm9i6o",
+  "slug": "your-order-please",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_008/your-order-please.js",
+  "kataName": "Your order,  please",
+  "kyu": -6
+}, {
+  "episodeNum": 7,
+  "video": "https://www.youtube.com/watch?v=O5DmKHgFwjE",
+  "slug": "anagrams",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_007/anagrams.js",
+  "kataName": "Anagrams",
+  "kyu": null
+}, {
+  "episodeNum": 7,
+  "video": "https://www.youtube.com/watch?v=O5DmKHgFwjE",
+  "slug": "camel-case",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_007/camel-case.js",
+  "kataName": "camel-case",
+  "kyu": null
+}, {
+  "episodeNum": 7,
+  "video": "https://www.youtube.com/watch?v=O5DmKHgFwjE",
+  "slug": "categorize-new-member",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_007/categorize-new-member.js",
+  "kataName": "Categorize New Member",
+  "kyu": -7
+}, {
+  "episodeNum": 7,
+  "video": "https://www.youtube.com/watch?v=O5DmKHgFwjE",
+  "slug": "isogram",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_007/isogram.js",
+  "kataName": "isogram",
+  "kyu": null
+}, {
+  "episodeNum": 7,
+  "video": "https://www.youtube.com/watch?v=O5DmKHgFwjE",
+  "slug": "multiples-of-3-and-5",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_007/multiples-of-3-and-5.js",
+  "kataName": "multiples-of-3-and-5",
+  "kyu": null
+}, {
+  "episodeNum": 7,
+  "video": "https://www.youtube.com/watch?v=O5DmKHgFwjE",
+  "slug": "priori-incantatem",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_007/priori-incantatem.js",
+  "kataName": "Priori Incantatem",
+  "kyu": -4
+}, {
+  "episodeNum": 7,
+  "video": "https://www.youtube.com/watch?v=O5DmKHgFwjE",
+  "slug": "rgb-to-hex",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_007/rgb-to-hex.js",
+  "kataName": "rgb-to-hex",
+  "kyu": null
+}, {
+  "episodeNum": 6,
+  "video": "https://www.youtube.com/watch?v=mwoA9wjp7ec",
+  "slug": "calculating-with-functions",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_006/calculating-with-functions.js",
+  "kataName": "Calculating with Functions",
+  "kyu": -5
+}, {
+  "episodeNum": 6,
+  "video": "https://www.youtube.com/watch?v=mwoA9wjp7ec",
+  "slug": "digital-root",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_006/digital-root.js",
+  "kataName": "digital-root",
+  "kyu": null
+}, {
+  "episodeNum": 6,
+  "video": "https://www.youtube.com/watch?v=mwoA9wjp7ec",
+  "slug": "dubstep",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_006/dubstep.js",
+  "kataName": "Dubstep",
+  "kyu": -6
+}, {
+  "episodeNum": 6,
+  "video": "https://www.youtube.com/watch?v=mwoA9wjp7ec",
+  "slug": "odd-int",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_006/odd-int.js",
+  "kataName": "odd-int",
+  "kyu": null
+}, {
+  "episodeNum": 6,
+  "video": "https://www.youtube.com/watch?v=mwoA9wjp7ec",
+  "slug": "reverse-polish-notation",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_006/reverse-polish-notation.js",
+  "kataName": "Reverse Polish Notation",
+  "kyu": null
+}, {
+  "episodeNum": 6,
+  "video": "https://www.youtube.com/watch?v=mwoA9wjp7ec",
+  "slug": "sum-of-numbers",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_006/sum-of-numbers.js",
+  "kataName": "Sum of numbers",
+  "kyu": null
+}, {
+  "episodeNum": 6,
+  "video": "https://www.youtube.com/watch?v=mwoA9wjp7ec",
+  "slug": "zeros-to-end",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_006/zeros-to-end.js",
+  "kataName": "zeros-to-end",
+  "kyu": null
+}, {
+  "episodeNum": 5,
+  "video": "https://www.youtube.com/watch?v=S-h_tfwHQAQ",
+  "slug": "createPhoneNumber",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_005/createPhoneNumber.js",
+  "kataName": "createPhoneNumber",
+  "kyu": null
+}, {
+  "episodeNum": 5,
+  "video": "https://www.youtube.com/watch?v=S-h_tfwHQAQ",
+  "slug": "credit-card-mask",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_005/credit-card-mask.js",
+  "kataName": "Credit Card Mask",
+  "kyu": -7
+}, {
+  "episodeNum": 5,
+  "video": "https://www.youtube.com/watch?v=S-h_tfwHQAQ",
+  "slug": "equal-sides-sum",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_005/equal-sides-sum.js",
+  "kataName": "equal-sides-sum",
+  "kyu": null
+}, {
+  "episodeNum": 5,
+  "video": "https://www.youtube.com/watch?v=S-h_tfwHQAQ",
+  "slug": "palindromeChainLength",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_005/palindromeChainLength.js",
+  "kataName": "palindromeChainLength",
+  "kyu": null
+}, {
+  "episodeNum": 5,
+  "video": "https://www.youtube.com/watch?v=S-h_tfwHQAQ",
+  "slug": "roman-numerals-encoder",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_005/roman-numerals-encoder.js",
+  "kataName": "Roman Numerals Encoder",
+  "kyu": -6
+}, {
+  "episodeNum": 5,
+  "video": "https://www.youtube.com/watch?v=S-h_tfwHQAQ",
+  "slug": "sum-of-two-lowest",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_005/sum-of-two-lowest.js",
+  "kataName": "sum-of-two-lowest",
+  "kyu": null
+}, {
+  "episodeNum": 4,
+  "video": "https://www.youtube.com/watch?v=2ld5ndNkF2Q",
+  "slug": "count-the-smiley-faces",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_004/count-the-smiley-faces.js",
+  "kataName": "Count the smiley faces!",
+  "kyu": -6
+}, {
+  "episodeNum": 4,
+  "video": "https://www.youtube.com/watch?v=2ld5ndNkF2Q",
+  "slug": "human-readable-time",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_004/human-readable-time.js",
+  "kataName": "Human Readable Time",
+  "kyu": -5
+}, {
+  "episodeNum": 4,
+  "video": "https://www.youtube.com/watch?v=2ld5ndNkF2Q",
+  "slug": "list-filtering",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_004/list-filtering.js",
+  "kataName": "List Filtering",
+  "kyu": -7
+}, {
+  "episodeNum": 4,
+  "video": "https://www.youtube.com/watch?v=2ld5ndNkF2Q",
+  "slug": "maximum-subarray-sum",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_004/maximum-subarray-sum.js",
+  "kataName": "Maximum  subarray sum",
+  "kyu": -5
+}, {
+  "episodeNum": 4,
+  "video": "https://www.youtube.com/watch?v=2ld5ndNkF2Q",
+  "slug": "scramblies",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_004/scramblies.js",
+  "kataName": "Scramblies",
+  "kyu": -5
+}, {
+  "episodeNum": 4,
+  "video": "https://www.youtube.com/watch?v=2ld5ndNkF2Q",
+  "slug": "sum-strings-as-numbers",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_004/sum-strings-as-numbers.js",
+  "kataName": "Sum Strings as Numbers",
+  "kyu": -4
+}, {
+  "episodeNum": 3,
+  "video": "https://www.youtube.com/watch?v=Ms7L-aVN4Hc",
+  "slug": "dna-compliment",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_003/dna-compliment.js",
+  "kataName": "dna-compliment",
+  "kyu": null
+}, {
+  "episodeNum": 3,
+  "video": "https://www.youtube.com/watch?v=Ms7L-aVN4Hc",
+  "slug": "iq-test",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_003/iq-test.js",
+  "kataName": "IQ Test",
+  "kyu": -6
+}, {
+  "episodeNum": 3,
+  "video": "https://www.youtube.com/watch?v=Ms7L-aVN4Hc",
+  "slug": "pig-latin",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_003/pig-latin.js",
+  "kataName": "Pig Latin",
+  "kyu": null
+}, {
+  "episodeNum": 3,
+  "video": "https://www.youtube.com/watch?v=Ms7L-aVN4Hc",
+  "slug": "take-a-ten-minute-walk",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_003/take-a-ten-minute-walk.js",
+  "kataName": "Take a Ten Minute Walk",
+  "kyu": -6
+}, {
+  "episodeNum": 3,
+  "video": "https://www.youtube.com/watch?v=Ms7L-aVN4Hc",
+  "slug": "vowel-count",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_003/vowel-count.js",
+  "kataName": "Vowel Count",
+  "kyu": -7
+}, {
+  "episodeNum": 2,
+  "video": "https://www.youtube.com/watch?v=fH4w_xq2qao",
+  "slug": "exes-os",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_002/exes-os.js",
+  "kataName": "exes-os",
+  "kyu": null
+}, {
+  "episodeNum": 2,
+  "video": "https://www.youtube.com/watch?v=fH4w_xq2qao",
+  "slug": "fat-fingers",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_002/fat-fingers.js",
+  "kataName": "Fat Fingers",
+  "kyu": -6
+}, {
+  "episodeNum": 2,
+  "video": "https://www.youtube.com/watch?v=fH4w_xq2qao",
+  "slug": "jaden-case",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_002/jaden-case.js",
+  "kataName": "jaden-case",
+  "kyu": null
+}, {
+  "episodeNum": 2,
+  "video": "https://www.youtube.com/watch?v=fH4w_xq2qao",
+  "slug": "sum-pairs",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_002/sum-pairs.js",
+  "kataName": "sum-pairs",
+  "kyu": null
+}, {
+  "episodeNum": 1,
+  "video": "https://www.youtube.com/watch?v=Oq7r8metsD8",
+  "slug": "accum",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_001/accum.js",
+  "kataName": "accum",
+  "kyu": null
+}, {
+  "episodeNum": 1,
+  "video": "https://www.youtube.com/watch?v=Oq7r8metsD8",
+  "slug": "binary-addition",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_001/binary-addition.js",
+  "kataName": "Binary Addition",
+  "kyu": -7
+}, {
+  "episodeNum": 1,
+  "video": "https://www.youtube.com/watch?v=Oq7r8metsD8",
+  "slug": "century-from-year",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_001/century-from-year.js",
+  "kataName": "Century From Year",
+  "kyu": -8
+}, {
+  "episodeNum": 1,
+  "video": "https://www.youtube.com/watch?v=Oq7r8metsD8",
+  "slug": "final-grade",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_001/final-grade.js",
+  "kataName": "final-grade",
+  "kyu": null
+}, {
+  "episodeNum": 1,
+  "video": "https://www.youtube.com/watch?v=Oq7r8metsD8",
+  "slug": "morse-code",
+  "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_001/morse-code.js",
+  "kataName": "morse-code",
+  "kyu": null
+}]
