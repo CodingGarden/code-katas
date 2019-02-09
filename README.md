@@ -218,5 +218,5 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 * [accum](./episode_001/accum.js) - ??? kyu
 * [binary-addition](./episode_001/binary-addition.js) - 7 kyu
 * [century-from-year](./episode_001/century-from-year.js) - 8 kyu
-* [final-grade](./episode_001/final-grade.js) - ??? kyu
+* [students-final-grade](./episode_001/students-final-grade.js) - 8 kyu
 * [morse-code](./episode_001/morse-code.js) - ??? kyu
