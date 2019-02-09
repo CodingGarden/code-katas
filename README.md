@@ -55,7 +55,6 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 * [friend-or-foe](./episode_018/friend-or-foe.js) - 7 kyu
 * [greed-is-good](./episode_018/greed-is-good.js) - 5 kyu
 * [math-issues](./episode_018/math-issues.js) - 5 kyu
-* [scratch](./episode_018/scratch.js) - ??? kyu
 * [which-are-in](./episode_018/which-are-in.js) - 6 kyu
 
 ## [Episode 17](./episode_017)
@@ -71,7 +70,6 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=BKBZLZ50xh8)
 
-* [message-from-alca](./episode_016/message-from-alca.js) - ??? kyu
 * [replace-with-alphabet-position](./episode_016/replace-with-alphabet-position.js) - 6 kyu
 * [valid-parentheses](./episode_016/valid-parentheses.js) - 5 kyu
 * [youre-a-square](./episode_016/youre-a-square.js) - 7 kyu
