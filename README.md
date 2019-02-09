@@ -27,7 +27,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 [Watch on YouTube](https://www.youtube.com/watch?v=LiD9TT--F5Y)
 
 * [did-i-finish-my-sudoku](./episode_021/did-i-finish-my-sudoku.js) - 5 kyu
-* [distributing-candies](./episode_021/distributing-candies.js) - ??? kyu
+* [distributing-candies](./episode_021/distributing-candies.js) - 7 kyu
 * [vasya-clerk](./episode_021/vasya-clerk.js) - 6 kyu
 
 ## [Episode 20](./episode_020)
@@ -36,16 +36,16 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 * [halloween-sweets](./episode_020/halloween-sweets.js) - 5 kyu
 * [pirate-code](./episode_020/pirate-code.js) - 7 kyu
-* [trick-or-treat](./episode_020/trick-or-treat.js) - ??? kyu
+* [trick-or-treat](./episode_020/trick-or-treat.js) - 6 kyu
 
 ## [Episode 19](./episode_019)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=EyyiM71-r18)
 
 * [bouncing-balls](./episode_019/bouncing-balls.js) - 6 kyu
-* [most-consecutive-zeros](./episode_019/most-consecutive-zeros.js) - ??? kyu
-* [number-combos](./episode_019/number-combos.js) - ??? kyu
-* [pascalcase-into-snake-case](./episode_019/pascalcase-into-snake-case.js) - ??? kyu
+* [most-consecutive-zeros](./episode_019/most-consecutive-zeros.js) - 6 kyu
+* [number-combos](./episode_019/number-combos.js) - 4 kyu
+* [pascalcase-into-snake-case](./episode_019/pascalcase-into-snake-case.js) - 5 kyu
 * [sum-of-a-sequence](./episode_019/sum-of-a-sequence.js) - 7 kyu
 
 ## [Episode 18](./episode_018)
@@ -89,26 +89,26 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=dE5TV-TGfEo)
 
-* [duplicateEncode](./episode_014/duplicateEncode.js) - ??? kyu
-* [memoizeFibonacci](./episode_014/memoizeFibonacci.js) - ??? kyu
+* [duplicateEncode](./episode_014/duplicateEncode.js) - 6 kyu
+* [memoizeFibonacci](./episode_014/memoizeFibonacci.js) - 5 kyu
 * [snail](./episode_014/snail.js) - 4 kyu
-* [twoToOne](./episode_014/twoToOne.js) - ??? kyu
+* [twoToOne](./episode_014/twoToOne.js) - 7 kyu
 
 ## [Episode 13](./episode_013)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=_xud7qSXkOw)
 
-* [firstNonRepeatingCharacter](./episode_013/firstNonRepeatingCharacter.js) - ??? kyu
-* [parity-outlier](./episode_013/parity-outlier.js) - ??? kyu
+* [firstNonRepeatingCharacter](./episode_013/firstNonRepeatingCharacter.js) - 5 kyu
+* [parity-outlier](./episode_013/parity-outlier.js) - 6 kyu
 * [printer-errors](./episode_013/printer-errors.js) - 7 kyu
-* [series-sum](./episode_013/series-sum.js) - ??? kyu
+* [series-sum](./episode_013/series-sum.js) - 7 kyu
 
 ## [Episode 12](./episode_012)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=Ozp_PY1OOnw)
 
-* [format-string-names](./episode_012/format-string-names.js) - ??? kyu
-* [pagination-helper](./episode_012/pagination-helper.js) - ??? kyu
+* [format-string-names](./episode_012/format-string-names.js) - 6 kyu
+* [pagination-helper](./episode_012/pagination-helper.js) - 5 kyu
 * [sum-of-odd-numbers](./episode_012/sum-of-odd-numbers.js) - 7 kyu
 
 ## [Episode 11](./episode_011)
@@ -116,32 +116,32 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 [Watch on YouTube](https://www.youtube.com/watch?v=bPTonTi42ic)
 
 * [counting-duplicates](./episode_011/counting-duplicates.js) - 6 kyu
-* [square-digits](./episode_011/square-digits.js) - ??? kyu
+* [square-digits](./episode_011/square-digits.js) - 7 kyu
 * [weight-for-weight](./episode_011/weight-for-weight.js) - 5 kyu
 
 ## [Episode 10](./episode_010)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=6eoqEYc5SGI)
 
-* [find-divisors](./episode_010/find-divisors.js) - ??? kyu
+* [find-divisors](./episode_010/find-divisors.js) - 7 kyu
 * [pete-the-baker](./episode_010/pete-the-baker.js) - 5 kyu
-* [spinning-words](./episode_010/spinning-words.js) - ??? kyu
+* [spinning-words](./episode_010/spinning-words.js) - 6 kyu
 
 ## [Episode 9](./episode_009)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=0atKorB6tAI)
 
-* [character-recognition-mistakes](./episode_009/character-recognition-mistakes.js) - ??? kyu
-* [narcissistic-numbers](./episode_009/narcissistic-numbers.js) - 7 kyu
-* [nested-structure-compare](./episode_009/nested-structure-compare.js) - ??? kyu
-* [regex-password](./episode_009/regex-password.js) - ??? kyu
+* [character-recognition-mistakes](./episode_009/character-recognition-mistakes.js) - 8 kyu
+* [narcissistic-numbers](./episode_009/narcissistic-numbers.js) - 6 kyu
+* [nested-structure-compare](./episode_009/nested-structure-compare.js) - 4 kyu
+* [regex-password](./episode_009/regex-password.js) - 5 kyu
 
 ## [Episode 8](./episode_008)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=M_K7azm9i6o)
 
 * [are-they-the-same](./episode_008/are-they-the-same.js) - 6 kyu
-* [growth-population](./episode_008/growth-population.js) - ??? kyu
+* [growth-population](./episode_008/growth-population.js) - 7 kyu
 * [rot13](./episode_008/rot13.js) - 5 kyu
 * [twice-linear](./episode_008/twice-linear.js) - 4 kyu
 * [your-order-please](./episode_008/your-order-please.js) - 6 kyu
@@ -150,36 +150,36 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=O5DmKHgFwjE)
 
-* [anagrams](./episode_007/anagrams.js) - null
-* [camel-case](./episode_007/camel-case.js) - ??? kyu
+* [anagrams](./episode_007/anagrams.js) - 5
+* [camel-case](./episode_007/camel-case.js) - 6 kyu
 * [categorize-new-member](./episode_007/categorize-new-member.js) - 7 kyu
-* [isogram](./episode_007/isogram.js) - ??? kyu
-* [multiples-of-3-and-5](./episode_007/multiples-of-3-and-5.js) - ??? kyu
+* [isogram](./episode_007/isogram.js) - 7 kyu
+* [multiples-of-3-and-5](./episode_007/multiples-of-3-and-5.js) - 6 kyu
 * [priori-incantatem](./episode_007/priori-incantatem.js) - 4 kyu
-* [rgb-to-hex](./episode_007/rgb-to-hex.js) - ??? kyu
+* [rgb-to-hex](./episode_007/rgb-to-hex.js) - 5 kyu
 
 ## [Episode 6](./episode_006)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=mwoA9wjp7ec)
 
 * [calculating-with-functions](./episode_006/calculating-with-functions.js) - 5 kyu
-* [digital-root](./episode_006/digital-root.js) - ??? kyu
+* [digital-root](./episode_006/digital-root.js) - 6 kyu
 * [dubstep](./episode_006/dubstep.js) - 6 kyu
-* [odd-int](./episode_006/odd-int.js) - ??? kyu
-* [reverse-polish-notation](./episode_006/reverse-polish-notation.js) - null
-* [sum-of-numbers](./episode_006/sum-of-numbers.js) - null
-* [zeros-to-end](./episode_006/zeros-to-end.js) - ??? kyu
+* [odd-int](./episode_006/odd-int.js) - 6 kyu
+* [reverse-polish-notation](./episode_006/reverse-polish-notation.js) - 6
+* [sum-of-numbers](./episode_006/sum-of-numbers.js) - 7
+* [zeros-to-end](./episode_006/zeros-to-end.js) - 5 kyu
 
 ## [Episode 5](./episode_005)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=S-h_tfwHQAQ)
 
-* [createPhoneNumber](./episode_005/createPhoneNumber.js) - ??? kyu
+* [createPhoneNumber](./episode_005/createPhoneNumber.js) - 6 kyu
 * [credit-card-mask](./episode_005/credit-card-mask.js) - 7 kyu
-* [equal-sides-sum](./episode_005/equal-sides-sum.js) - ??? kyu
-* [palindromeChainLength](./episode_005/palindromeChainLength.js) - ??? kyu
+* [equal-sides-sum](./episode_005/equal-sides-sum.js) - 6 kyu
+* [palindromeChainLength](./episode_005/palindromeChainLength.js) - 7 kyu
 * [roman-numerals-encoder](./episode_005/roman-numerals-encoder.js) - 6 kyu
-* [sum-of-two-lowest](./episode_005/sum-of-two-lowest.js) - ??? kyu
+* [sum-of-two-lowest](./episode_005/sum-of-two-lowest.js) - 7 kyu
 
 ## [Episode 4](./episode_004)
 
@@ -196,9 +196,9 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=Ms7L-aVN4Hc)
 
-* [dna-compliment](./episode_003/dna-compliment.js) - ??? kyu
+* [dna-compliment](./episode_003/dna-compliment.js) - 7 kyu
 * [iq-test](./episode_003/iq-test.js) - 6 kyu
-* [pig-latin](./episode_003/pig-latin.js) - null
+* [pig-latin](./episode_003/pig-latin.js) - 5
 * [take-a-ten-minute-walk](./episode_003/take-a-ten-minute-walk.js) - 6 kyu
 * [vowel-count](./episode_003/vowel-count.js) - 7 kyu
 
@@ -206,17 +206,17 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=fH4w_xq2qao)
 
-* [exes-os](./episode_002/exes-os.js) - ??? kyu
+* [exes-os](./episode_002/exes-os.js) - 7 kyu
 * [fat-fingers](./episode_002/fat-fingers.js) - 6 kyu
-* [jaden-case](./episode_002/jaden-case.js) - ??? kyu
-* [sum-pairs](./episode_002/sum-pairs.js) - ??? kyu
+* [jaden-case](./episode_002/jaden-case.js) - 7 kyu
+* [sum-pairs](./episode_002/sum-pairs.js) - 5 kyu
 
 ## [Episode 1](./episode_001)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=Oq7r8metsD8)
 
-* [accum](./episode_001/accum.js) - ??? kyu
+* [accum](./episode_001/accum.js) - 7 kyu
 * [binary-addition](./episode_001/binary-addition.js) - 7 kyu
 * [century-from-year](./episode_001/century-from-year.js) - 8 kyu
 * [students-final-grade](./episode_001/students-final-grade.js) - 8 kyu
-* [morse-code](./episode_001/morse-code.js) - ??? kyu
+* [morse-code](./episode_001/morse-code.js) - 6 kyu
