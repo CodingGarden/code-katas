@@ -912,49 +912,11 @@
     }
    },
    {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/igDbiZW6UpEHGlPU4fA29U9qNfI\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS45NzUwQkI1M0UxNThBMkU0",
     "snippet": {
-     "publishedAt": "2019-02-07T03:08:14.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas Chill Stream - Renaming and organizing katas on github",
-     "description": "https://github.com/CodingGarden/code-katas\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/1kyIyrpmiBg/default_live.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/1kyIyrpmiBg/mqdefault_live.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/1kyIyrpmiBg/hqdefault_live.jpg",
-       "width": 480,
-       "height": 360
-      },
-      "standard": {
-       "url": "https://i.ytimg.com/vi/1kyIyrpmiBg/sddefault_live.jpg",
-       "width": 640,
-       "height": 480
-      },
-      "maxres": {
-       "url": "https://i.ytimg.com/vi/1kyIyrpmiBg/maxresdefault_live.jpg",
-       "width": 1280,
-       "height": 720
+      "resourceId": {
+        "videoId": "QOWczTDlPh8"
       }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 23,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "1kyIyrpmiBg"
-     }
     }
-   }
+  }
   ]
  }
