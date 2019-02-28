@@ -52,7 +52,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
                 slug,
                 githubUrl,
                 kataName,
-                kyu
+                kyu: id
               }
             });
           } catch (error) {

@@ -5,7 +5,7 @@
     "slug": "the-highest-profit-wins",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_024/the-highest-profit-wins.js",
     "kataName": "The highest profit wins!",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 24,
@@ -13,7 +13,7 @@
     "slug": "ip-validation",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_024/ip-validation.js",
     "kataName": "IP Validation",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 24,
@@ -21,7 +21,7 @@
     "slug": "bowling-score-calculator",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_024/bowling-score-calculator.js",
     "kataName": "Bowling score calculator",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 24,
@@ -29,7 +29,7 @@
     "slug": "simple-time-bomb",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_024/simple-time-bomb.js",
     "kataName": "Simple Time Bomb",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 23,
@@ -37,7 +37,7 @@
     "slug": "remove-the-minimum",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_023/remove-the-minimum.js",
     "kataName": "Remove the minimum",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 23,
@@ -45,7 +45,7 @@
     "slug": "title-case",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_023/title-case.js",
     "kataName": "Title Case",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 23,
@@ -53,7 +53,7 @@
     "slug": "rot13",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_023/rot13.js",
     "kataName": "ROT13",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 23,
@@ -61,7 +61,7 @@
     "slug": "strip-comments",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_023/strip-comments.js",
     "kataName": "Strip Comments",
-    "kyu": "4 kyu"
+    "kyu": -4
   },
   {
     "episodeNum": 22,
@@ -69,7 +69,7 @@
     "slug": "regex-validate-pin-code",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_022/regex-validate-pin-code.js",
     "kataName": "Regex validate PIN code",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 22,
@@ -77,7 +77,7 @@
     "slug": "delete-occurrences-of-an-element-if-it-occurs-more-than-n-times",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_022/delete-occurrences-of-an-element-if-it-occurs-more-than-n-times.js",
     "kataName": "Delete occurrences of an element if it occurs more than n times",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 22,
@@ -85,7 +85,7 @@
     "slug": "tic-tac-toe-checker",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_022/tic-tac-toe-checker.js",
     "kataName": "Tic-Tac-Toe Checker",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 22,
@@ -93,7 +93,7 @@
     "slug": "vector-class",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_022/vector-class.js",
     "kataName": "Vector class",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 21,
@@ -101,7 +101,7 @@
     "slug": "distributing-candies-fairly",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_021/distributing-candies-fairly.js",
     "kataName": "Distributing Candies Fairly",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 21,
@@ -109,7 +109,7 @@
     "slug": "vasya-clerk",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_021/vasya-clerk.js",
     "kataName": "Vasya - Clerk",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 21,
@@ -117,7 +117,7 @@
     "slug": "did-i-finish-my-sudoku",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_021/did-i-finish-my-sudoku.js",
     "kataName": "Did I Finish my Sudoku?",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 20,
@@ -125,7 +125,7 @@
     "slug": "pirate-code",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_020/pirate-code.js",
     "kataName": "Pirate Code",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 20,
@@ -133,7 +133,7 @@
     "slug": "halloween-trick-or-treat",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_020/halloween-trick-or-treat.js",
     "kataName": "Halloween: trick or treat!",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 20,
@@ -141,7 +141,7 @@
     "slug": "halloween-sweets",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_020/halloween-sweets.js",
     "kataName": "Halloween Sweets",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 19,
@@ -149,7 +149,7 @@
     "slug": "sum-of-a-sequence",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_019/sum-of-a-sequence.js",
     "kataName": "Sum of a sequence",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 19,
@@ -157,7 +157,7 @@
     "slug": "bouncing-balls",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_019/bouncing-balls.js",
     "kataName": "Bouncing Balls",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 19,
@@ -165,7 +165,7 @@
     "slug": "most-consecutive-zeros-of-a-binary-number",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_019/most-consecutive-zeros-of-a-binary-number.js",
     "kataName": "Most Consecutive Zeros of a Binary Number",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 19,
@@ -173,7 +173,7 @@
     "slug": "convert-pascalcase-string-into-snake-case",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_019/convert-pascalcase-string-into-snake-case.js",
     "kataName": "Convert PascalCase string into snake_case",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 19,
@@ -181,7 +181,7 @@
     "slug": "find-all-possible-number-combos-that-sum-to-a-number",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_019/find-all-possible-number-combos-that-sum-to-a-number.js",
     "kataName": "Find all possible number combos that sum to a number",
-    "kyu": "4 kyu"
+    "kyu": -4
   },
   {
     "episodeNum": 18,
@@ -189,7 +189,7 @@
     "slug": "friend-or-foe",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_018/friend-or-foe.js",
     "kataName": "Friend or Foe?",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 18,
@@ -197,7 +197,7 @@
     "slug": "which-are-in",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_018/which-are-in.js",
     "kataName": "Which are  in?",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 18,
@@ -205,7 +205,7 @@
     "slug": "greed-is-good",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_018/greed-is-good.js",
     "kataName": "Greed is Good",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 18,
@@ -213,7 +213,7 @@
     "slug": "math-issues",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_018/math-issues.js",
     "kataName": "Math Issues",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 17,
@@ -221,7 +221,7 @@
     "slug": "ones-and-zeros",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_017/ones-and-zeros.js",
     "kataName": "Ones and Zeros",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 17,
@@ -229,7 +229,7 @@
     "slug": "square-every-digit",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_017/square-every-digit.js",
     "kataName": "Square Every Digit",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 17,
@@ -237,7 +237,7 @@
     "slug": "exponential-comparison",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_017/exponential-comparison.js",
     "kataName": "Exponential Comparison",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 17,
@@ -245,7 +245,7 @@
     "slug": "double-cola",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_017/double-cola.js",
     "kataName": "Double Cola",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 16,
@@ -253,7 +253,7 @@
     "slug": "youre-a-square",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_016/youre-a-square.js",
     "kataName": "You're a square!",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 16,
@@ -261,7 +261,7 @@
     "slug": "replace-with-alphabet-position",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_016/replace-with-alphabet-position.js",
     "kataName": "Replace With Alphabet Position",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 16,
@@ -269,7 +269,7 @@
     "slug": "valid-parentheses",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_016/valid-parentheses.js",
     "kataName": "Valid Parentheses",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 15,
@@ -277,7 +277,7 @@
     "slug": "find-the-capitals",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_015/find-the-capitals.js",
     "kataName": "Find the Capitals",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 15,
@@ -285,7 +285,7 @@
     "slug": "dont-rely-on-luck",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_015/dont-rely-on-luck.js",
     "kataName": "Don't rely on luck.",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 15,
@@ -293,7 +293,7 @@
     "slug": "the-hashtag-generator",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_015/the-hashtag-generator.js",
     "kataName": "The Hashtag Generator",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 15,
@@ -301,7 +301,7 @@
     "slug": "range-extraction",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_015/range-extraction.js",
     "kataName": "Range Extraction",
-    "kyu": "4 kyu"
+    "kyu": -4
   },
   {
     "episodeNum": 14,
@@ -309,7 +309,7 @@
     "slug": "two-to-one",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_014/two-to-one.js",
     "kataName": "Two to One",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 14,
@@ -317,7 +317,7 @@
     "slug": "duplicate-encoder",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_014/duplicate-encoder.js",
     "kataName": "Duplicate Encoder",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 14,
@@ -325,7 +325,7 @@
     "slug": "memoized-fibonacci",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_014/memoized-fibonacci.js",
     "kataName": "Memoized Fibonacci",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 14,
@@ -333,7 +333,7 @@
     "slug": "snail",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_014/snail.js",
     "kataName": "Snail",
-    "kyu": "4 kyu"
+    "kyu": -4
   },
   {
     "episodeNum": 13,
@@ -341,7 +341,7 @@
     "slug": "printer-errors",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_013/printer-errors.js",
     "kataName": "Printer Errors",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 13,
@@ -349,7 +349,7 @@
     "slug": "sum-of-the-first-nth-term-of-series",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_013/sum-of-the-first-nth-term-of-series.js",
     "kataName": "Sum of the first nth term of Series",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 13,
@@ -357,7 +357,7 @@
     "slug": "find-the-parity-outlier",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_013/find-the-parity-outlier.js",
     "kataName": "Find The Parity Outlier",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 13,
@@ -365,7 +365,7 @@
     "slug": "first-non-repeating-character",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_013/first-non-repeating-character.js",
     "kataName": "First non-repeating character",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 12,
@@ -373,7 +373,7 @@
     "slug": "sum-of-odd-numbers",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_012/sum-of-odd-numbers.js",
     "kataName": "Sum of odd numbers",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 12,
@@ -381,7 +381,7 @@
     "slug": "format-a-string-of-names-like-bart-lisa-and-maggie",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_012/format-a-string-of-names-like-bart-lisa-and-maggie.js",
     "kataName": "Format a string of names like 'Bart, Lisa & Maggie'.",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 12,
@@ -389,7 +389,7 @@
     "slug": "paginationhelper",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_012/paginationhelper.js",
     "kataName": "PaginationHelper",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 11,
@@ -397,7 +397,7 @@
     "slug": "square-every-digit",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_011/square-every-digit.js",
     "kataName": "Square Every Digit",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 11,
@@ -405,7 +405,7 @@
     "slug": "counting-duplicates",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_011/counting-duplicates.js",
     "kataName": "Counting Duplicates",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 11,
@@ -413,7 +413,7 @@
     "slug": "weight-for-weight",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_011/weight-for-weight.js",
     "kataName": "Weight for weight",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 10,
@@ -421,7 +421,7 @@
     "slug": "find-the-divisors",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_010/find-the-divisors.js",
     "kataName": "Find the divisors! ",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 10,
@@ -429,7 +429,7 @@
     "slug": "stop-gninnips-my-sdrow",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_010/stop-gninnips-my-sdrow.js",
     "kataName": "Stop gninnipS My sdroW!",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 10,
@@ -437,7 +437,7 @@
     "slug": "pete-the-baker",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_010/pete-the-baker.js",
     "kataName": "Pete, the baker",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 9,
@@ -445,7 +445,7 @@
     "slug": "correct-the-mistakes-of-the-character-recognition-software",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_009/correct-the-mistakes-of-the-character-recognition-software.js",
     "kataName": "Correct the mistakes of the character recognition software",
-    "kyu": "8 kyu"
+    "kyu": -8
   },
   {
     "episodeNum": 9,
@@ -453,7 +453,7 @@
     "slug": "does-my-number-look-big-in-this",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_009/does-my-number-look-big-in-this.js",
     "kataName": "Does my number look big in this?",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 9,
@@ -461,7 +461,7 @@
     "slug": "regex-password-validation",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_009/regex-password-validation.js",
     "kataName": "Regex Password Validation",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 9,
@@ -469,7 +469,7 @@
     "slug": "nesting-structure-comparison",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_009/nesting-structure-comparison.js",
     "kataName": "Nesting Structure Comparison",
-    "kyu": "4 kyu"
+    "kyu": -4
   },
   {
     "episodeNum": 8,
@@ -477,7 +477,7 @@
     "slug": "growth-of-a-population",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_008/growth-of-a-population.js",
     "kataName": "Growth of a Population",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 8,
@@ -485,7 +485,7 @@
     "slug": "are-they-the-same",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_008/are-they-the-same.js",
     "kataName": "Are they the \"same\"?",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 8,
@@ -493,7 +493,7 @@
     "slug": "your-order-please",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_008/your-order-please.js",
     "kataName": "Your order,  please",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 8,
@@ -501,7 +501,7 @@
     "slug": "rot13-1",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_008/rot13-1.js",
     "kataName": "Rot13",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 8,
@@ -509,7 +509,7 @@
     "slug": "twice-linear",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_008/twice-linear.js",
     "kataName": "Twice linear",
-    "kyu": "4 kyu"
+    "kyu": -4
   },
   {
     "episodeNum": 7,
@@ -517,7 +517,7 @@
     "slug": "categorize-new-member",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_007/categorize-new-member.js",
     "kataName": "Categorize New Member",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 7,
@@ -525,7 +525,7 @@
     "slug": "isograms",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_007/isograms.js",
     "kataName": "Isograms",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 7,
@@ -533,7 +533,7 @@
     "slug": "convert-string-to-camel-case",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_007/convert-string-to-camel-case.js",
     "kataName": "Convert string to camel case",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 7,
@@ -541,7 +541,7 @@
     "slug": "multiples-of-3-or-5",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_007/multiples-of-3-or-5.js",
     "kataName": "Multiples of 3 or 5",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 7,
@@ -549,7 +549,7 @@
     "slug": "rgb-to-hex-conversion",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_007/rgb-to-hex-conversion.js",
     "kataName": "RGB To Hex Conversion",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 7,
@@ -557,7 +557,7 @@
     "slug": "where-my-anagrams-at",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_007/where-my-anagrams-at.js",
     "kataName": "Where my anagrams at?",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 7,
@@ -565,7 +565,7 @@
     "slug": "priori-incantatem",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_007/priori-incantatem.js",
     "kataName": "Priori Incantatem",
-    "kyu": "4 kyu"
+    "kyu": -4
   },
   {
     "episodeNum": 6,
@@ -573,7 +573,7 @@
     "slug": "beginner-series-number-3-sum-of-numbers",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_006/beginner-series-number-3-sum-of-numbers.js",
     "kataName": "Beginner Series #3 Sum of Numbers",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 6,
@@ -581,7 +581,7 @@
     "slug": "dubstep",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_006/dubstep.js",
     "kataName": "Dubstep",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 6,
@@ -589,7 +589,7 @@
     "slug": "find-the-odd-int",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_006/find-the-odd-int.js",
     "kataName": "Find the odd int",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 6,
@@ -597,7 +597,7 @@
     "slug": "reverse-polish-notation-calculator",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_006/reverse-polish-notation-calculator.js",
     "kataName": "Reverse polish notation calculator",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 6,
@@ -605,7 +605,7 @@
     "slug": "sum-of-digits-slash-digital-root",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_006/sum-of-digits-slash-digital-root.js",
     "kataName": "Sum of Digits / Digital Root",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 6,
@@ -613,7 +613,7 @@
     "slug": "calculating-with-functions",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_006/calculating-with-functions.js",
     "kataName": "Calculating with Functions",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 6,
@@ -621,7 +621,7 @@
     "slug": "moving-zeros-to-the-end",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_006/moving-zeros-to-the-end.js",
     "kataName": "Moving Zeros To The End",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 5,
@@ -629,7 +629,7 @@
     "slug": "credit-card-mask",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_005/credit-card-mask.js",
     "kataName": "Credit Card Mask",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 5,
@@ -637,7 +637,7 @@
     "slug": "palindrome-chain-length",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_005/palindrome-chain-length.js",
     "kataName": "Palindrome chain length",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 5,
@@ -645,7 +645,7 @@
     "slug": "sum-of-two-lowest-positive-integers",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_005/sum-of-two-lowest-positive-integers.js",
     "kataName": "Sum of two lowest positive integers",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 5,
@@ -653,7 +653,7 @@
     "slug": "create-phone-number",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_005/create-phone-number.js",
     "kataName": "Create Phone Number",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 5,
@@ -661,7 +661,7 @@
     "slug": "equal-sides-of-an-array",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_005/equal-sides-of-an-array.js",
     "kataName": "Equal Sides Of An Array",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 5,
@@ -669,7 +669,7 @@
     "slug": "roman-numerals-encoder",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_005/roman-numerals-encoder.js",
     "kataName": "Roman Numerals Encoder",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 4,
@@ -677,7 +677,7 @@
     "slug": "list-filtering",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_004/list-filtering.js",
     "kataName": "List Filtering",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 4,
@@ -685,7 +685,7 @@
     "slug": "count-the-smiley-faces",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_004/count-the-smiley-faces.js",
     "kataName": "Count the smiley faces!",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 4,
@@ -693,7 +693,7 @@
     "slug": "human-readable-time",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_004/human-readable-time.js",
     "kataName": "Human Readable Time",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 4,
@@ -701,7 +701,7 @@
     "slug": "maximum-subarray-sum",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_004/maximum-subarray-sum.js",
     "kataName": "Maximum  subarray sum",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 4,
@@ -709,7 +709,7 @@
     "slug": "scramblies",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_004/scramblies.js",
     "kataName": "Scramblies",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 4,
@@ -717,7 +717,7 @@
     "slug": "sum-strings-as-numbers",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_004/sum-strings-as-numbers.js",
     "kataName": "Sum Strings as Numbers",
-    "kyu": "4 kyu"
+    "kyu": -4
   },
   {
     "episodeNum": 3,
@@ -725,7 +725,7 @@
     "slug": "complementary-dna",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_003/complementary-dna.js",
     "kataName": "Complementary DNA",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 3,
@@ -733,7 +733,7 @@
     "slug": "vowel-count",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_003/vowel-count.js",
     "kataName": "Vowel Count",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 3,
@@ -741,7 +741,7 @@
     "slug": "iq-test",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_003/iq-test.js",
     "kataName": "IQ Test",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 3,
@@ -749,7 +749,7 @@
     "slug": "take-a-ten-minute-walk",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_003/take-a-ten-minute-walk.js",
     "kataName": "Take a Ten Minute Walk",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 3,
@@ -757,7 +757,7 @@
     "slug": "simple-pig-latin",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_003/simple-pig-latin.js",
     "kataName": "Simple Pig Latin",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 2,
@@ -765,7 +765,7 @@
     "slug": "exes-and-ohs",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_002/exes-and-ohs.js",
     "kataName": "Exes and Ohs",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 2,
@@ -773,7 +773,7 @@
     "slug": "jaden-casing-strings",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_002/jaden-casing-strings.js",
     "kataName": "Jaden Casing Strings",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 2,
@@ -781,7 +781,7 @@
     "slug": "fat-fingers",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_002/fat-fingers.js",
     "kataName": "Fat Fingers",
-    "kyu": "6 kyu"
+    "kyu": -6
   },
   {
     "episodeNum": 2,
@@ -789,7 +789,7 @@
     "slug": "sum-of-pairs",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_002/sum-of-pairs.js",
     "kataName": "Sum of Pairs",
-    "kyu": "5 kyu"
+    "kyu": -5
   },
   {
     "episodeNum": 1,
@@ -797,7 +797,7 @@
     "slug": "century-from-year",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_001/century-from-year.js",
     "kataName": "Century From Year",
-    "kyu": "8 kyu"
+    "kyu": -8
   },
   {
     "episodeNum": 1,
@@ -805,7 +805,7 @@
     "slug": "students-final-grade",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_001/students-final-grade.js",
     "kataName": "Student's Final Grade",
-    "kyu": "8 kyu"
+    "kyu": -8
   },
   {
     "episodeNum": 1,
@@ -813,7 +813,7 @@
     "slug": "binary-addition",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_001/binary-addition.js",
     "kataName": "Binary Addition",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 1,
@@ -821,7 +821,7 @@
     "slug": "mumbling",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_001/mumbling.js",
     "kataName": "Mumbling",
-    "kyu": "7 kyu"
+    "kyu": -7
   },
   {
     "episodeNum": 1,
@@ -829,6 +829,6 @@
     "slug": "decode-the-morse-code",
     "githubUrl": "https://github.com/CodingGarden/code-katas/blob/master/episode_001/decode-the-morse-code.js",
     "kataName": "Decode the Morse code ",
-    "kyu": "6 kyu"
+    "kyu": -6
   }
 ]
