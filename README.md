@@ -12,7 +12,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 * [the-highest-profit-wins](./episode_024/the-highest-profit-wins.js) - 7 kyu
 * [ip-validation](./episode_024/ip-validation.js) - 6 kyu
 * [simple-time-bomb](./episode_024/simple-time-bomb.js) - 5 kyu
-* [bowling-score-calculator](./episode_023/bowling-score-calculator.js) - 5 kyu
+* [bowling-score-calculator](./episode_024/bowling-score-calculator.js) - 5 kyu
 
 ## [Episode 23](./episode_023)
 
