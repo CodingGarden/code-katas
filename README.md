@@ -4,6 +4,16 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+
+## [Episode 24](./episode_024)
+
+[Watch on YouTube](https://www.youtube.com/watch?v=QOWczTDlPh8)
+
+* [the-highest-profit-wins](./episode_024/the-highest-profit-wins.js) - 7 kyu
+* [ip-validation](./episode_024/ip-validation.js) - 6 kyu
+* [simple-time-bomb](./episode_024/simple-time-bomb.js) - 5 kyu
+* [bowling-score-calculator](./episode_023/bowling-score-calculator.js) - 5 kyu
+
 ## [Episode 23](./episode_023)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=c_EREn-eF5s)
