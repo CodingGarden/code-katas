@@ -15,7 +15,7 @@ function validate(password) {
 }
 
 function validate(password) {
-  return /^(?=\w{6,})(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z0-9]*/g.test(password);
+  return /^(?=\w{6,})(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z0-9]*$/g.test(password);
 }
 
 console.log(validate('djI38D55'), 'djI38D55 - Expected true');
