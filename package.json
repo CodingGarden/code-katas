@@ -1,0 +1,23 @@
+{
+  "name": "code-katas",
+  "version": "1.0.0",
+  "description": "Search / Filter solutions [here](https://code-katas.now.sh/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodingGarden/code-katas.git"
+  },
+  "keywords": [],
+  "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodingGarden/code-katas/issues"
+  },
+  "homepage": "https://github.com/CodingGarden/code-katas#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
