@@ -22,34 +22,85 @@ function groupBy(executeData, groupByFns) {
 class Query {
   constructor() {
     this.data = [];
+    this.havingFns = [];
+    this.called = {};
   }
   select(fn) {
+    if (this.called.SELECT) {
+      throw new Error('Duplicate SELECT');
+    }
     this.selectFn = fn;
+    this.called.SELECT = true;
     return this;
   }
-  from(data) {
+  from(data, joinData) {
+    if (this.called.FROM) {
+      throw new Error('Duplicate FROM');
+    }
     this.data = data;
+    if (joinData) {
+      const joined = [];
+      for (let i = 0; i < data.length; i++) {
+        const col = data[i];
+        for (let j = 0; j < joinData.length; j++) {
+          const joinCol = joinData[j];
+          joined.push([col, joinCol]);
+        }
+      }
+      this.data = joined;
+    }
+    this.called.FROM = true;
     return this;
   }
-  where(fn) {
-    this.whereFn = fn;
+  where(...fns) {
+    if (!this.whereFns) {
+      this.whereFns = fns;
+    } else if (!this.andWhereFns) {
+      this.andWhereFns = fns;
+    } else {
+      this.andWhereFns = this.andWhereFns.concat(fns);
+    }
     return this;
   }
   groupBy(...fns) {
+    if (this.called.GROUPBY) {
+      throw new Error('Duplicate GROUPBY');
+    }
     this.groupByFns = fns;
+    this.called.GROUPBY = true;
     return this;
   }
   orderBy(fn) {
+    if (this.called.ORDERBY) {
+      throw new Error('Duplicate ORDERBY');
+    }
     this.orderByFn = fn;
+    this.called.ORDERBY = true;
+    return this;
+  }
+  having(fn) {
+    this.havingFns.push(fn);
     return this;
   }
   execute() {
     let executeData = this.data.slice();
-    if (typeof this.whereFn === 'function') {
-      executeData = executeData.filter(this.whereFn);
+    if (this.whereFns && this.whereFns.length) {
+      executeData = executeData.filter(row => {
+        return this.whereFns.some(fn => fn(row));
+      });
+    }
+    if (this.andWhereFns && this.andWhereFns.length) {
+      executeData = executeData.filter(row => {
+        return this.andWhereFns.every(fn => fn(row));
+      });
     }
     if (this.groupByFns && this.groupByFns.length) {
       executeData = groupBy(executeData, this.groupByFns.slice());
+    }
+    if (this.havingFns && this.havingFns.length) {
+      executeData = executeData.filter(row => {
+        return this.havingFns.every(fn => fn(row));
+      });
     }
     if (typeof this.selectFn === 'function') {
       executeData = executeData.map(this.selectFn);

@@ -12,9 +12,10 @@
 
 * https://www.codewars.com/kata/tic-tac-toe-like-table-generator/train/javascript
 
-## 5 kyu
+## 1 kyu
 
+* https://www.codewars.com/kata/functional-sql/train/javascript
 
-Project Idea : Since you solve Code wars regularly, why not build a scrapper using cheerio to maybe get the question for the Kata & directly open VS Code with the relevant console.logs ?
+>Project Idea : Since you solve Code wars regularly, why not build a scrapper using cheerio to maybe get the question for the Kata & directly open VS Code with the relevant console.logs ?
 
-while I listen it is like "Write it, cut it, paste it, save it, load it, check it, quick rewrite it" daft punk song
+>while I listen it is like "Write it, cut it, paste it, save it, load it, check it, quick rewrite it" daft punk song

@@ -439,8 +439,9 @@ describe('SQL tests', function () {
       return group[0] === 'odd';
     }
 
+    const parityResult = query().select().from(numbers).groupBy(parity).having(odd).execute();
     //SELECT * FROM numbers GROUP BY parity HAVING 
-    Test.assertSimilar(query().select().from(numbers).groupBy(parity).having(odd).execute(), [
+    Test.assertSimilar(parityResult, [
       ['odd', [1, 3, 5, 7, 9]]
     ]);
 
@@ -536,7 +537,7 @@ describe('SQL tests', function () {
     function isPair(group) {
       return group[0] % 2 === 0;
     }
-
+    
     //SELECT number, count(number) FROM numbers GROUP BY number HAVING count(number) > 1 AND isPair(number)
     Test.assertSimilar(query().select(frequency).from(numbers).groupBy(id).having(greatThan1).having(isPair).execute(), [{
       'value': 2,
