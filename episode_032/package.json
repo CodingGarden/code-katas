@@ -1,0 +1,16 @@
+{
+  "name": "episode_032",
+  "version": "1.0.0",
+  "description": "## 8 kyu",
+  "main": "functional-sql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1"
+  }
+}

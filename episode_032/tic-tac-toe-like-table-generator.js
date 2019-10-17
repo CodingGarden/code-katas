@@ -12,17 +12,20 @@ function displayBoard(board, width){
       }
     }
   }
+  result = result.slice(0, -1);
   return result;
 }
 
 // console.log(displayBoard(['O', 'X', 'X', 'O'], 2));
-console.log(displayBoard(['O', 'X', ' ', ' ', 'X', ' ', 'X', 'O', ' '],3));
-
 // console.log(
-//   displayBoard(['O', 'X', 'X', 'O'], 2),
-//   ' O | X \n-------\n X | O '
+//   displayBoard(['O', 'X', ' ', ' ', 'X', ' ', 'X', 'O', ' '],3)
 // );
-// console.log(displayBoard(['O', 'X', ' ', ' ', 'X', ' ', 'X', 'O', ' '],3),' O | X |   \n-----------\n   | X |   \n-----------\n X | O |   ');
+
+console.log(
+  displayBoard(['O', 'X', 'X', 'O'], 2),
+  ' O | X \n-------\n X | O '
+);
+console.log(displayBoard(['O', 'X', ' ', ' ', 'X', ' ', 'X', 'O', ' '],3) == ' O | X |   \n-----------\n   | X |   \n-----------\n X | O |   ');
 // console.log(displayBoard(['O', 'X', ' ', ' ', 'X', ' ', 'X', 'O', ' ', 'O'],5),' O | X |   |   | X \n-------------------\n   | X | O |   | O ');
 // console.log(displayBoard(['O', 'X', ' ', ' ', 'X', ' ', 'X', 'O', ' ', 'O'],2),' O | X \n-------\n   |   \n-------\n X |   \n-------\n X | O \n-------\n   | O ');
 // console.log(displayBoard(['1', '2', '3', '4', '5', '1', '2', '3', '4', '5', '1', '2', '3', '4', '5', '1', '2', '3', '4', '5', '1', '2', '3', '4', '5', '1', '2', '3', '4', '5', '1', '2', '3', '4', '5', '1'],6),' 1 | 2 | 3 | 4 | 5 | 1 \n-----------------------\n 2 | 3 | 4 | 5 | 1 | 2 \n-----------------------\n 3 | 4 | 5 | 1 | 2 | 3 \n-----------------------\n 4 | 5 | 1 | 2 | 3 | 4 \n-----------------------\n 5 | 1 | 2 | 3 | 4 | 5 \n-----------------------\n 1 | 2 | 3 | 4 | 5 | 1 ');
