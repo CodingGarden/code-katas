@@ -1,0 +1,20 @@
+{
+  "name": "episode_034",
+  "version": "1.0.0",
+  "description": "## 8 kyu",
+  "main": "a-needle-in-the-haystack.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
