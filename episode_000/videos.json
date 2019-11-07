@@ -1,922 +1,1550 @@
 {
-  "kind": "youtube#playlistItemListResponse",
-  "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/KuuV4X3TaSOzdV6PUY_UlcJuua4\"",
-  "pageInfo": {
-   "totalResults": 24,
-   "resultsPerPage": 50
-  },
-  "items": [
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/N3OYxees-bEPxiKyY3pqtDqOmlw\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS41NkI0NEY2RDEwNTU3Q0M2",
-    "snippet": {
-     "publishedAt": "2018-04-21T22:48:56.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #1 - accum, binary-addition, century-from-year, final-grade, morse-code",
-     "description": "Show starts at 0:35\nThe solutions to the katas I solved are here: https://github.com/CodingGarden/code-katas/tree/master/04-18-2018\nSuggest katas for next time here: https://github.com/CodingGarden/code-katas/issues/1",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/Oq7r8metsD8/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/Oq7r8metsD8/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/Oq7r8metsD8/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      },
-      "standard": {
-       "url": "https://i.ytimg.com/vi/Oq7r8metsD8/sddefault.jpg",
-       "width": 640,
-       "height": 480
-      },
-      "maxres": {
-       "url": "https://i.ytimg.com/vi/Oq7r8metsD8/maxresdefault.jpg",
-       "width": 1280,
-       "height": 720
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 0,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "Oq7r8metsD8"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/hz-tcABz8YnOnKw_paMrOSgdg8U\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4yODlGNEE0NkRGMEEzMEQy",
-    "snippet": {
-     "publishedAt": "2018-04-26T04:01:34.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #2 - exes-os, fat-fingers, jaden-case, sum-pairs",
-     "description": "Show starts at 1:38\nCode from the stream is here: https://github.com/CodingGarden/code-katas/tree/master/04-25-2018\nSuggest Katas for me to solve here: https://github.com/CodingGarden/code-katas/issues/1",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/fH4w_xq2qao/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/fH4w_xq2qao/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/fH4w_xq2qao/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      },
-      "standard": {
-       "url": "https://i.ytimg.com/vi/fH4w_xq2qao/sddefault.jpg",
-       "width": 640,
-       "height": 480
-      },
-      "maxres": {
-       "url": "https://i.ytimg.com/vi/fH4w_xq2qao/maxresdefault.jpg",
-       "width": 1280,
-       "height": 720
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 1,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "fH4w_xq2qao"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/uVZGlS4iMi2liGptssGmL0nNwxg\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4wMTcyMDhGQUE4NTIzM0Y5",
-    "snippet": {
-     "publishedAt": "2018-05-03T03:54:57.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #3 - dna-compliment, iq-test, pig-latin, ten-minute-walk, vowel-count",
-     "description": "Show starts at 2:32\nSolutions are here: https://github.com/CodingGarden/code-katas/tree/master/05-02-2018",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/Ms7L-aVN4Hc/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/Ms7L-aVN4Hc/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/Ms7L-aVN4Hc/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      },
-      "standard": {
-       "url": "https://i.ytimg.com/vi/Ms7L-aVN4Hc/sddefault.jpg",
-       "width": 640,
-       "height": 480
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 2,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "Ms7L-aVN4Hc"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/mqWCd-n1vX-jHbdaRiPwCL_lxiA\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS41MjE1MkI0OTQ2QzJGNzNG",
-    "snippet": {
-     "publishedAt": "2018-05-10T04:36:15.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #4 - smiley-faces, scramblies, human-readable-time, subarray-sum, sum-strings-as-numbers",
-     "description": "Show starts at 2:38\nSolutions are here: https://github.com/CodingGarden/code-katas/tree/master/05-09-2018",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/2ld5ndNkF2Q/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/2ld5ndNkF2Q/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/2ld5ndNkF2Q/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      },
-      "standard": {
-       "url": "https://i.ytimg.com/vi/2ld5ndNkF2Q/sddefault.jpg",
-       "width": 640,
-       "height": 480
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 3,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "2ld5ndNkF2Q"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/Kg2iGv2calMeDuMbW2y2HOVVCaA\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4wOTA3OTZBNzVEMTUzOTMy",
-    "snippet": {
-     "publishedAt": "2018-05-17T05:02:03.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #5 - Solving Code Wars Katas and Talking Through My Process",
-     "description": "Show starts at 2:34\nSolutions for this episode are here - https://github.com/CodingGarden/code-katas/tree/master/05-16-2018",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/S-h_tfwHQAQ/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/S-h_tfwHQAQ/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/S-h_tfwHQAQ/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      },
-      "standard": {
-       "url": "https://i.ytimg.com/vi/S-h_tfwHQAQ/sddefault.jpg",
-       "width": 640,
-       "height": 480
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 4,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "S-h_tfwHQAQ"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/pEC6T3mtDhY8KH4IY49WWUcg10w\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4xMkVGQjNCMUM1N0RFNEUx",
-    "snippet": {
-     "publishedAt": "2018-05-24T04:19:19.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #6 - Watch me solve code katas live and talk through my process",
-     "description": "Show starts at 2:43\nSolutions are here: https://github.com/CodingGarden/code-katas/tree/master/05-23-2018\n\nhttps://www.codewars.com/kata/beginner-series-number-3-sum-of-numbers/train/javascript\nhttps://www.codewars.com/kata/find-the-odd-int/train/javascript\nhttps://www.codewars.com/kata/sum-of-digits-slash-digital-root/train/javascript\nhttps://www.codewars.com/kata/dubstep/train/javascript\nhttps://www.codewars.com/kata/moving-zeros-to-the-end/train/javascript\nhttps://www.codewars.com/kata/calculating-with-functions/train/javascript\nhttps://www.codewars.com/kata/reverse-polish-notation-calculator/train/javascript",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/mwoA9wjp7ec/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/mwoA9wjp7ec/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/mwoA9wjp7ec/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      },
-      "standard": {
-       "url": "https://i.ytimg.com/vi/mwoA9wjp7ec/sddefault.jpg",
-       "width": 640,
-       "height": 480
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 5,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "mwoA9wjp7ec"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/0mtLAl2QMhs-Ye_t4VDhBIicGa8\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS41MzJCQjBCNDIyRkJDN0VD",
-    "snippet": {
-     "publishedAt": "2018-05-31T04:56:51.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #7 - Solving Code Wars Katas Live and Talking Through My Process",
-     "description": "Show starts at 2:35\nLinks for tonights katas are here: https://git.io/katas-7",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/O5DmKHgFwjE/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/O5DmKHgFwjE/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/O5DmKHgFwjE/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      },
-      "standard": {
-       "url": "https://i.ytimg.com/vi/O5DmKHgFwjE/sddefault.jpg",
-       "width": 640,
-       "height": 480
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 6,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "O5DmKHgFwjE"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/DKxXdoF2utPNHz_ehQLL9rMM0sI\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5DQUNERDQ2NkIzRUQxNTY1",
-    "snippet": {
-     "publishedAt": "2018-06-07T04:26:26.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #8 - Solving code wars katas live and talking through my process",
-     "description": "Show starts at 2:20\nDonate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nJoin the discord: https://coding.garden/discord\nKatas for tonight are here: https://github.com/CodingGarden/code-katas/tree/master/06-06-2018",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/M_K7azm9i6o/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/M_K7azm9i6o/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/M_K7azm9i6o/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      },
-      "standard": {
-       "url": "https://i.ytimg.com/vi/M_K7azm9i6o/sddefault.jpg",
-       "width": 640,
-       "height": 480
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 7,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "M_K7azm9i6o"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/G9Z2pcbYsjZi55HDFKABsKrWNcg\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS45NDk1REZENzhEMzU5MDQz",
-    "snippet": {
-     "publishedAt": "2018-06-14T17:46:14.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #9 - Solving Code Wars Katas and Talking through my process",
-     "description": "",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/0atKorB6tAI/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/0atKorB6tAI/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/0atKorB6tAI/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      },
-      "standard": {
-       "url": "https://i.ytimg.com/vi/0atKorB6tAI/sddefault.jpg",
-       "width": 640,
-       "height": 480
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 8,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "0atKorB6tAI"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/62ZhAvhlfAlN10bCUsYj6ZbHEvo\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS40NzZCMERDMjVEN0RFRThB",
-    "snippet": {
-     "publishedAt": "2018-07-08T00:29:46.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #10 - Solving Code Wars Katas and Talking Through My Process",
-     "description": "",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/6eoqEYc5SGI/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/6eoqEYc5SGI/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/6eoqEYc5SGI/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      },
-      "standard": {
-       "url": "https://i.ytimg.com/vi/6eoqEYc5SGI/sddefault.jpg",
-       "width": 640,
-       "height": 480
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 9,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "6eoqEYc5SGI"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/TNyI5oDl8MOV9r0ZVaO_hkigSZo\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5GNjNDRDREMDQxOThCMDQ2",
-    "snippet": {
-     "publishedAt": "2018-07-08T00:29:22.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #11 - Solving Code Wars Katas and Talking through my process",
-     "description": "Show starts at 1:58\nDonate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/bPTonTi42ic/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/bPTonTi42ic/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/bPTonTi42ic/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      },
-      "standard": {
-       "url": "https://i.ytimg.com/vi/bPTonTi42ic/sddefault.jpg",
-       "width": 640,
-       "height": 480
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 10,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "bPTonTi42ic"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/QD8jf8e3l7YWNXzHWb606S4m70A\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5EMEEwRUY5M0RDRTU3NDJC",
-    "snippet": {
-     "publishedAt": "2018-07-14T12:08:10.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #12 - Solving Code Wars Code Katas and Talking Through My Process",
-     "description": "",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/Ozp_PY1OOnw/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/Ozp_PY1OOnw/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/Ozp_PY1OOnw/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      },
-      "standard": {
-       "url": "https://i.ytimg.com/vi/Ozp_PY1OOnw/sddefault.jpg",
-       "width": 640,
-       "height": 480
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 11,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "Ozp_PY1OOnw"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/gimhzCrE15ATFqyyfctDUlxWFzg\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS45ODRDNTg0QjA4NkFBNkQy",
-    "snippet": {
-     "publishedAt": "2018-08-29T23:32:51.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #13 - Solving Code Wars Katas and Talking Through My Process",
-     "description": "Code is here: https://github.com/CodingGarden/code-katas/tree/master/08-01-2018\nDonate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/_xud7qSXkOw/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/_xud7qSXkOw/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/_xud7qSXkOw/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 12,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "_xud7qSXkOw"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/q_JelwWveks2onZLP-lczDc0XCs\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4zMDg5MkQ5MEVDMEM1NTg2",
-    "snippet": {
-     "publishedAt": "2018-08-29T23:33:00.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #14 - Solving Code Wars Code Katas and talking through my process",
-     "description": "Donate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/dE5TV-TGfEo/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/dE5TV-TGfEo/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/dE5TV-TGfEo/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      },
-      "standard": {
-       "url": "https://i.ytimg.com/vi/dE5TV-TGfEo/sddefault.jpg",
-       "width": 640,
-       "height": 480
-      },
-      "maxres": {
-       "url": "https://i.ytimg.com/vi/dE5TV-TGfEo/maxresdefault.jpg",
-       "width": 1280,
-       "height": 720
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 13,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "dE5TV-TGfEo"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/ZgfJGGPQj_JE-bnbV3zty-QgZ1Q\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS41Mzk2QTAxMTkzNDk4MDhF",
-    "snippet": {
-     "publishedAt": "2018-08-29T23:33:48.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #15 - Solving Code Wars Code Katas and talking through my process",
-     "description": "Donate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/R49EFycGF3s/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/R49EFycGF3s/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/R49EFycGF3s/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 14,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "R49EFycGF3s"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/8W7_GDmjT-toRSSC6Kjg-o8SLDI\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS41QTY1Q0UxMTVCODczNThE",
-    "snippet": {
-     "publishedAt": "2018-09-19T16:47:11.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #16 - Solving Code Wars Code Katas and talking through my process",
-     "description": "Donate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/BKBZLZ50xh8/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/BKBZLZ50xh8/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/BKBZLZ50xh8/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 15,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "BKBZLZ50xh8"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/EdHqKfXnbPJrn2v4Zv1_3hHN3O0\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5EQUE1NTFDRjcwMDg0NEMz",
-    "snippet": {
-     "publishedAt": "2018-09-19T16:46:43.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #17: Solving Code Wars Katas and Talking Through My Process",
-     "description": "Katas are here: https://github.com/CodingGarden/code-katas/tree/master/09-19-2018\n\nDonate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/jFJGnX-q0Tc/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/jFJGnX-q0Tc/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/jFJGnX-q0Tc/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      },
-      "standard": {
-       "url": "https://i.ytimg.com/vi/jFJGnX-q0Tc/sddefault.jpg",
-       "width": 640,
-       "height": 480
-      },
-      "maxres": {
-       "url": "https://i.ytimg.com/vi/jFJGnX-q0Tc/maxresdefault.jpg",
-       "width": 1280,
-       "height": 720
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 16,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "jFJGnX-q0Tc"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/z_cg9O1iMtOlHxrJjmSnoHjfZqw\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4yMUQyQTQzMjRDNzMyQTMy",
-    "snippet": {
-     "publishedAt": "2018-10-02T02:34:50.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #18 - Solving Code Wars Katas and Talking Through My Process",
-     "description": "Donate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/qqznbb9xJa4/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/qqznbb9xJa4/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/qqznbb9xJa4/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      },
-      "standard": {
-       "url": "https://i.ytimg.com/vi/qqznbb9xJa4/sddefault.jpg",
-       "width": 640,
-       "height": 480
-      },
-      "maxres": {
-       "url": "https://i.ytimg.com/vi/qqznbb9xJa4/maxresdefault.jpg",
-       "width": 1280,
-       "height": 720
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 17,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "qqznbb9xJa4"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/mrJEklZODwolYaWeePFPLBzDCfI\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS45RTgxNDRBMzUwRjQ0MDhC",
-    "snippet": {
-     "publishedAt": "2018-10-04T05:35:08.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #19 - Solving Code Wars Katas and Talking Through My Process",
-     "description": "Katas are here: https://github.com/CodingGarden/code-katas/tree/master/10-03-2018\n\nDonate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/EyyiM71-r18/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/EyyiM71-r18/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/EyyiM71-r18/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 18,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "EyyiM71-r18"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/BsY999j4UrLw_BfEtDg31NktRkY\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5ENDU4Q0M4RDExNzM1Mjcy",
-    "snippet": {
-     "publishedAt": "2019-02-02T03:31:06.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #20 - Halloween Edition!",
-     "description": "Katas are here: https://github.com/CodingGarden/code-katas\n\nDonate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/NGcsIUBKHiI/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/NGcsIUBKHiI/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/NGcsIUBKHiI/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 19,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "NGcsIUBKHiI"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/IYMNLVT1ZdvuVNnOu4lVTZ6HSv8\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4yMDhBMkNBNjRDMjQxQTg1",
-    "snippet": {
-     "publishedAt": "2019-02-02T03:31:15.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #21 - Solving Code Wars Katas and Talking Through My Process",
-     "description": "Katas are here: https://github.com/CodingGarden/code-katas/tree/master/11-14-2018\n\nDonate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/LiD9TT--F5Y/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/LiD9TT--F5Y/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/LiD9TT--F5Y/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 20,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "LiD9TT--F5Y"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/JJPZauD0eUM_E0czWOdrNKwsZ0I\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5GM0Q3M0MzMzY5NTJFNTdE",
-    "snippet": {
-     "publishedAt": "2019-02-02T03:31:26.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #22 - Solving Code Wars Katas and Talking Through My Process",
-     "description": "Katas are here: https://github.com/CodingGarden/code-katas/tree/master/12-12-2018\n\nDonate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers\nGear List: https://coding.garden/gear",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/xgW-due5ukM/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/xgW-due5ukM/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/xgW-due5ukM/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 21,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "xgW-due5ukM"
-     }
-    }
-   },
-   {
-    "kind": "youtube#playlistItem",
-    "etag": "\"XpPGQXPnxQJhLgs6enD_n8JR4Qk/FeQY0_oif4LCw2LE2qcIhx3aE2c\"",
-    "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4zRjM0MkVCRTg0MkYyQTM0",
-    "snippet": {
-     "publishedAt": "2019-02-02T03:31:35.000Z",
-     "channelId": "UCLNgu_OupwoeESgtab33CCw",
-     "title": "Code Katas #23 - Solving Code Wars Katas and Talking Through My Process",
-     "description": "🎎 Katas are here: https://github.com/CodingGarden/code-katas/tree/master/01-16-2019\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear",
-     "thumbnails": {
-      "default": {
-       "url": "https://i.ytimg.com/vi/c_EREn-eF5s/default.jpg",
-       "width": 120,
-       "height": 90
-      },
-      "medium": {
-       "url": "https://i.ytimg.com/vi/c_EREn-eF5s/mqdefault.jpg",
-       "width": 320,
-       "height": 180
-      },
-      "high": {
-       "url": "https://i.ytimg.com/vi/c_EREn-eF5s/hqdefault.jpg",
-       "width": 480,
-       "height": 360
-      }
-     },
-     "channelTitle": "Coding Garden with CJ",
-     "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
-     "position": 22,
-     "resourceId": {
-      "kind": "youtube#video",
-      "videoId": "c_EREn-eF5s"
-     }
-    }
-   },
-   {
-    "snippet": {
-      "resourceId": {
-        "videoId": "QOWczTDlPh8"
-      }
-    }
-  }
-  ]
- }
+    "kind": "youtube#playlistItemListResponse",
+    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/odr6lqvSTbOV2Sqr3AZtPm9uIuA\"",
+    "pageInfo": {
+        "totalResults": 39,
+        "resultsPerPage": 50
+    },
+    "items": [
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6VHOW59Fa5Nwat8wsFW0uuf8b3Q\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS41NkI0NEY2RDEwNTU3Q0M2",
+            "snippet": {
+                "publishedAt": "2018-04-21T22:48:56.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #1 - accum, binary-addition, century-from-year, final-grade, morse-code",
+                "description": "Show starts at 0:35\nThe solutions to the katas I solved are here: https://github.com/CodingGarden/code-katas/tree/master/episode_001\nSuggest katas for next time here: https://github.com/CodingGarden/code-katas/issues/1\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Oq7r8metsD8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Oq7r8metsD8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Oq7r8metsD8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Oq7r8metsD8/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Oq7r8metsD8/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 0,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Oq7r8metsD8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SPYXWNezVs-QVUIzZ2k005UyVlQ\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4yODlGNEE0NkRGMEEzMEQy",
+            "snippet": {
+                "publishedAt": "2018-04-26T04:01:34.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #2 - exes-os, fat-fingers, jaden-case, sum-pairs",
+                "description": "Show starts at 1:38\nCode from the stream is here: https://github.com/CodingGarden/code-katas/tree/master/episode_002\nSuggest Katas for me to solve here: https://github.com/CodingGarden/code-katas/issues/1\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fH4w_xq2qao/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fH4w_xq2qao/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fH4w_xq2qao/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/fH4w_xq2qao/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/fH4w_xq2qao/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 1,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "fH4w_xq2qao"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8eYb0sTQ2R7F-Gx3jEeS4FqLrds\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4wMTcyMDhGQUE4NTIzM0Y5",
+            "snippet": {
+                "publishedAt": "2018-05-03T03:54:57.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #3 - dna-compliment, iq-test, pig-latin, ten-minute-walk, vowel-count",
+                "description": "Show starts at 2:32\nSolutions are here: https://github.com/CodingGarden/code-katas/tree/master/episode_003\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Ms7L-aVN4Hc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Ms7L-aVN4Hc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Ms7L-aVN4Hc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Ms7L-aVN4Hc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 2,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Ms7L-aVN4Hc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/KqwHJjB8W_PlNjT4xJuq529_CQk\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS41MjE1MkI0OTQ2QzJGNzNG",
+            "snippet": {
+                "publishedAt": "2018-05-10T04:36:15.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #4 - smiley-faces, scramblies, human-readable-time, subarray-sum, sum-strings-as-numbers",
+                "description": "Show starts at 2:38\nSolutions are here: https://github.com/CodingGarden/code-katas/tree/master/episode_004\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2ld5ndNkF2Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2ld5ndNkF2Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2ld5ndNkF2Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/2ld5ndNkF2Q/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 3,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "2ld5ndNkF2Q"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Xt8fSUE_ap_rrYi-mN6qsitGgoY\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4wOTA3OTZBNzVEMTUzOTMy",
+            "snippet": {
+                "publishedAt": "2018-05-17T05:02:03.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #5 - Solving Code Wars Katas and Talking Through My Process",
+                "description": "Show starts at 2:34\nSolutions for this episode are here - https://github.com/CodingGarden/code-katas/tree/master/episode_005\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/S-h_tfwHQAQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/S-h_tfwHQAQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/S-h_tfwHQAQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/S-h_tfwHQAQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 4,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "S-h_tfwHQAQ"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QZOiYDwe4rFygRVdNky00ztS9NY\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4xMkVGQjNCMUM1N0RFNEUx",
+            "snippet": {
+                "publishedAt": "2018-05-24T04:19:19.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #6 - Watch me solve code katas live and talk through my process",
+                "description": "Show starts at 2:43\nSolutions are here: https://github.com/CodingGarden/code-katas/tree/master/episode_006\n\nhttps://www.codewars.com/kata/beginner-series-number-3-sum-of-numbers/train/javascript\nhttps://www.codewars.com/kata/find-the-odd-int/train/javascript\nhttps://www.codewars.com/kata/sum-of-digits-slash-digital-root/train/javascript\nhttps://www.codewars.com/kata/dubstep/train/javascript\nhttps://www.codewars.com/kata/moving-zeros-to-the-end/train/javascript\nhttps://www.codewars.com/kata/calculating-with-functions/train/javascript\nhttps://www.codewars.com/kata/reverse-polish-notation-calculator/train/javascript\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mwoA9wjp7ec/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mwoA9wjp7ec/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mwoA9wjp7ec/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/mwoA9wjp7ec/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 5,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "mwoA9wjp7ec"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6g-0YWfexpYvu6Vg6-HN2Bsr4J8\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS41MzJCQjBCNDIyRkJDN0VD",
+            "snippet": {
+                "publishedAt": "2018-05-31T04:56:51.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #7 - Solving Code Wars Katas Live and Talking Through My Process",
+                "description": "Show starts at 2:35\nLinks for tonights katas are here: https://github.com/CodingGarden/code-katas/tree/master/episode_007\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/O5DmKHgFwjE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/O5DmKHgFwjE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/O5DmKHgFwjE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/O5DmKHgFwjE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 6,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "O5DmKHgFwjE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/x2xjQE5P61ig7yTGb33ToBH8dhk\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5DQUNERDQ2NkIzRUQxNTY1",
+            "snippet": {
+                "publishedAt": "2018-06-07T04:26:26.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #8 - Solving code wars katas live and talking through my process",
+                "description": "Show starts at 2:20\nKatas for tonight are here: https://github.com/CodingGarden/code-katas/tree/master/episode_008\nDonate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nJoin the discord: https://coding.garden/discord\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/M_K7azm9i6o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/M_K7azm9i6o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/M_K7azm9i6o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/M_K7azm9i6o/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 7,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "M_K7azm9i6o"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/a5Njg6C-FZ3-VbZT1IBxZNdJNDM\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS45NDk1REZENzhEMzU5MDQz",
+            "snippet": {
+                "publishedAt": "2018-06-14T17:46:14.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #9 - Solving Code Wars Katas and Talking through my process",
+                "description": "Search for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0atKorB6tAI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0atKorB6tAI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0atKorB6tAI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/0atKorB6tAI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 8,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "0atKorB6tAI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/00PQ5iA6HKq8DxxDiiEpHwu2kKU\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS40NzZCMERDMjVEN0RFRThB",
+            "snippet": {
+                "publishedAt": "2018-07-08T00:29:46.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #10 - Solving Code Wars Katas and Talking Through My Process",
+                "description": "Search for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6eoqEYc5SGI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6eoqEYc5SGI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6eoqEYc5SGI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/6eoqEYc5SGI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 9,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "6eoqEYc5SGI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/KTESgLUukeglBXDEnnS1Xcc-dFU\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5GNjNDRDREMDQxOThCMDQ2",
+            "snippet": {
+                "publishedAt": "2018-07-08T00:29:22.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #11 - Solving Code Wars Katas and Talking through my process",
+                "description": "Show starts at 1:58\nDonate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/bPTonTi42ic/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/bPTonTi42ic/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/bPTonTi42ic/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/bPTonTi42ic/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 10,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "bPTonTi42ic"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/asJtNkT8TQIalZ-8PqACXVLF9Bw\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5EMEEwRUY5M0RDRTU3NDJC",
+            "snippet": {
+                "publishedAt": "2018-07-14T12:08:10.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #12 - Solving Code Wars Code Katas and Talking Through My Process",
+                "description": "Search for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Ozp_PY1OOnw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Ozp_PY1OOnw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Ozp_PY1OOnw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Ozp_PY1OOnw/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 11,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "Ozp_PY1OOnw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gmGlEvH0_4Of6F3V3Z6Dg5yhVrw\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS45ODRDNTg0QjA4NkFBNkQy",
+            "snippet": {
+                "publishedAt": "2018-08-29T23:32:51.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #13 - Solving Code Wars Katas and Talking Through My Process",
+                "description": "Code is here: https://github.com/CodingGarden/code-katas/tree/master/episode_013\nDonate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_xud7qSXkOw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_xud7qSXkOw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_xud7qSXkOw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 12,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "_xud7qSXkOw"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-GClLJWIyQxhl-fgmFGt7SmJvN0\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4zMDg5MkQ5MEVDMEM1NTg2",
+            "snippet": {
+                "publishedAt": "2018-08-29T23:33:00.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #14 - Solving Code Wars Code Katas and talking through my process",
+                "description": "Donate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dE5TV-TGfEo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dE5TV-TGfEo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dE5TV-TGfEo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/dE5TV-TGfEo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/dE5TV-TGfEo/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 13,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "dE5TV-TGfEo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/E3TT8xFBDig9WROR2pu83qPGA-0\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS41Mzk2QTAxMTkzNDk4MDhF",
+            "snippet": {
+                "publishedAt": "2018-08-29T23:33:48.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #15 - Solving Code Wars Code Katas and talking through my process",
+                "description": "Donate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/R49EFycGF3s/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/R49EFycGF3s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/R49EFycGF3s/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 14,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "R49EFycGF3s"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/x7szs-3P9qAA5ApXmpcTRmdrZ7w\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS41QTY1Q0UxMTVCODczNThE",
+            "snippet": {
+                "publishedAt": "2018-09-19T16:47:11.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #16 - Solving Code Wars Code Katas and talking through my process",
+                "description": "Donate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BKBZLZ50xh8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BKBZLZ50xh8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BKBZLZ50xh8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 15,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "BKBZLZ50xh8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/N3mXVgOFO0WyrUWGJLxVj6AzCig\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5EQUE1NTFDRjcwMDg0NEMz",
+            "snippet": {
+                "publishedAt": "2018-09-19T16:46:43.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #17: Solving Code Wars Katas and Talking Through My Process",
+                "description": "Katas are here: https://github.com/CodingGarden/code-katas/tree/master/episode_017\n\nDonate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/jFJGnX-q0Tc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/jFJGnX-q0Tc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/jFJGnX-q0Tc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/jFJGnX-q0Tc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/jFJGnX-q0Tc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 16,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "jFJGnX-q0Tc"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AhNJTVF5X-InRx1enrBk9J-_D2s\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4yMUQyQTQzMjRDNzMyQTMy",
+            "snippet": {
+                "publishedAt": "2018-10-02T02:34:50.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #18 - Solving Code Wars Katas and Talking Through My Process",
+                "description": "Donate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/qqznbb9xJa4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/qqznbb9xJa4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/qqznbb9xJa4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/qqznbb9xJa4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/qqznbb9xJa4/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 17,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "qqznbb9xJa4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VQrD-lIdzgcue-ePxXjEwUfOHeY\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS45RTgxNDRBMzUwRjQ0MDhC",
+            "snippet": {
+                "publishedAt": "2018-10-04T05:35:08.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #19 - Solving Code Wars Katas and Talking Through My Process",
+                "description": "Katas are here: https://github.com/CodingGarden/code-katas/tree/master/episode_019\n\nDonate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EyyiM71-r18/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EyyiM71-r18/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/EyyiM71-r18/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 18,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "EyyiM71-r18"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9JXQTqQQaYgChnzGO5rKb_10yhM\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5ENDU4Q0M4RDExNzM1Mjcy",
+            "snippet": {
+                "publishedAt": "2019-02-02T03:31:06.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #20 - Halloween Edition!",
+                "description": "Katas are here: https://github.com/CodingGarden/code-katas/tree/master/episode_020\n\nDonate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NGcsIUBKHiI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NGcsIUBKHiI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NGcsIUBKHiI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 19,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "NGcsIUBKHiI"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/75J9GdLP6ppCACLR19MXVTol3MM\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4yMDhBMkNBNjRDMjQxQTg1",
+            "snippet": {
+                "publishedAt": "2019-02-02T03:31:15.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #21 - Solving Code Wars Katas and Talking Through My Process",
+                "description": "Katas are here: https://github.com/CodingGarden/code-katas/tree/master/episode_021\n\nDonate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/LiD9TT--F5Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/LiD9TT--F5Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/LiD9TT--F5Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 20,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "LiD9TT--F5Y"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oK--agVr61nnnYNLaSnOlWfhM9Y\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5GM0Q3M0MzMzY5NTJFNTdE",
+            "snippet": {
+                "publishedAt": "2019-02-02T03:31:26.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #22 - Solving Code Wars Katas and Talking Through My Process",
+                "description": "Katas are here: https://github.com/CodingGarden/code-katas/tree/master/episode_022\n\nDonate: https://coding.garden/donate\nPledge: https://coding.garden/pledge\nDiscord: https://coding.garden/discord\nStickers: https://coding.garden/stickers\nGear List: https://coding.garden/gear\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/xgW-due5ukM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/xgW-due5ukM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/xgW-due5ukM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 21,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "xgW-due5ukM"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/KdEU45bgw3GG7Pvcy-hy6ZkZnkQ\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4zRjM0MkVCRTg0MkYyQTM0",
+            "snippet": {
+                "publishedAt": "2019-02-02T03:31:35.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #23 - Solving Code Wars Katas and Talking Through My Process",
+                "description": "🎎 Katas are here: https://github.com/CodingGarden/code-katas/tree/master/episode_023\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/c_EREn-eF5s/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/c_EREn-eF5s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/c_EREn-eF5s/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 22,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "c_EREn-eF5s"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3eWWHC4QIRNhnsYm311dlqdIBRc\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5BRjJDODk5REM0NjkzMUIy",
+            "snippet": {
+                "publishedAt": "2019-11-07T00:15:19.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #24 - Solving Code Wars Katas and Talking Through My Process",
+                "description": "🎎 Katas are here: https://github.com/CodingGarden/code-katas/tree/master/episode_024\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/QOWczTDlPh8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/QOWczTDlPh8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/QOWczTDlPh8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 24,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "QOWczTDlPh8"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ufPLFF8DgDUtPrB4AJ6FkZlu1AM\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5DNzE1RjZEMUZCMjA0RDBB",
+            "snippet": {
+                "publishedAt": "2019-05-19T05:04:57.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #25 - Solving Code Wars Katas and Talking Through My Process",
+                "description": "🎎 Katas are here: https://github.com/CodingGarden/code-katas\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/V9aItIltNAA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/V9aItIltNAA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/V9aItIltNAA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 25,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "V9aItIltNAA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XBxbMrMCNrggqZjby1IW6QPIN5w\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4xOTEzQzhBQzU3MDNDNjcz",
+            "snippet": {
+                "publishedAt": "2019-11-07T00:34:20.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #26 - Solving Code Wars Katas and Talking Through My Process",
+                "description": "🎎 Katas are here: https://github.com/CodingGarden/code-katas\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JPXei00o3Ig/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JPXei00o3Ig/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JPXei00o3Ig/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 26,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "JPXei00o3Ig"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/N4nS8DJWRS95FQGvlHnfgycXLAo\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS43MTI1NDIwOTMwQjIxMzNG",
+            "snippet": {
+                "publishedAt": "2019-07-04T06:18:45.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #27 - Hot Wings Edition",
+                "description": "A tribute to Hot Ones! Watch me eat progressively spicier hot wings while solving code wars katas!\nCode is here: https://github.com/CodingGarden/code-katas/tree/master/episode_027\nFirst We Feast on YouTube: https://www.youtube.com/user/FirstWeFeast\nSee the hot ones sauce list app I built here: https://hot-ones-sauce-list.now.sh/seasons/2/sauces/17\nAnd the dramatic sound board I built here: https://dramatic-sound-board.now.sh/\n\nShow starts at 8:02\n9:05   Sauce Intro\n16:57   Wing / Kata Format\n17:18   Wing #1 - Sriracha\n18:55   8 kyu - Basic Mathematical Operations\n27:35   Wing #2 - Pain Is Good\n30:04   8 kyu - Convert a Number to a String\n42:51   Wing #3 - Cheeba Gold\n45:09   7 kyu - Money, Money Money\n57:13   Wing #4 - Black Garlic Carolina Reaper\n59:15   7 kyu - String Ends With\n1:06:50          Wing #5 - Zombie Apocalypse\n1:08:33  6 kyu - Valid Braces\n1:34:59          Wing #6 - Blairs Megadeath Sauce\n1:38:12  5 kyu - JavaScript Array Parser\n2:16:16          Wing #7 - Blairs Megadeath Sauce\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/py7MaPHJEjo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/py7MaPHJEjo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/py7MaPHJEjo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/py7MaPHJEjo/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/py7MaPHJEjo/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 27,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "py7MaPHJEjo"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zQ-dLEZ5xN7Ii1jbIqTLgWPRrkU\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5DQ0MyQ0Y4Mzg0M0VGOEYw",
+            "snippet": {
+                "publishedAt": "2019-09-05T05:41:10.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #28 - Solving Code Wars Katas and Talking Through My Process",
+                "description": "Solved Katas are here: https://github.com/CodingGarden/code-katas/tree/master/episode_028\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\nSearch for more Coding Garden videos here: https://cg-videos.now.sh\nView the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KwekhEaA9f4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KwekhEaA9f4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KwekhEaA9f4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 28,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "KwekhEaA9f4"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/K89M10DkEfW1dn6TCoFYt2RZJQo\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4yQUE2Q0JEMTk4NTM3RTZC",
+            "snippet": {
+                "publishedAt": "2019-09-11T01:09:51.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #29 - Solving Code Wars Katas and Talking Through My Process",
+                "description": "Katas are here: https://github.com/CodingGarden/code-katas\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\n🔎 Search for more Coding Garden videos here: https://cg-videos.now.sh\n🗣 View the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/nw0R8k6kBC0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/nw0R8k6kBC0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/nw0R8k6kBC0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/nw0R8k6kBC0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/nw0R8k6kBC0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 29,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "nw0R8k6kBC0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/L7V1f_omqdCoRZmpRi1WZhcxiiY\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5DMkU4NTY1QUFGQTYwMDE3",
+            "snippet": {
+                "publishedAt": "2019-10-03T01:40:26.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #30 - Solving Code Wars Katas and Talking Through My Process",
+                "description": "Katas are here: https://github.com/CodingGarden/code-katas\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\n🔎 Search for more Coding Garden videos here: https://cg-videos.now.sh\n🗣 View the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/P1wRSB_MpzE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/P1wRSB_MpzE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/P1wRSB_MpzE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/P1wRSB_MpzE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/P1wRSB_MpzE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 30,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "P1wRSB_MpzE"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EqMjwixWqyyYWnOVvucV6MmNM8w\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS44Mjc5REFBRUE2MTdFRDU0",
+            "snippet": {
+                "publishedAt": "2019-10-09T14:46:48.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #31 - Part 1 - Solving Code Wars Katas and Talking Through My Process",
+                "description": "Katas are here: https://github.com/CodingGarden/code-katas\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\n🔎 Search for more Coding Garden videos here: https://cg-videos.now.sh\n🗣 View the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7n_hwo-0EWA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7n_hwo-0EWA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7n_hwo-0EWA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/7n_hwo-0EWA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/7n_hwo-0EWA/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 31,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "7n_hwo-0EWA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OhG6qrVh01WUQgfe0WUJXsZwpNA\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS43NDhFRTgwOTRERTU4Rjg3",
+            "snippet": {
+                "publishedAt": "2019-10-09T17:43:27.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #31 - Part 2 - Solving Code Wars Katas and Talking Through My Process",
+                "description": "Katas are here: https://github.com/CodingGarden/code-katas\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\n🔎 Search for more Coding Garden videos here: https://cg-videos.now.sh\n🗣 View the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/HGXLf_xTWJ0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/HGXLf_xTWJ0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/HGXLf_xTWJ0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/HGXLf_xTWJ0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/HGXLf_xTWJ0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 32,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "HGXLf_xTWJ0"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jRrwR4W8rorx8rgi5HVrcNvhino\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS41QUZGQTY5OTE4QTREQUU4",
+            "snippet": {
+                "publishedAt": "2019-10-16T13:44:30.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #32a - fix meerkat, v-a-p-o-r-c-o-d-e, and tic tac toe table generator",
+                "description": "Katas are here: https://github.com/CodingGarden/code-katas\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\n🔎 Search for more Coding Garden videos here: https://cg-videos.now.sh\n🗣 View the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/kC-8y-pmwBA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/kC-8y-pmwBA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/kC-8y-pmwBA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/kC-8y-pmwBA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/kC-8y-pmwBA/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 33,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "kC-8y-pmwBA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/PpP7-QucyUznT1viMBpaQPTvVsw\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS4zRDBDOEZDOUM0MDY5NEEz",
+            "snippet": {
+                "publishedAt": "2019-10-17T14:21:31.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #32b - 1 kyu - Functional SQL",
+                "description": "Katas are here: https://github.com/CodingGarden/code-katas\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\n🔎 Search for more Coding Garden videos here: https://cg-videos.now.sh\n🗣 View the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/vyYT5B7Omys/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/vyYT5B7Omys/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/vyYT5B7Omys/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/vyYT5B7Omys/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/vyYT5B7Omys/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 34,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "vyYT5B7Omys"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bdOxCC9TGvG05J4WfqySxwLPDTA\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS5CMEQ2Mjk5NTc3NDZFRUNB",
+            "snippet": {
+                "publishedAt": "2019-10-23T22:31:38.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #33 - Reverse a String, and Quicksort",
+                "description": "Katas are here: https://github.com/CodingGarden/code-katas\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\n🔎 Search for more Coding Garden videos here: https://cg-videos.now.sh\n🗣 View the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/0fZDWRn2mGA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/0fZDWRn2mGA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/0fZDWRn2mGA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/0fZDWRn2mGA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/0fZDWRn2mGA/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 35,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "0fZDWRn2mGA"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WmIB37UK8W_rQT05I-kt8dYiYuo\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS42MTI4Njc2QjM1RjU1MjlG",
+            "snippet": {
+                "publishedAt": "2019-10-30T13:45:15.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #34a - Needle in Haystack and Flatten Array",
+                "description": "Katas are here: https://github.com/CodingGarden/code-katas\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\n🔎 Search for more Coding Garden videos here: https://cg-videos.now.sh\n🗣 View the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UafgtBIxOUk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UafgtBIxOUk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UafgtBIxOUk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/UafgtBIxOUk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/UafgtBIxOUk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 36,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "UafgtBIxOUk"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vKbcubx5fhJwX3ikmaEJjyYNHNk\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS45RjNFMDhGQ0Q2RkFCQTc1",
+            "snippet": {
+                "publishedAt": "2019-10-31T01:26:47.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #34b - 3kyu - Sudoku Solver with OOP and TDD",
+                "description": "Katas are here: https://github.com/CodingGarden/code-katas\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\n🔎 Search for more Coding Garden videos here: https://cg-videos.now.sh\n🗣 View the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/OFTjW3XcOps/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/OFTjW3XcOps/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/OFTjW3XcOps/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/OFTjW3XcOps/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/OFTjW3XcOps/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 37,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "OFTjW3XcOps"
+                }
+            }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zD5exGl_TikHFfECvqgEV29EXBc\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS40QTA3NTU2RkM1QzlCMzYx",
+            "snippet": {
+                "publishedAt": "2019-11-06T17:19:18.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #35a - 8kyu Lost Without a Map and 7kyu Find the longest gap",
+                "description": "Katas are here: https://github.com/CodingGarden/code-katas\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\n🔎 Search for more Coding Garden videos here: https://coding.garden/videos\n🗣 View the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/c5AEo3Ac-FI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/c5AEo3Ac-FI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/c5AEo3Ac-FI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/c5AEo3Ac-FI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/c5AEo3Ac-FI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 38,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "c5AEo3Ac-FI"
+                }
+            }
+        }
+    ]
+}

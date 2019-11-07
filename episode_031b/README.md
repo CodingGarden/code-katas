@@ -1,4 +1,4 @@
-# Episode 31
+# Episode 31b
 
 ## 7 kyu
 
@@ -10,5 +10,4 @@
 
 ## 5 kyu
 
-* [https://www.codewars.com/kata/count-ip-addresses/train/javascript](https://www.codewars.com/kata/count-ip-addresses/train/javascript)
 * [https://www.codewars.com/kata/longest-common-subsequence/train/javascript](https://www.codewars.com/kata/longest-common-subsequence/train/javascript)

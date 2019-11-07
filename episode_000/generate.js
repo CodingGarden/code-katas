@@ -2,6 +2,17 @@ const { promises: fs } = require('fs');
 const axios = require('axios');
 const { items: videos } = require('./videos.json');
 
+const ignoreFiles = {
+  'README.md': true,
+  '.vscode': true,
+  'node_modules': true,
+  '.eslintrc.js': true,
+  'package.json': true,
+  'package-lock.json': true,
+  'example.js': true,
+  'scratch.js': true,
+};
+
 (async () => {
   const katas = [];
   let tableOfContents = `# Code Katas
@@ -13,9 +24,11 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 `;
   const files = await fs.readdir('../', 'utf8');
   files.reverse();
-  for (const directory of files) {
+  let episodeCount = 0;
+  for (let i = 0; i < files.length; i++) {
+    const directory = files[i];
     if (directory.startsWith('episode') && directory !== 'episode_000') {
-      const episodeNum = +directory.replace('episode_', '');
+      const episodeNum = directory.replace('episode_', '');
       const solutions = await fs.readdir(`../${directory}`, 'utf8');
 
       const {
@@ -24,7 +37,8 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
             videoId
           }
         }
-      } = videos[episodeNum - 1];
+      } = videos[episodeCount];
+      episodeCount++;
 
       const video = `https://www.youtube.com/watch?v=${videoId}`;
 
@@ -36,7 +50,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 `
       const episodeKatas = [];
       for (const name of solutions) {
-        if (name.endsWith('.js')) {
+        if (!ignoreFiles[name]) {
           const slug = name.replace('.js', '');
           const githubUrl = `https://github.com/CodingGarden/code-katas/blob/master/${directory}/${name}`;
           try {
@@ -56,7 +70,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
               }
             });
           } catch (error) {
-            console.log(slug, 'not found...')
+            console.log(slug, 'not found...');
           }
         }
       }
