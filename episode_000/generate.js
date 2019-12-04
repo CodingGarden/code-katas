@@ -24,6 +24,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 `;
   const files = await fs.readdir('../', 'utf8');
   files.reverse();
+  videos.reverse();
   let episodeCount = 0;
   for (let i = 0; i < files.length; i++) {
     const directory = files[i];
@@ -41,6 +42,8 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
       episodeCount++;
 
       const video = `https://www.youtube.com/watch?v=${videoId}`;
+
+      console.log(episodeNum, video);
 
       tableOfContents += `
 ## [Episode ${episodeNum}](./${directory})

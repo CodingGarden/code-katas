@@ -3,44 +3,50 @@
 Search / Filter solutions [here](https://code-katas.now.sh/)
   
 # Episodes
-  
+
+## [Episode 035b](./episode_035b)
+
+[Watch on YouTube](https://www.youtube.com/watch?v=1HtP9He6EeM)
+
+* [Lazy Chain](./episode_035b/lazy-chain.js) - [5 kyu](https://www.codewars.com/kata/lazy-chain)
+* [Route Calculator](./episode_035b/route-calculator.js) - [4 kyu](https://www.codewars.com/kata/route-calculator)
 
 ## [Episode 035a](./episode_035a)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Oq7r8metsD8)
+[Watch on YouTube](https://www.youtube.com/watch?v=c5AEo3Ac-FI)
 
 * [Beginner - Lost Without a Map](./episode_035a/beginner-lost-without-a-map.js) - [8 kyu](https://www.codewars.com/kata/beginner-lost-without-a-map)
 * [Find the longest  gap!](./episode_035a/find-the-longest-gap.js) - [7 kyu](https://www.codewars.com/kata/find-the-longest-gap)
 
 ## [Episode 034b](./episode_034b)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=fH4w_xq2qao)
+[Watch on YouTube](https://www.youtube.com/watch?v=OFTjW3XcOps)
 
 * [Sudoku Solver](./episode_034b/sudoku-solver) - [3 kyu](https://www.codewars.com/kata/sudoku-solver)
 
 ## [Episode 034a](./episode_034a)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Ms7L-aVN4Hc)
+[Watch on YouTube](https://www.youtube.com/watch?v=UafgtBIxOUk)
 
 * [A Needle in the Haystack](./episode_034a/a-needle-in-the-haystack.js) - [8 kyu](https://www.codewars.com/kata/a-needle-in-the-haystack)
 * [Flatten](./episode_034a/flatten-1.js) - [7 kyu](https://www.codewars.com/kata/flatten-1)
 
 ## [Episode 033](./episode_033)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=2ld5ndNkF2Q)
+[Watch on YouTube](https://www.youtube.com/watch?v=0fZDWRn2mGA)
 
 * [Reversed Strings](./episode_033/reversed-strings.js) - [8 kyu](https://www.codewars.com/kata/reversed-strings)
 * [Sort the Gift Code](./episode_033/sort-the-gift-code.js) - [7 kyu](https://www.codewars.com/kata/sort-the-gift-code)
 
 ## [Episode 032b](./episode_032b)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=S-h_tfwHQAQ)
+[Watch on YouTube](https://www.youtube.com/watch?v=vyYT5B7Omys)
 
 * [Functional SQL](./episode_032b/functional-sql) - [1 kyu](https://www.codewars.com/kata/functional-sql)
 
 ## [Episode 032a](./episode_032a)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=mwoA9wjp7ec)
+[Watch on YouTube](https://www.youtube.com/watch?v=kC-8y-pmwBA)
 
 * [My head is at the wrong end!](./episode_032a/my-head-is-at-the-wrong-end.js) - [8 kyu](https://www.codewars.com/kata/my-head-is-at-the-wrong-end)
 * [V     A     P     O     R     C     O     D     E](./episode_032a/v-a-p-o-r-c-o-d-e.js) - [7 kyu](https://www.codewars.com/kata/v-a-p-o-r-c-o-d-e)
@@ -48,7 +54,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 031b](./episode_031b)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=O5DmKHgFwjE)
+[Watch on YouTube](https://www.youtube.com/watch?v=HGXLf_xTWJ0)
 
 * [Sort array by string length](./episode_031b/sort-array-by-string-length.js) - [7 kyu](https://www.codewars.com/kata/sort-array-by-string-length)
 * [Validate Credit Card Number](./episode_031b/validate-credit-card-number.js) - [6 kyu](https://www.codewars.com/kata/validate-credit-card-number)
@@ -56,20 +62,20 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 031a](./episode_031a)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=M_K7azm9i6o)
+[Watch on YouTube](https://www.youtube.com/watch?v=7n_hwo-0EWA)
 
 * [Count IP Addresses](./episode_031a/count-ip-addresses.js) - [5 kyu](https://www.codewars.com/kata/count-ip-addresses)
 
 ## [Episode 030](./episode_030)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=0atKorB6tAI)
+[Watch on YouTube](https://www.youtube.com/watch?v=P1wRSB_MpzE)
 
 * [Building Strings From a Hash](./episode_030/building-strings-from-a-hash.js) - [7 kyu](https://www.codewars.com/kata/building-strings-from-a-hash)
 * [Array Helpers](./episode_030/array-helpers.js) - [6 kyu](https://www.codewars.com/kata/array-helpers)
 
 ## [Episode 029](./episode_029)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=6eoqEYc5SGI)
+[Watch on YouTube](https://www.youtube.com/watch?v=nw0R8k6kBC0)
 
 * [Playing with Sets : Sup/Sub](./episode_029/playing-with-sets-sup-slash-sub.js) - [7 kyu](https://www.codewars.com/kata/playing-with-sets-sup-slash-sub)
 * [Count characters in your string](./episode_029/count-characters-in-your-string.js) - [6 kyu](https://www.codewars.com/kata/count-characters-in-your-string)
@@ -78,7 +84,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 028](./episode_028)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=bPTonTi42ic)
+[Watch on YouTube](https://www.youtube.com/watch?v=KwekhEaA9f4)
 
 * [The Poet And The Pendulum](./episode_028/the-poet-and-the-pendulum.js) - [7 kyu](https://www.codewars.com/kata/the-poet-and-the-pendulum)
 * [New Cashier Does Not Know About Space or Shift ](./episode_028/new-cashier-does-not-know-about-space-or-shift.js) - [6 kyu](https://www.codewars.com/kata/new-cashier-does-not-know-about-space-or-shift)
@@ -86,7 +92,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 027](./episode_027)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=Ozp_PY1OOnw)
+[Watch on YouTube](https://www.youtube.com/watch?v=py7MaPHJEjo)
 
 * [Basic Mathematical Operations](./episode_027/basic-mathematical-operations.js) - [8 kyu](https://www.codewars.com/kata/basic-mathematical-operations)
 * [Convert a Number to a String!](./episode_027/convert-a-number-to-a-string.js) - [8 kyu](https://www.codewars.com/kata/convert-a-number-to-a-string)
@@ -97,7 +103,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 026](./episode_026)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=_xud7qSXkOw)
+[Watch on YouTube](https://www.youtube.com/watch?v=JPXei00o3Ig)
 
 * [Two fighters, one winner.](./episode_026/two-fighters-one-winner.js) - [7 kyu](https://www.codewars.com/kata/two-fighters-one-winner)
 * [Find the unique number](./episode_026/find-the-unique-number-1.js) - [6 kyu](https://www.codewars.com/kata/find-the-unique-number-1)
@@ -105,7 +111,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 025](./episode_025)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=dE5TV-TGfEo)
+[Watch on YouTube](https://www.youtube.com/watch?v=V9aItIltNAA)
 
 * [Reverse words](./episode_025/reverse-words.js) - [7 kyu](https://www.codewars.com/kata/reverse-words)
 * [Detect Pangram](./episode_025/detect-pangram.js) - [6 kyu](https://www.codewars.com/kata/detect-pangram)
@@ -113,7 +119,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 024](./episode_024)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=R49EFycGF3s)
+[Watch on YouTube](https://www.youtube.com/watch?v=QOWczTDlPh8)
 
 * [The highest profit wins!](./episode_024/the-highest-profit-wins.js) - [7 kyu](https://www.codewars.com/kata/the-highest-profit-wins)
 * [IP Validation](./episode_024/ip-validation.js) - [6 kyu](https://www.codewars.com/kata/ip-validation)
@@ -122,7 +128,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 023](./episode_023)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=BKBZLZ50xh8)
+[Watch on YouTube](https://www.youtube.com/watch?v=c_EREn-eF5s)
 
 * [Remove the minimum](./episode_023/remove-the-minimum.js) - [7 kyu](https://www.codewars.com/kata/remove-the-minimum)
 * [Title Case](./episode_023/title-case.js) - [6 kyu](https://www.codewars.com/kata/title-case)
@@ -131,7 +137,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 022](./episode_022)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=jFJGnX-q0Tc)
+[Watch on YouTube](https://www.youtube.com/watch?v=xgW-due5ukM)
 
 * [Regex validate PIN code](./episode_022/regex-validate-pin-code.js) - [7 kyu](https://www.codewars.com/kata/regex-validate-pin-code)
 * [Delete occurrences of an element if it occurs more than n times](./episode_022/delete-occurrences-of-an-element-if-it-occurs-more-than-n-times.js) - [6 kyu](https://www.codewars.com/kata/delete-occurrences-of-an-element-if-it-occurs-more-than-n-times)
@@ -140,7 +146,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 021](./episode_021)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=qqznbb9xJa4)
+[Watch on YouTube](https://www.youtube.com/watch?v=LiD9TT--F5Y)
 
 * [Distributing Candies Fairly](./episode_021/distributing-candies-fairly.js) - [7 kyu](https://www.codewars.com/kata/distributing-candies-fairly)
 * [Vasya - Clerk](./episode_021/vasya-clerk.js) - [6 kyu](https://www.codewars.com/kata/vasya-clerk)
@@ -148,7 +154,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 020](./episode_020)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=EyyiM71-r18)
+[Watch on YouTube](https://www.youtube.com/watch?v=NGcsIUBKHiI)
 
 * [Pirate Code](./episode_020/pirate-code.js) - [7 kyu](https://www.codewars.com/kata/pirate-code)
 * [Halloween: trick or treat!](./episode_020/halloween-trick-or-treat.js) - [6 kyu](https://www.codewars.com/kata/halloween-trick-or-treat)
@@ -156,7 +162,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 019](./episode_019)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=NGcsIUBKHiI)
+[Watch on YouTube](https://www.youtube.com/watch?v=EyyiM71-r18)
 
 * [Sum of a sequence](./episode_019/sum-of-a-sequence.js) - [7 kyu](https://www.codewars.com/kata/sum-of-a-sequence)
 * [Bouncing Balls](./episode_019/bouncing-balls.js) - [6 kyu](https://www.codewars.com/kata/bouncing-balls)
@@ -166,7 +172,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 018](./episode_018)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=LiD9TT--F5Y)
+[Watch on YouTube](https://www.youtube.com/watch?v=qqznbb9xJa4)
 
 * [Friend or Foe?](./episode_018/friend-or-foe.js) - [7 kyu](https://www.codewars.com/kata/friend-or-foe)
 * [Which are  in?](./episode_018/which-are-in.js) - [6 kyu](https://www.codewars.com/kata/which-are-in)
@@ -175,7 +181,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 017](./episode_017)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=xgW-due5ukM)
+[Watch on YouTube](https://www.youtube.com/watch?v=jFJGnX-q0Tc)
 
 * [Ones and Zeros](./episode_017/ones-and-zeros.js) - [7 kyu](https://www.codewars.com/kata/ones-and-zeros)
 * [Square Every Digit](./episode_017/square-every-digit.js) - [7 kyu](https://www.codewars.com/kata/square-every-digit)
@@ -184,7 +190,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 016](./episode_016)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=c_EREn-eF5s)
+[Watch on YouTube](https://www.youtube.com/watch?v=BKBZLZ50xh8)
 
 * [You're a square!](./episode_016/youre-a-square.js) - [7 kyu](https://www.codewars.com/kata/youre-a-square)
 * [Replace With Alphabet Position](./episode_016/replace-with-alphabet-position.js) - [6 kyu](https://www.codewars.com/kata/replace-with-alphabet-position)
@@ -192,7 +198,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 015](./episode_015)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=QOWczTDlPh8)
+[Watch on YouTube](https://www.youtube.com/watch?v=R49EFycGF3s)
 
 * [Find the Capitals](./episode_015/find-the-capitals.js) - [7 kyu](https://www.codewars.com/kata/find-the-capitals)
 * [Don't rely on luck.](./episode_015/dont-rely-on-luck.js) - [6 kyu](https://www.codewars.com/kata/dont-rely-on-luck)
@@ -201,7 +207,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 014](./episode_014)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=V9aItIltNAA)
+[Watch on YouTube](https://www.youtube.com/watch?v=dE5TV-TGfEo)
 
 * [Two to One](./episode_014/two-to-one.js) - [7 kyu](https://www.codewars.com/kata/two-to-one)
 * [Duplicate Encoder](./episode_014/duplicate-encoder.js) - [6 kyu](https://www.codewars.com/kata/duplicate-encoder)
@@ -210,7 +216,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 013](./episode_013)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=JPXei00o3Ig)
+[Watch on YouTube](https://www.youtube.com/watch?v=_xud7qSXkOw)
 
 * [Printer Errors](./episode_013/printer-errors.js) - [7 kyu](https://www.codewars.com/kata/printer-errors)
 * [Sum of the first nth term of Series](./episode_013/sum-of-the-first-nth-term-of-series.js) - [7 kyu](https://www.codewars.com/kata/sum-of-the-first-nth-term-of-series)
@@ -219,7 +225,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 012](./episode_012)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=py7MaPHJEjo)
+[Watch on YouTube](https://www.youtube.com/watch?v=Ozp_PY1OOnw)
 
 * [Sum of odd numbers](./episode_012/sum-of-odd-numbers.js) - [7 kyu](https://www.codewars.com/kata/sum-of-odd-numbers)
 * [Format a string of names like 'Bart, Lisa & Maggie'.](./episode_012/format-a-string-of-names-like-bart-lisa-and-maggie.js) - [6 kyu](https://www.codewars.com/kata/format-a-string-of-names-like-bart-lisa-and-maggie)
@@ -227,7 +233,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 011](./episode_011)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=KwekhEaA9f4)
+[Watch on YouTube](https://www.youtube.com/watch?v=bPTonTi42ic)
 
 * [Square Every Digit](./episode_011/square-every-digit.js) - [7 kyu](https://www.codewars.com/kata/square-every-digit)
 * [Counting Duplicates](./episode_011/counting-duplicates.js) - [6 kyu](https://www.codewars.com/kata/counting-duplicates)
@@ -235,7 +241,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 010](./episode_010)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=nw0R8k6kBC0)
+[Watch on YouTube](https://www.youtube.com/watch?v=6eoqEYc5SGI)
 
 * [Find the divisors! ](./episode_010/find-the-divisors.js) - [7 kyu](https://www.codewars.com/kata/find-the-divisors)
 * [Stop gninnipS My sdroW!](./episode_010/stop-gninnips-my-sdrow.js) - [6 kyu](https://www.codewars.com/kata/stop-gninnips-my-sdrow)
@@ -243,7 +249,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 009](./episode_009)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=P1wRSB_MpzE)
+[Watch on YouTube](https://www.youtube.com/watch?v=0atKorB6tAI)
 
 * [Correct the mistakes of the character recognition software](./episode_009/correct-the-mistakes-of-the-character-recognition-software.js) - [8 kyu](https://www.codewars.com/kata/correct-the-mistakes-of-the-character-recognition-software)
 * [Does my number look big in this?](./episode_009/does-my-number-look-big-in-this.js) - [6 kyu](https://www.codewars.com/kata/does-my-number-look-big-in-this)
@@ -252,7 +258,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 008](./episode_008)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=7n_hwo-0EWA)
+[Watch on YouTube](https://www.youtube.com/watch?v=M_K7azm9i6o)
 
 * [Growth of a Population](./episode_008/growth-of-a-population.js) - [7 kyu](https://www.codewars.com/kata/growth-of-a-population)
 * [Are they the "same"?](./episode_008/are-they-the-same.js) - [6 kyu](https://www.codewars.com/kata/are-they-the-same)
@@ -262,7 +268,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 007](./episode_007)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=HGXLf_xTWJ0)
+[Watch on YouTube](https://www.youtube.com/watch?v=O5DmKHgFwjE)
 
 * [Categorize New Member](./episode_007/categorize-new-member.js) - [7 kyu](https://www.codewars.com/kata/categorize-new-member)
 * [Isograms](./episode_007/isograms.js) - [7 kyu](https://www.codewars.com/kata/isograms)
@@ -274,7 +280,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 006](./episode_006)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=kC-8y-pmwBA)
+[Watch on YouTube](https://www.youtube.com/watch?v=mwoA9wjp7ec)
 
 * [Beginner Series #3 Sum of Numbers](./episode_006/beginner-series-number-3-sum-of-numbers.js) - [7 kyu](https://www.codewars.com/kata/beginner-series-number-3-sum-of-numbers)
 * [Dubstep](./episode_006/dubstep.js) - [6 kyu](https://www.codewars.com/kata/dubstep)
@@ -286,7 +292,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 005](./episode_005)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=vyYT5B7Omys)
+[Watch on YouTube](https://www.youtube.com/watch?v=S-h_tfwHQAQ)
 
 * [Credit Card Mask](./episode_005/credit-card-mask.js) - [7 kyu](https://www.codewars.com/kata/credit-card-mask)
 * [Palindrome chain length](./episode_005/palindrome-chain-length.js) - [7 kyu](https://www.codewars.com/kata/palindrome-chain-length)
@@ -297,7 +303,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 004](./episode_004)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=0fZDWRn2mGA)
+[Watch on YouTube](https://www.youtube.com/watch?v=2ld5ndNkF2Q)
 
 * [List Filtering](./episode_004/list-filtering.js) - [7 kyu](https://www.codewars.com/kata/list-filtering)
 * [Count the smiley faces!](./episode_004/count-the-smiley-faces.js) - [6 kyu](https://www.codewars.com/kata/count-the-smiley-faces)
@@ -308,7 +314,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 003](./episode_003)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=UafgtBIxOUk)
+[Watch on YouTube](https://www.youtube.com/watch?v=Ms7L-aVN4Hc)
 
 * [Complementary DNA](./episode_003/complementary-dna.js) - [7 kyu](https://www.codewars.com/kata/complementary-dna)
 * [Vowel Count](./episode_003/vowel-count.js) - [7 kyu](https://www.codewars.com/kata/vowel-count)
@@ -318,7 +324,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 002](./episode_002)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=OFTjW3XcOps)
+[Watch on YouTube](https://www.youtube.com/watch?v=fH4w_xq2qao)
 
 * [Exes and Ohs](./episode_002/exes-and-ohs.js) - [7 kyu](https://www.codewars.com/kata/exes-and-ohs)
 * [Jaden Casing Strings](./episode_002/jaden-casing-strings.js) - [7 kyu](https://www.codewars.com/kata/jaden-casing-strings)
@@ -327,7 +333,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 001](./episode_001)
 
-[Watch on YouTube](https://www.youtube.com/watch?v=c5AEo3Ac-FI)
+[Watch on YouTube](https://www.youtube.com/watch?v=Oq7r8metsD8)
 
 * [Century From Year](./episode_001/century-from-year.js) - [8 kyu](https://www.codewars.com/kata/century-from-year)
 * [Student's Final Grade](./episode_001/students-final-grade.js) - [8 kyu](https://www.codewars.com/kata/students-final-grade)

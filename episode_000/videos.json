@@ -1545,6 +1545,51 @@
                     "videoId": "c5AEo3Ac-FI"
                 }
             }
+        },
+        {
+            "kind": "youtube#playlistItem",
+            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zD5exGl_TikHFfECvqgEV29EXBc\"",
+            "id": "UExNX2kwb2JjY3kzc1pHelpkcEV0eFBjUjFpUElWMHRhUS40QTA3NTU2RkM1QzlCMzYx",
+            "snippet": {
+                "publishedAt": "2019-11-06T17:19:18.000Z",
+                "channelId": "UCLNgu_OupwoeESgtab33CCw",
+                "title": "Code Katas #35b - 5 kyu Lazy Chain and 4 kyu Route Calculator",
+                "description": "Katas are here: https://github.com/CodingGarden/code-katas\n\n💖 Donate: https://coding.garden/donate\n😍 Pledge: https://coding.garden/pledge\n💬 Discord: https://coding.garden/discord\n🎉 Stickers: https://coding.garden/stickers\n💻 Gear List: https://coding.garden/gear\n🔎 Search for more Coding Garden videos here: https://coding.garden/videos\n🗣 View the Coding Garden FAQ here: https://github.com/CodingGardenCommunity/app-wiki/wiki/Frequently-Asked-Questions",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/c5AEo3Ac-FI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/c5AEo3Ac-FI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/c5AEo3Ac-FI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/c5AEo3Ac-FI/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/c5AEo3Ac-FI/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Coding Garden with CJ",
+                "playlistId": "PLM_i0obccy3sZGzZdpEtxPcR1iPIV0taQ",
+                "position": 38,
+                "resourceId": {
+                    "kind": "youtube#video",
+                    "videoId": "1HtP9He6EeM"
+                }
+            }
         }
     ]
 }
