@@ -1,0 +1,16 @@
+{
+  "name": "find-the-safest-places-in-town",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "jest": "^24.9.0"
+  }
+}
