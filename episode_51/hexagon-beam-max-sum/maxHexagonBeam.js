@@ -82,48 +82,104 @@ function sumBeam(beam) {
 // 1 2
 // 2 1
 
-function getForwardDiagonalBeams(n, hexagon) {
-  const height = 2 * n - 1;
-  const diagonals = [];
-  let currentCol = 0;
-  let currentLength = n;
-  let start = 0;
-  for (let diagonal = 0; diagonal < height; diagonal++) {
-    const forwardDiagonal = [];
-    let innerCol = currentCol;
+// function getForwardDiagonalBeams(n, hexagon) {
+//   const height = 2 * n - 1;
+//   const diagonals = [];
+//   let currentCol = 0;
+//   let currentLength = n;
+//   let start = 0;
+//   for (let diagonal = 0; diagonal < height; diagonal++) {
+//     const forwardDiagonal = [];
+//     let innerCol = currentCol;
 
-    // TODO: i <= currentlength sometimes....
-    for (let i = start; i < currentLength; i++) {
-      if (i >= n) {
-        innerCol -= 1;
-        forwardDiagonal.push(hexagon[i][innerCol]);
-      } else {
-        forwardDiagonal.push(hexagon[i][currentCol]);
-      }
+//     // TODO: i <= currentlength sometimes....
+//     for (let i = start; i < currentLength; i++) {
+//       if (i >= n) {
+//         innerCol -= 1;
+//         forwardDiagonal.push(hexagon[i][innerCol]);
+//       } else {
+//         forwardDiagonal.push(hexagon[i][currentCol]);
+//       }
+//     }
+//     if (diagonal >= Math.floor(height / 2)) {
+//       currentLength--;
+//       start++;
+//     } else {
+//       currentLength++;
+//     }
+//     currentCol++;
+//     diagonals.push(forwardDiagonal);
+//   }
+//   return diagonals;
+// }
+
+function padForwardDiagonalHexagon(n, hexagon) {
+  const height = 2 * n - 1;
+  const paddedHexagon = hexagon.map((row, i) => {
+    const numZeroes = height - row.length;
+    if (i + 1 > Math.floor(height / 2)) {
+      return Array(numZeroes).fill(0).concat(row);
     }
-    if (diagonal >= Math.floor(height / 2)) {
-      currentLength--;
-      start++;
-    } else {
-      currentLength++;
+    return row.concat(Array(numZeroes).fill(0));
+  });
+  return paddedHexagon;
+}
+
+function getForwardDiagonalBeamSums(n, hexagon) {
+  const height = 2 * n - 1;
+  const paddedHexagon = padForwardDiagonalHexagon(n, hexagon);
+  const diagonalBeamSums = [];
+  for (let colNum = 0; colNum < height; colNum++) {
+    let diagonalSum = 0;
+    for (let rowNum = 0; rowNum < height; rowNum++) {
+      diagonalSum += paddedHexagon[rowNum][colNum];
     }
-    currentCol++;
-    diagonals.push(forwardDiagonal);
+    diagonalBeamSums.push(diagonalSum);
   }
-  return diagonals;
+  return diagonalBeamSums;
+}
+
+function padBackwardDiagonalHexagon(n, hexagon) {
+  const height = 2 * n - 1;
+  const paddedHexagon = hexagon.map((row, i) => {
+    const numZeroes = height - row.length;
+    if (i + 1 > Math.floor(height / 2)) {
+      return row.concat(Array(numZeroes).fill(0));
+    }
+    return Array(numZeroes).fill(0).concat(row);
+  });
+  return paddedHexagon;
+}
+
+function getBackwardDiagonalBeamSums(n, hexagon) {
+  const height = 2 * n - 1;
+  const paddedHexagon = padBackwardDiagonalHexagon(n, hexagon);
+  const diagonalBeamSums = [];
+  for (let colNum = 0; colNum < height; colNum++) {
+    let diagonalSum = 0;
+    for (let rowNum = 0; rowNum < height; rowNum++) {
+      diagonalSum += paddedHexagon[rowNum][colNum];
+    }
+    diagonalBeamSums.push(diagonalSum);
+  }
+  return diagonalBeamSums;
 }
 
 
-// TODO: implement with padding... https://i.imgur.com/PGGhhyY.png
+// THANK YOU: to the person that suggested to implement with padding... https://i.imgur.com/PGGhhyY.png
 function maxHexagonBeam(n, seq) {
   const hexagon = createHexagon(n, seq);
   const horizontalSums = hexagon.map(sumBeam);
-  return Math.max(...horizontalSums);
+  const forwardDiagonalSums = getForwardDiagonalBeamSums(n, hexagon);
+  const backwardsDiagonalSums = getBackwardDiagonalBeamSums(n, hexagon);
+  return Math.max(...horizontalSums.concat(forwardDiagonalSums).concat(backwardsDiagonalSums));
 }
 
 module.exports = {
   maxHexagonBeam,
   sumBeam,
   createHexagon,
-  getForwardDiagonalBeams,
+  getForwardDiagonalBeamSums,
+  padForwardDiagonalHexagon,
+  getBackwardDiagonalBeamSums,
 };
