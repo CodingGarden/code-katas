@@ -1,0 +1,21 @@
+{
+  "name": "class-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint src/"
+  },
+  "keywords": [],
+  "author": "CJ R. <cj@null.computer> (https://w3cj.sh)",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^26.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
