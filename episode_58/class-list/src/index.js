@@ -262,7 +262,8 @@ class List {
         yield accumulator;
       }
     }
-    return new List(scanLGenerator.bind(this), this.start, this.end);
+    // a poor way of memoization -- using toList and fromList
+    return List.fromList( new List(scanLGenerator.bind(this), this.start, this.end).toList() );
   }
 
   scanr(scanFn, accumulator) {
