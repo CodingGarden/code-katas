@@ -1,362 +1,492 @@
-const List = require('./index');
-
-const Test = {
-  describe,
-  it,
-  assertDeepEquals(val1, val2) {
-    expect(val1).toStrictEqual(val2);
-  },
-};
-
-Test.describe('List', () => {
-  const plus = (v, w) => v + w;
-  const times = (v, w) => v * w;
-  const inc = (x) => x + 1;
-  const id = (x) => x;
-  const constant = id;
-  Test.it('Fibonci Sequence', () => {
-    Test.assertDeepEquals(List.FIB.take(8).toList(), [0, 1, 1, 2, 3, 5, 8, 13]);
-    Test.assertDeepEquals(List.FIB.take(8).drop(3).toList(), [2, 3, 5, 8, 13]);
-    Test.assertDeepEquals(List.FIB.take(79).toList(), [
-      0,
-      1,
-      1,
-      2,
-      3,
-      5,
-      8,
-      13,
-      21,
-      34,
-      55,
-      89,
-      144,
-      233,
-      377,
-      610,
-      987,
-      1597,
-      2584,
-      4181,
-      6765,
-      10946,
-      17711,
-      28657,
-      46368,
-      75025,
-      121393,
-      196418,
-      317811,
-      514229,
-      832040,
-      1346269,
-      2178309,
-      3524578,
-      5702887,
-      9227465,
-      14930352,
-      24157817,
-      39088169,
-      63245986,
-      102334155,
-      165580141,
-      267914296,
-      433494437,
-      701408733,
-      1134903170,
-      1836311903,
-      2971215073,
-      4807526976,
-      7778742049,
-      12586269025,
-      20365011074,
-      32951280099,
-      53316291173,
-      86267571272,
-      139583862445,
-      225851433717,
-      365435296162,
-      591286729879,
-      956722026041,
-      1548008755920,
-      2504730781961,
-      4052739537881,
-      6557470319842,
-      10610209857723,
-      17167680177565,
-      27777890035288,
-      44945570212853,
-      72723460248141,
-      117669030460994,
-      190392490709135,
-      308061521170129,
-      498454011879264,
-      806515533049393,
-      1304969544928657,
-      2111485077978050,
-      3416454622906707,
-      5527939700884757,
-      8944394323791464,
-    ]);
-    // List.FIB: an infinite list of Fibonacci (0,1) numbers ( [ 0, 1, 1, 2, 3, 5, 8, 13, .. ] )
-    // You might use fib = 0 : 1 : zipWith (+) fib (tail fib). (Again, elegance over efficiency.)
+Test.describe("List",()=>{
+  const plus = (v,w) => v+w , times = (v,w) => v*w , inc = x => x+1 , id = x => x , constant = id;
+  Test.it("take, drop",()=>{
+    const l = List.fromList([1,2,3,4]);
+    //console.log("l = [1,2,3,4]\n\nl.take(0)");
+    Test.assertDeepEquals( l.take(0).toList(), [] );
+    //console.log("l.take(3)");
+    Test.assertDeepEquals( l.take(3).toList(), [1,2,3] );
+    //console.log("l.take(-1)");
+    Test.assertDeepEquals( l.take(-1).toList(), [] );
+    //console.log("l.take(1e10)");
+    Test.assertDeepEquals( l.take(1e10).toList(), [1,2,3,4] );
+    //console.log("l.drop(0)");
+    Test.assertDeepEquals( l.drop(0).toList(), [1,2,3,4] );
+    //console.log("l.drop(3)");
+    Test.assertDeepEquals( l.drop(3).toList(), [4] );
+    //console.log("l.drop(-1)");
+    Test.assertDeepEquals( l.drop(-1).toList(), [1,2,3,4] );
+    //console.log("l.drop(1e10)");
+    Test.assertDeepEquals( l.drop(1e10).toList(), [] );
+    //console.log("l.take(0)");
+    Test.assertDeepEquals( l.take(0).toList(), [] );
+    //console.log("l.take(2)");
+    Test.assertDeepEquals( l.take(2).toList(), [1,2] );
+    //console.log("l.take(2)");
+    Test.assertDeepEquals( l.take(2).toList(), [1,2] );
+    //console.log("l.take(0)");
+    Test.assertDeepEquals( l.take(0).toList(), [] );
+    //console.log("l.drop(0)");
+    Test.assertDeepEquals( l.drop(0).toList(), [1,2,3,4] );
+    //console.log("l.drop(2)");
+    Test.assertDeepEquals( l.drop(2).toList(), [3,4] );
+    //console.log("l.drop(2)");
+    Test.assertDeepEquals( l.drop(2).toList(), [3,4] );
+    //console.log("l.drop(0)");
+    Test.assertDeepEquals( l.drop(0).toList(), [1,2,3,4] );
+    const taken = List.fromList([1,2,3,4]).take(2);
+    //console.log("l = [1,2,3,4].take(2)\n\nl");
+    Test.assertDeepEquals( taken.toList(), [1,2] );
+    //console.log("l");
+    Test.assertDeepEquals( taken.toList(), [1,2] );
+    const dropped = List.fromList([1,2,3,4]).drop(2);
+    //console.log("l = [1,2,3,4].drop(2)\n\nl");
+    Test.assertDeepEquals( dropped.toList(), [3,4] );
+    //console.log("l");
+    Test.assertDeepEquals( dropped.toList(), [3,4] );
   });
-  Test.it('the basics', () => {
-    Test.assertDeepEquals(List.empty.toList(), []);
-    Test.assertDeepEquals(List.fromList([]).toList(), []);
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).toList(), [1, 2, 3]);
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).head(), 1);
-    Test.assertDeepEquals(List.fromList([]).head(), undefined);
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).tail().toList(), [2, 3]);
-    Test.assertDeepEquals(List.fromList([]).tail().toList(), []);
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).get(0), 1);
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).get(1), 2);
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).get(2), 3);
-    Test.assertDeepEquals(List.fromList([1, 2, 3, 4]).take(3).toList(), [
-      1,
-      2,
-      3,
-    ]);
-    Test.assertDeepEquals(List.fromList([1, 2, 3, 4]).drop(1).toList(), [
-      2,
-      3,
-      4,
-    ]);
-    Test.assertDeepEquals(List.empty.length(), 0);
-    Test.assertDeepEquals(List.fromList([1]).length(), 1);
-    Test.assertDeepEquals(List.fromList([1, 2]).length(), 2);
-    Test.assertDeepEquals(List.empty.nil(), true);
-    Test.assertDeepEquals(List.fromList([1]).nil(), false);
-    Test.assertDeepEquals(List.fromList([1, 2]).nil(), false);
-    Test.assertDeepEquals(List.fromList([2, 3]).cons(1).toList(), [1, 2, 3]);
-    Test.assertDeepEquals(List.empty.cons(1).toList(), [1]);
-    Test.assertDeepEquals(List.empty.append(List.empty).toList(), []);
-    Test.assertDeepEquals(
-      List.empty.append(List.fromList([1, 2, 3])).toList(),
-      [1, 2, 3],
-    );
-    Test.assertDeepEquals(
-      List.fromList([1, 2, 3]).append(List.empty).toList(),
-      [1, 2, 3],
-    );
-    Test.assertDeepEquals(
-      List.fromList([1, 2, 3])
-        .append(List.fromList([1, 2, 3]))
-        .toList(),
-      [1, 2, 3, 1, 2, 3],
-    );
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).slice(1).toList(), [2, 3]);
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).slice(1, 2).toList(), [2]);
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).slice().toList(), [1, 2, 3]);
-    Test.assertDeepEquals(
-      List.fromList([1, 2, 3])
-        .map((x) => x * x)
-        .toList(),
-      [1, 4, 9],
-    );
-    Test.assertDeepEquals(
-      List.fromList([1, 2, 3])
-        .filter((x) => Boolean(x & 1))
-        .toList(),
-      [1, 3],
-    );
-    Test.assertDeepEquals(
-      List.fromList([1, 2, 3])
-        .filter((x) => !(x & 1))
-        .toList(),
-      [2],
-    );
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).reverse().toList(), [
-      3,
-      2,
-      1,
-    ]);
-    Test.assertDeepEquals(
-      List.fromList([List.fromList([1, 2, 3]), List.fromList([1, 2, 3])])
-        .concat()
-        .toList(),
-      [1, 2, 3, 1, 2, 3],
-    );
-    Test.assertDeepEquals(List.empty.concat().toList(), []);
-    Test.assertDeepEquals(
-      List.fromList([1, 2, 3])
-        .zipWith(times, List.fromList([3, 2, 1]))
-        .toList(),
-      [3, 4, 3],
-    );
-    Test.assertDeepEquals(
-      List.fromList([1, 2, 3])
-        .foldr((x, z) => z.cons(x), List.empty)
-        .toList(),
-      [1, 2, 3],
-    );
-    Test.assertDeepEquals(
-      List.empty.foldr(() => _ | _, Math.E),
-      Math.E,
-    );
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).foldl(plus, 0), 6);
-    Test.assertDeepEquals(
-      List.fromList([1, 2, 3]).foldl(inc, 0),
-      List.fromList([1, 2, 3]).length(),
-    );
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).scanr(plus, 0).toList(), [
-      6,
-      5,
-      3,
-      0,
-    ]);
-    Test.assertDeepEquals(List.empty.scanr(times, 1).toList(), [1]);
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).scanl(plus, 0).toList(), [
-      0,
-      1,
-      3,
-      6,
-    ]);
-    Test.assertDeepEquals(List.empty.scanl(times, 1).toList(), [1]);
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).elem(0), false);
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).elem(2), true);
-    Test.assertDeepEquals(List.empty.elem(0), false);
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).elemIndex(0), -1);
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).elemIndex(2), 1);
-    Test.assertDeepEquals(List.empty.elemIndex(0), -1);
-    Test.assertDeepEquals(
-      List.fromList([1, 2, 3]).find((x) => !(x & 1)),
-      2,
-    );
-    Test.assertDeepEquals(
-      List.fromList([1, 3]).find((x) => !(x & 1)),
-      undefined,
-    );
-    Test.assertDeepEquals(
-      List.empty.find((x) => !(x & 1)),
-      undefined,
-    );
-    Test.assertDeepEquals(
-      List.fromList([1, 2, 3]).findIndex((x) => !(x & 1)),
-      1,
-    );
-    Test.assertDeepEquals(
-      List.fromList([1, 3]).find((x) => !(x & 1)),
-      undefined,
-    );
-    Test.assertDeepEquals(
-      List.empty.find((x) => !(x & 1)),
-      undefined,
-    );
-    Test.assertDeepEquals(List.fromList([true, false]).any(id), true);
-    Test.assertDeepEquals(List.empty.any(id), false);
-    Test.assertDeepEquals(List.fromList([true, false]).all(id), false);
-    Test.assertDeepEquals(List.empty.all(id), true);
-    Test.assertDeepEquals(List.fromList([1, 2, 3]).the(), undefined);
-    Test.assertDeepEquals(List.fromList([1, 1, 1]).the(), 1);
-    Test.assertDeepEquals(List.empty.the(), undefined);
+  Test.it("concat",()=>{
+    //console.log("[[1,2,3]].concat()");
+    Test.assertDeepEquals( List.fromList([ List.fromList([1,2,3]) ]).concat().toList(), [1,2,3] );
+    //console.log("[[1,2,3],[1,2,3]].concat()");
+    Test.assertDeepEquals( List.fromList([ List.fromList([1,2,3]), List.fromList([1,2,3]) ]).concat().toList(), [1,2,3,1,2,3] );
+    //console.log("[[1,1],List.repeat(2)]].concat().take(3)");
+    Test.assertDeepEquals( List.fromList([ List.fromList([1,1]), List.repeat(2) ]).concat().take(3).toList(), [1,1,2] );
+    //console.log("List.repeat(List.repeat(1)).concat().take(3)");
+    Test.assertDeepEquals( List.repeat(List.repeat(1)).concat().take(3).toList(), [1,1,1] );
+    //console.log("List.iterate(inc,3).map(List.repeat).concat().take(3)");
+    Test.assertDeepEquals( List.iterate(inc,3).map(List.repeat).concat().take(3).toList(), [3,3,3] );
+    //console.log("List.repeat([1,2,3]).concat().take(4)");
+    Test.assertDeepEquals( List.repeat(List.fromList([1,2,3])).concat().take(4).toList(), [1,2,3,1] );
   });
-  Test.it('list generators', () => {
-    Test.assertDeepEquals(List.repeat(1).take(10).toList(), [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-    ]);
-    Test.assertDeepEquals(List.repeat(2).take(10).toList(), [
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-    ]);
-    Test.assertDeepEquals(List.repeat(3).take(10).toList(), [
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-    ]);
-    Test.assertDeepEquals(
-      List.iterate((x) => x + 1, 0)
-        .take(10)
-        .toList(),
-      [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-    );
-    Test.assertDeepEquals(
-      List.cycle(List.fromList([1, 2, 3]))
-        .take(10)
-        .toList(),
-      [1, 2, 3, 1, 2, 3, 1, 2, 3, 1],
-    );
-    Test.assertDeepEquals(List.replicate(10, 1).toList(), [
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-      1,
-    ]);
-    Test.assertDeepEquals(List.replicate(10, 2).toList(), [
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-      2,
-    ]);
-    Test.assertDeepEquals(List.replicate(10, 3).toList(), [
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-      3,
-    ]);
-    Test.assertDeepEquals(
-      List.replicate(0, undefined).toList(),
-      List.empty.toList(),
-    );
-    Test.assertDeepEquals(
-      List.replicate(10, 1).toList(),
-      List.iterate(id, 1).take(10).toList(),
-    );
+  Test.it("empty",()=>{
+    const empty = List.empty;
+    //console.log("l = List.empty\n\nl.concat()");
+    Test.assertDeepEquals( empty.concat().toList(), [] );
+    //console.log("l.nil()");
+    Test.assertDeepEquals( empty.nil(), true );
+    //console.log("l.any(x=>x===1)");
+    Test.assertDeepEquals( empty.any( x => x===1 ), false );
+    //console.log("l.all(Boolean)");
+    Test.assertDeepEquals( empty.all(Boolean), true );
+    //console.log("l.elem(0)");
+    Test.assertDeepEquals( empty.elem(0), false );
+    //console.log("l.elemIndex(0)");
+    Test.assertDeepEquals( empty.elemIndex(0), -1 );
+    //console.log("l.find(Boolean)");
+    Test.assertDeepEquals( empty.find(Boolean), undefined );
+    //console.log("l.findIndex(Boolean)");
+    Test.assertDeepEquals( empty.findIndex(Boolean), -1 );
+    //console.log("l.last()");
+    Test.assertDeepEquals( empty.last(), undefined );
+    //console.log("l.scanl(plus,0)");
+    Test.assertDeepEquals( empty.scanl(plus,0).toList(), [0] );
+    //console.log("l.scanr(plus,0)");
+    Test.assertDeepEquals( empty.scanr(plus,0).toList(), [0] );
+    //console.log("l.slice()");
+    Test.assertDeepEquals( empty.slice().toList(), [] );
+    //console.log("l.slice(3)");
+    Test.assertDeepEquals( empty.slice(3).toList(), [] );
+    //console.log("l.slice(3,6)");
+    Test.assertDeepEquals( empty.slice(3,6).toList(), [] );
+    //console.log("l.slice(3,2)");
+    Test.assertDeepEquals( empty.slice(3,2).toList(), [] );
+    //console.log("l.init()");
+    Test.assertDeepEquals( empty.init().toList(), [] );
+    //console.log("l.foldr(__=>_|_,0)");
+    Test.assertDeepEquals( empty.foldr( __ => _|_ , 0 ), 0 );
+    //console.log("l.foldr(constant,undefined)");
+    Test.assertDeepEquals( empty.foldr(constant,undefined), empty.head() );
+    //console.log("l.the()");
+    Test.assertDeepEquals( empty.the(), undefined );
   });
-
-  it('should not have side effects', () => {
-    const list = List.fromList([1, 2, 3, 4]).scanl(plus, 0);
-    expect(list.toList())
-      .toStrictEqual([0, 1, 3, 6, 10]);
-    expect(list.take(3).toList()).toStrictEqual([0, 1, 3]);
-    expect(list.take(3).toList()).toStrictEqual([0, 1, 3]);
+  Test.it("scanl",()=>{
+    const l = List.fromList([1,2,3,4]).scanl(plus,0);
+    //console.log("l = [1,2,3,4].scanl(plus,0)\n\nl");
+    Test.assertDeepEquals( l.toList(), [0,1,3,6,10] );
+    //console.log("l.take(0)");
+    Test.assertDeepEquals( l.take(0).toList(), [] );
+    //console.log("l.take(3)");
+    Test.assertDeepEquals( l.take(3).toList(), [0,1,3] );
+    //console.log("l.take(3)");
+    Test.assertDeepEquals( l.take(3).toList(), [0,1,3] );
+  });
+  Test.it("scanr",()=>{
+    const l = List.fromList([1,2,3,4]).scanr(plus,0);
+    //console.log("l = [1,2,3,4].scanr(plus,0)\n\nl");
+    Test.assertDeepEquals( l.toList(), [10,9,7,4,0] );
+    //console.log("l.take(0)");
+    Test.assertDeepEquals( l.take(0).toList(), [] );
+    //console.log("l.take(3)");
+    Test.assertDeepEquals( l.take(3).toList(), [10,9,7] );
+    //console.log("l.take(3)");
+    Test.assertDeepEquals( l.take(3).toList(), [10,9,7] );
+    Test.describe("Bonus points?",()=>{
+      const VM = require("vm"), sandbox = VM.createContext({ List, inc, constant });
+      try {
+        //console.log("List.repeat(1).scanr(constant,undefined).take(5)");
+        VM.runInContext( "actual = List.repeat(1).scanr(constant,undefined).take(5).toList()", sandbox, { timeout: 10 } );
+        Test.it("<span style='color:#080'>Bonus Points! :]</span>",()=>{
+          Test.assertDeepEquals( sandbox.actual, [1,1,1,1,1] );
+        });
+      } catch(e) {
+        Test.it( "<span style='color:#C00'>No bonus points .. :/</span>", () => Test.expect(true) );
+      }
+      try {
+        //console.log("List.iterate(inc,0).scanr(inc,Infinity).take(5)");
+        VM.runInContext( "actual = List.iterate(inc,0).scanr(inc,Infinity).take(5).toList()", sandbox, { timeout: 10 } );
+        Test.it("<span style='color:#080'>Bonus Points! :]</span>",()=>{
+          Test.assertDeepEquals( sandbox.actual, [1,2,3,4,5] );
+        });
+      } catch(e) {
+        Test.it( "<span style='color:#C00'>No bonus points .. :/</span>", () => Test.expect(true) );
+      }
+      try {
+        //console.log("List.repeat(0).scanr(constant(1),pi).take(5)");
+        VM.runInContext( "actual = List.repeat(0).scanr( () => 1 , Math.PI ).take(5).toList()", sandbox, { timeout: 10 } );
+        Test.it("<span style='color:#080'>Bonus Points! :]</span>",()=>{
+          Test.assertDeepEquals( sandbox.actual, [1,1,1,1,1] );
+        });
+      } catch(e) {
+        Test.it( "<span style='color:#C00'>No bonus points .. :/</span>", () => Test.expect(true) );
+      }
+    });
+  });
+  Test.it("nil",()=>{
+    //console.log("[].nil()");
+    Test.assertDeepEquals( List.fromList([]).nil(), true );
+    //console.log("List.empty.nil()");
+    Test.assertDeepEquals( List.empty.nil(), true );
+    //console.log("[1,2,3,4].nil()");
+    Test.assertDeepEquals( List.fromList([1,2,3,4]).nil(), false );
+    //console.log("[,1,2,3,4].nil()");
+    Test.assertDeepEquals( List.fromList([,1,2,3,4]).nil(), false );
+    //console.log("[1,2,3,4].filter( x => x<0 ).nil()");
+    Test.assertDeepEquals( List.fromList([1,2,3,4]).filter( x => x<0 ).nil(), true );
+    //console.log("[1,2,3,4].filter( x => x>0 ).nil()");
+    Test.assertDeepEquals( List.fromList([1,2,3,4]).filter( x => x>0 ).nil(), false );
+  });
+  Test.it("zipWith",()=>{
+    const l0 = List.iterate(inc,0), l1 = List.fromList([0,1,2,3,4,5,6,7,8,9]), l2 = l0.take(10);
+    //console.log("l0 = List.iterate(inc,0), l1 = [0,1,2,3,4,5,6,7,8,9], l2 = l0.take(10)\n\nl1 === l2");
+    Test.assertDeepEquals( l1.toList(), l2.toList() );
+    //console.log("l1 === l2");
+    Test.assertDeepEquals( l1.toList(), l2.toList() );
+    //console.log("l0.zipWith(times,l1)");
+    Test.assertDeepEquals( l0.zipWith(times,l1).toList(), [0,1,4,9,16,25,36,49,64,81] );
+    //console.log("l0.zipWith(times,l1)");
+    Test.assertDeepEquals( l0.zipWith(times,l1).toList(), [0,1,4,9,16,25,36,49,64,81] );
+    const l3 = l0.zipWith(times,l1);
+    //console.log("l3 = l0.zipWith(times,l1)\n\nl3");
+    Test.assertDeepEquals( l3.toList(), [0,1,4,9,16,25,36,49,64,81] );
+    //console.log("l3");
+    Test.assertDeepEquals( l3.toList(), [0,1,4,9,16,25,36,49,64,81] );
+    const l4 = l1.zipWith(times,l0);
+    //console.log("l4 = l1.zipWith(times,l0)\n\nl4");
+    Test.assertDeepEquals( l4.toList(), [0,1,4,9,16,25,36,49,64,81] );
+    //console.log("l4");
+    Test.assertDeepEquals( l4.toList(), [0,1,4,9,16,25,36,49,64,81] );
+  });
+  Test.it("iterate",()=>{
+    const l = List.iterate(inc,0).take(5);
+    //console.log("l = List.iterate(inc,0).take(5)\n\nl");
+    Test.assertDeepEquals( l.toList(), [0,1,2,3,4] );
+    //console.log("l");
+    Test.assertDeepEquals( l.toList(), [0,1,2,3,4] );
+    //console.log("l.the()");
+    Test.assertDeepEquals( l.the(), undefined );
+    //console.log("List.iterate(inc,0).take(1001).length()");
+    Test.assertDeepEquals( List.iterate(inc,0).take(1001).length(), 1001 );
+    //console.log("List.iterate(inc,0).take(1001).reverse().length()");
+    Test.assertDeepEquals( List.iterate(inc,0).take(1001).reverse().length(), 1001 );
+    //console.log("List.iterate(inc,0).findIndex( x => x>1000 )");
+    Test.assertDeepEquals( List.iterate(inc,0).findIndex( x => x>1000 ), 1001 );
+    //console.log("List.iterate(inc,1).take(1000).foldl(plus,0)");
+    Test.assertDeepEquals( List.iterate(inc,1).take(1000).foldl(plus,0), 500500 );
+  });
+  Test.it("repeat",()=>{
+    const l = List.repeat(3);
+    //console.log("l = List.repeat(3)\n\nl.take(5)");
+    Test.assertDeepEquals( l.take(5).toList(), [3,3,3,3,3] );
+    //console.log("l.take(4)");
+    Test.assertDeepEquals( l.take(4).toList(), [3,3,3,3] );
+    //console.log("l.take(5).the()");
+    Test.assertDeepEquals( l.take(5).the(), 3 );
+    //console.log("l.take(4).the()");
+    Test.assertDeepEquals( l.take(4).the(), 3 );
+    //console.log("l.take(999).length()");
+    Test.assertDeepEquals( l.take(999).length(), 999 );
+  });
+  Test.it("replicate",()=>{
+    const l = List.replicate(1000,1);
+    //console.log("l = List.replicate(1000,1)\n\nl.length()");
+    Test.assertDeepEquals( l.length(), 1000 );
+    //console.log("l.foldl(plus,0)");
+    Test.assertDeepEquals( l.foldl(plus,0), 1000 );
+  });
+  Test.it("[1,2,1,3,4]",()=>{
+    const l = List.fromList([1,2,1,3,4])
+    //console.log("l = [1,2,1,3,4]\n\nl.scanl(plus,0)");
+    Test.assertDeepEquals( l.scanl(plus,0).toList() , [0,1,3,4,7,11] );
+    //console.log("l.reverse().scanr(plus,0)");
+    Test.assertDeepEquals( l.reverse().scanr(plus,0).toList(), [11,7,4,3,1,0] );
+    //console.log("l.last()");
+    Test.assertDeepEquals( l.last(), 4 );
+    //console.log("l.reverse()");
+    Test.assertDeepEquals( l.reverse().toList(), [4,3,1,2,1] );
+    //console.log("l.init()");
+    Test.assertDeepEquals( l.init().toList(), [1,2,1,3] );
+    //console.log("l.init()");
+    Test.assertDeepEquals( l.init().toList(), [1,2,1,3] );
+    //console.log("l.nil()");
+    Test.assertDeepEquals( l.nil(), false );
+    //console.log("l.reverse().nil()");
+    Test.assertDeepEquals( l.reverse().nil(), false );
+    //console.log("l.foldr(plus,0)");
+    Test.assertDeepEquals( l.foldr(plus,0), 11 );
+    //console.log("l.map(inc)");
+    Test.assertDeepEquals( l.map(inc).toList(), [2,3,2,4,5] );
+    //console.log("l.filter( x => x<3 )");
+    Test.assertDeepEquals( l.filter( x => x<3 ).toList(), [1,2,1] );
+    //console.log("l.filter( x => x<2 )");
+    Test.assertDeepEquals( l.filter( x => x<2 ).toList(), [1,1] );
+    //console.log("l.map(inc)");
+    Test.assertDeepEquals( l.map(inc).toList(), [2,3,2,4,5] );
+    //console.log("l.get(0)");
+    Test.assertDeepEquals( l.get(0), 1 );
+    //console.log("l.get(1)");
+    Test.assertDeepEquals( l.get(1), 2 );
+    //console.log("l.get(2)");
+    Test.assertDeepEquals( l.get(2), 1 );
+    //console.log("l.get(3)");
+    Test.assertDeepEquals( l.get(3), 3 );
+    //console.log("l.get(4)");
+    Test.assertDeepEquals( l.get(4), 4 );
+    //console.log("l.any( x => x===3 )");
+    Test.assertDeepEquals( l.any( x => x===3 ), true );
+    //console.log("l.any( x => x===6 )");
+    Test.assertDeepEquals( l.any( x => x===6 ), false );
+    //console.log("l.all( Boolean )");
+    Test.assertDeepEquals( l.all( Boolean ), true );
+    //console.log("l.all( x => x===3 )");
+    Test.assertDeepEquals( l.all( x => x===3 ), false );
+    //console.log("l.elem(4)");
+    Test.assertDeepEquals( l.elem(4), true );
+    //console.log("l.elem(6)");
+    Test.assertDeepEquals( l.elem(6), false );
+    //console.log("l.elemIndex(4)");
+    Test.assertDeepEquals( l.elemIndex(4), 4 );
+    //console.log("l.elemIndex(6)");
+    Test.assertDeepEquals( l.elemIndex(6), -1 );
+    //console.log("l.find( x => x>2 )");
+    Test.assertDeepEquals( l.find( x => x>2 ), 3 );
+    //console.log("l.findIndex( x => x>3 )");
+    Test.assertDeepEquals( l.findIndex( x => x>3 ), 4 );
+    //console.log("l.findIndex( x => x<0 )");
+    Test.assertDeepEquals( l.findIndex( x => x<0 ), -1 );
+    //console.log("l.slice()");
+    Test.assertDeepEquals( l.slice().toList(), [1,2,1,3,4] );
+    //console.log("l.slice(3)");
+    Test.assertDeepEquals( l.slice(3).toList(), [3,4] );
+    //console.log("l.slice(3,6)");
+    Test.assertDeepEquals( l.slice(3,6).toList(), [3,4] );
+    //console.log("l.slice(3,2)");
+    Test.assertDeepEquals( l.slice(3,2).toList(), [] );
+    //console.log("l.slice(2,3)");
+    Test.assertDeepEquals( l.slice(2,3).toList(), [1] );
+    //console.log("l.init()");
+    Test.assertDeepEquals( l.init().toList(), [1,2,1,3] );
+    //console.log("l.tail().slice()");
+    Test.assertDeepEquals( l.tail().slice().toList(), [2,1,3,4] );
+    //console.log("l.foldr(constant,undefined)");
+    Test.assertDeepEquals( l.foldr(constant,undefined), l.head() );
+    //console.log("l.foldr( (x,z) => z.cons(x) , List.empty ) === l");
+    Test.assertDeepEquals( l.foldr( (x,z) => z.cons(x) , List.empty ).toList(), l.toList() );
+    //console.log("l.the()");
+    Test.assertDeepEquals( l.the(), undefined );
+    const xs = l.init();
+    //console.log("l' = l.init()\n\nl'");
+    Test.assertDeepEquals( xs.toList(), [1,2,1,3] );
+    //console.log("l'");
+    Test.assertDeepEquals( xs.toList(), [1,2,1,3] );
+  });
+  Test.it("[[1,1,1],[2,2,2],[3,3,3]]",()=>{
+    const l = List.fromList([ List.replicate(3,1), List.replicate(3,2), List.replicate(3,3) ]);
+    //console.log("l = [ List.replicate(3,1), List.replicate(3,2), List.replicate(3,3) ]\n\nl.concat()");
+    Test.assertDeepEquals( l.concat().toList(), [1,1,1,2,2,2,3,3,3] );
+    //console.log("l.map( v => v.toList() ).toList()");
+    Test.assertDeepEquals( l.map( v => v.toList() ).toList(), [[1,1,1],[2,2,2],[3,3,3]] );
+    //console.log("l.map( v => v.toList() ).toList()");
+    Test.assertDeepEquals( l.map( v => v.toList() ).toList(), [[1,1,1],[2,2,2],[3,3,3]] );
+    //console.log("l.map( v => v.all( x => x!==2 ) )");
+    Test.assertDeepEquals( l.map( v => v.all( x => x!==2 ) ).toList(), [true,false,true] );
+    //console.log("l.map( v => v.any( x => x!==2 ) )");
+    Test.assertDeepEquals( l.map( v => v.any( x => x!==2 ) ).toList(), [true,false,true] );
+  });
+  Test.it("[[1,2,3],[1,2,3],[1,2,3]]",()=>{
+    const l = List.replicate(3,List.fromList([1,2,3]));
+    //console.log("l = List.replicate(3,[1,2,3])\n\nl.map( v => v.all( x => x!==2 ) )");
+    Test.assertDeepEquals( l.map( v => v.all( x => x!==2 ) ).toList(), [false,false,false] );
+    //console.log("l.map( v => v.any( x => x!==2 ) )");
+    Test.assertDeepEquals( l.map( v => v.any( x => x!==2 ) ).toList(), [true,true,true] );
+    //console.log("l.concat()");
+    Test.assertDeepEquals( l.concat().toList(), [1,2,3,1,2,3,1,2,3] )
+  });
+  Test.it("[1,2,3,1,2,3,1,2,3,..]",()=>{
+    const endlessOneTwoThrees = List.cycle(List.fromList([1,2,3]));
+    //console.log("l = List.cycle([1,2,3])\n\nl.head()");
+    Test.assertDeepEquals( endlessOneTwoThrees.head(), 1 );
+    //console.log("l.tail().take(6)");
+    Test.assertDeepEquals( endlessOneTwoThrees.tail().take(6).toList(), [2,3,1,2,3,1] );
+    //console.log("l.filter(Boolean).take(6)");
+    Test.assertDeepEquals( endlessOneTwoThrees.filter(Boolean).take(6).toList(), [1,2,3,1,2,3] );
+    //console.log("l.map( x => x*x ).take(5)");
+    Test.assertDeepEquals( endlessOneTwoThrees.map( x => x*x ).take(5).toList(), [1,4,9,1,4] );
+    //console.log("l.map( x => x*x ).tail().findIndex( x => x===1 )");
+    Test.assertDeepEquals( endlessOneTwoThrees.map( x => x*x ).tail().findIndex( x => x===1 ), 2 );
+  });
+  Test.it("[0,1,..]",()=>{
+    const increasing = List.iterate(inc,0);
+    //console.log("l = List.iterate(inc,0)\n\nl.head()");
+    Test.assertDeepEquals( increasing.head(), 0 );
+    //console.log("l.tail().head()");
+    Test.assertDeepEquals( increasing.tail().head(), 1 );
+    //console.log("l.tail().take(3)");
+    Test.assertDeepEquals( increasing.tail().take(3).toList(), [1,2,3] );
+    //console.log("l.take(10)");
+    Test.assertDeepEquals( increasing.take(10).toList(), [0,1,2,3,4,5,6,7,8,9] );
+    //console.log("l.take(10)");
+    Test.assertDeepEquals( increasing.take(10).toList(), [0,1,2,3,4,5,6,7,8,9] );
+    //console.log("l.nil()");
+    Test.assertDeepEquals( increasing.nil(), false );
+    //console.log("l.foldr(constant)");
+    Test.assertDeepEquals( increasing.foldr(constant), 0 );
+    //console.log("l.foldr(constant(17))");
+    Test.assertDeepEquals( increasing.foldr( () => 17 ), 17 );
+    //console.log("l.scanl(plus,0).take(10)");
+    Test.assertDeepEquals( increasing.scanl(plus,0).take(10).toList(), [0,0,1,3,6,10,15,21,28,36] );
+    //console.log("l.take(10)");
+    Test.assertDeepEquals( increasing.take(10).toList(), [0,1,2,3,4,5,6,7,8,9] );
+    //console.log("l.drop(10).take(10)");
+    Test.assertDeepEquals( increasing.drop(10).take(10).toList(), [10,11,12,13,14,15,16,17,18,19] );
+    //console.log("l.zipWith(plus,l).take(10)");
+    Test.assertDeepEquals( increasing.zipWith(plus,increasing).take(10).toList(), [0,2,4,6,8,10,12,14,16,18] );
+    //console.log("l.init().take(10)");
+    Test.assertDeepEquals( increasing.init().take(10).toList(), [0,1,2,3,4,5,6,7,8,9] );
+    //console.log("l.get(9)");
+    Test.assertDeepEquals( increasing.get(9), 9 );
+    //console.log("l.get(0)");
+    Test.assertDeepEquals( increasing.get(0), 0 );
+    //console.log("l.get(8)");
+    Test.assertDeepEquals( increasing.get(8), 8 );
+    //console.log("l.get(3)");
+    Test.assertDeepEquals( increasing.get(3), 3 );
+    //console.log("l.get(6)");
+    Test.assertDeepEquals( increasing.get(6), 6 );
+    //console.log("l.get(4)");
+    Test.assertDeepEquals( increasing.get(4), 4 );
+    //console.log("l.get(5)");
+    Test.assertDeepEquals( increasing.get(5), 5 );
+    //console.log("l.get(1)");
+    Test.assertDeepEquals( increasing.get(1), 1 );
+    //console.log("l.get(2)");
+    Test.assertDeepEquals( increasing.get(2), 2 );
+    //console.log("l.get(7)");
+    Test.assertDeepEquals( increasing.get(7), 7 );
+    //console.log("l.any( x => x===3 )");
+    Test.assertDeepEquals( increasing.any( x => x===3 ), true );
+    //console.log("l.any( x => x===1000 )");
+    Test.assertDeepEquals( increasing.any( x => x===1000 ), true );
+    //console.log("l.any( x => x===6 )");
+    Test.assertDeepEquals( increasing.any( x => x===6 ), true );
+    //console.log("l.all(Boolean)");
+    Test.assertDeepEquals( increasing.all(Boolean), false );
+    //console.log("l.all( x => x===3 )");
+    Test.assertDeepEquals( increasing.all( x => x===3 ), false );
+    //console.log("l.elem(4)");
+    Test.assertDeepEquals( increasing.elem(4), true );
+    //console.log("l.elem(6)");
+    Test.assertDeepEquals( increasing.elem(6), true );
+    //console.log("l.elemIndex(4)");
+    Test.assertDeepEquals( increasing.elemIndex(4), 4 );
+    //console.log("l.elemIndex(6)");
+    Test.assertDeepEquals( increasing.elemIndex(6), 6 );
+    //console.log("l.find( x => x>2 )");
+    Test.assertDeepEquals( increasing.find( x => x>2 ), 3 );
+    //console.log("l.findIndex( x => x>3 )");
+    Test.assertDeepEquals( increasing.findIndex( x => x>3 ), 4 );
+    //console.log("l.slice().get(3)");
+    Test.assertDeepEquals( increasing.slice().get(3), 3 );
+    //console.log("l.slice().get(6)");
+    Test.assertDeepEquals( increasing.slice().get(6), 6 );
+    //console.log("l.slice().get(9)");
+    Test.assertDeepEquals( increasing.slice().get(9), 9 );
+    //console.log("l.slice().get(12)");
+    Test.assertDeepEquals( increasing.slice().get(12), 12 );
+    //console.log("l.slice(3).head()");
+    Test.assertDeepEquals( increasing.slice(3).head(), 3 );
+    //console.log("l.slice(3,6)");
+    Test.assertDeepEquals( increasing.slice(3,6).toList(), [3,4,5] );
+    //console.log("l.slice(3,2)");
+    Test.assertDeepEquals( increasing.slice(3,2).toList(), [] );
+    //console.log("l.slice(2,3)");
+    Test.assertDeepEquals( increasing.slice(2,3).toList(), [2] );
+    //console.log("l.slice(2e10,1e10)");
+    Test.assertDeepEquals( increasing.slice(2e10,1e10).toList(), [] );
+    //console.log("l.init().take(3)");
+    Test.assertDeepEquals( increasing.init().take(3).toList(), [0,1,2] );
+    //console.log("l.append(l).take(3)");
+    Test.assertDeepEquals( increasing.append(increasing).take(3).toList(), [0,1,2] );
+    //console.log("l.foldr(constant,undefined)");
+    Test.assertDeepEquals( increasing.foldr(constant,undefined), increasing.head() );
+    //console.log("l.foldr(constant(17),undefined)");
+    Test.assertDeepEquals( increasing.foldr( () => 17 , undefined ), 17 );
+    //console.log("l.the()");
+    Test.assertDeepEquals( increasing.the(), undefined );
+  });
+  Test.it("the",()=>{
+    //console.log("[].the()")
+    Test.assertDeepEquals( List.fromList([]).the(), undefined );
+    //console.log("[0].the()")
+    Test.assertDeepEquals( List.fromList([0]).the(), 0 );
+    //console.log("[1].the()")
+    Test.assertDeepEquals( List.fromList([1]).the(), 1 );
+    //console.log("[0,0,0].the()")
+    Test.assertDeepEquals( List.fromList([0,0,0]).the(), 0 );
+    //console.log("[1,1,1].the()")
+    Test.assertDeepEquals( List.fromList([1,1,1]).the(), 1 );
+    //console.log("[0,1,2].the()")
+    Test.assertDeepEquals( List.fromList([0,1,2]).the(), undefined );
+    //console.log("List.replicate(10,1).append(List.repeat(2)).the()")
+    Test.assertDeepEquals( List.replicate(10,1).append(List.repeat(2)).the(), undefined );
+  });
+  Test.it("pi",()=>{
+    //console.log("List.PI.get(12)");
+    Test.assertNotApproxEquals( List.PI.get(12), Math.PI );
+    //console.log("List.PI.get(13)");
+    Test.assertApproxEquals( List.PI.get(13), Math.PI );
+    //console.log("List.PI.take(15)");
+    const pi = [0, 3.333333333333333, 3.117283950617284, 3.1455761316872426, 3.1408505617610554, 3.1417411974336886, 3.141561587877591, 3.141599340966198, 3.141591184360906, 3.1415929813345667, 3.1415925796063506, 3.1415926704506854, 3.1415926497167876, 3.141592654485348, 3.141592653381539];
+    for ( const v of List.PI.take(15).toList() )
+      Test.assertApproxEquals( v, pi.shift() );
+  });
+  Test.it("primes",()=>{
+    //console.log("List.PRIME.take(10)");
+    Test.assertDeepEquals( List.PRIME.take(10).toList(), [2,3,5,7,11,13,17,19,23,29] );
+  });
+  Test.it("Fibonacci numbers",()=>{
+    //console.log("List.FIB.take(12)");
+    Test.assertDeepEquals( List.FIB.take(12).toList(), [0,1,1,2,3,5,8,13,21,34,55,89] );
+  });
+  Test.it("the obligatory random tests",()=>{
+    for ( let i=20; i--; ) {
+      const length = Math.floor(Math.random()*10);
+      //console.log(`List.replicate(${length},${length})`);
+      Test.assertDeepEquals( List.replicate(length,length).toList(), Array.from( { length }, () => length ) );
+      //console.log(`List.iterate( x => x-1 , ${length} ).take(${length})`);
+      Test.assertDeepEquals( List.iterate( x => x-1 , length ).take(length).toList(), Array.from( { length }, (_,i) => length-i ) );
+      //console.log(`List.repeat(2).zipWith( times, List.cycle([1,2,3]) ).map( x => x-1 ).take(${length}).reverse()`);
+      Test.assertDeepEquals( List.repeat(2).zipWith( times, List.cycle( List.fromList([1,2,3]) ) ).map( x => x-1 ).take(length).reverse().toList(), Array.from( { length }, (_,i) => [1,3,5][i%3] ).reverse() );
+    }
   });
 });
-
-// I think the one thing you were missing was memoization for filter/map/etc where there could be side effects
-
-// side effects: if you do x = list.filter(someCallback) and y=x.take(5) then print x and y, someCallback should only be evaluated once for the whole list
-
-// https://gist.github.com/docd27/fdc2b84a226f7eb982833fda27ab35dd
