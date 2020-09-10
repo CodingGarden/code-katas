@@ -69,11 +69,11 @@ class List {
   }
 
   take(count) {
-    return new List(this.fnGenerator, 0, count);
+    return new List(this.fnGenerator, this.start, this.start + count);
   }
 
   head() {
-    return this.generator.next().value;
+    return this.take(1).get(0);
   }
 
   tail() {
@@ -81,7 +81,7 @@ class List {
   }
 
   init() {
-    return new List(this.fnGenerator, this.start, this.end - 1);
+    return new List(this.fnGenerator, this.start, this.length() - 1 );
   }
 
   get(index) {
@@ -139,7 +139,7 @@ class List {
         yield* list.entries();
       }
     }
-    return new List(concatGenerator.bind(this), this.start, this.end);
+    return new List(concatGenerator.bind(this));
   }
 
   zipWith(zipFn, list) {
@@ -237,7 +237,7 @@ class List {
     return new List(listFn.bind(this));
   }
 
-  slice(start, end) {
+  slice(start = this.start, end = this.end ) {
     return new List(this.fnGenerator, start, end);
   }
 
