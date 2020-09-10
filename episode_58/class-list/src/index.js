@@ -69,11 +69,11 @@ class List {
   }
 
   take(count) {
-    return new List(this.fnGenerator, this.start, this.start + count);
+    return new List(this.fnGenerator, 0, count);
   }
 
   head() {
-    return this.take(1).get(0);
+    return this.generator.next().value;
   }
 
   tail() {
@@ -81,7 +81,7 @@ class List {
   }
 
   init() {
-    return new List(this.fnGenerator, this.start, this.length() - 1 );
+    return new List(this.fnGenerator, this.start, this.end - 1);
   }
 
   get(index) {
@@ -139,7 +139,7 @@ class List {
         yield* list.entries();
       }
     }
-    return new List(concatGenerator.bind(this));
+    return new List(concatGenerator.bind(this), this.start, this.end);
   }
 
   zipWith(zipFn, list) {
@@ -237,7 +237,7 @@ class List {
     return new List(listFn.bind(this));
   }
 
-  slice(start = this.start, end = this.end ) {
+  slice(start, end) {
     return new List(this.fnGenerator, start, end);
   }
 
@@ -262,7 +262,8 @@ class List {
         yield accumulator;
       }
     }
-    return new List(scanLGenerator.bind(this), this.start, this.end);
+    // a poor way of memoization -- using toList and fromList
+    return List.fromList( new List(scanLGenerator.bind(this), this.start, this.end).toList() );
   }
 
   scanr(scanFn, accumulator) {
