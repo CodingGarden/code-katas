@@ -108,7 +108,7 @@ class List {
   }
 
   nil() {
-    return this.length() === 0;
+    return this.entries().next().done;
   }
 
   map(mapFn) {
