@@ -4,6 +4,13 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 036](./episode_036)
+
+[Watch on YouTube](https://youtu.be/_8N-Vkdwuq8)
+
+- [Anagram Detection](./episode_036/anagram-detection.js) - [7 kyu](https://www.codewars.com/kata/anagram-detection)
+- [Directions Reduction](./episode_036/directions-reduction.js) - [5 kyu](https://www.codewars.com/kata/directions-reduction)
+
 ## [Episode 035b](./episode_035b)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=1HtP9He6EeM)
