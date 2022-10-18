@@ -4,6 +4,11 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 061](./episode_61)
+
+- [Returning Strings](./episode_61/returning-strings.js) - [8 kyu](https://www.codewars.com/kata/returning-strings)
+- [Reversed Words](./episode_61/reversed-words.js) - [8 kyu](https://www.codewars.com/kata/reversed-words)
+
 ## [Episode 060](./episode_60)
 
 [Watch on YouTube](https://youtu.be/AhJZM_ZNATc)
