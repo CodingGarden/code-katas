@@ -4,6 +4,12 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 053](./episode_53)
+
+[Watch on YouTube](https://youtu.be/KDPHAJWARiM)
+
+- [Simple Fun #104: Points Collision](./episode_53/simple-fun-number-104-points-collision.js) - [7 kyu](https://www.codewars.com/kata/simple-fun-number-104-points-collision)
+
 ## [Episode 052](./episode_52)
 
 [Watch on YouTube](https://youtu.be/Co7bsS_VpkM)
