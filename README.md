@@ -4,6 +4,12 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 048](./episode_48)
+
+[Watch on YouTube](https://youtu.be/1WxoJpic-wA)
+
+- [Pascal's Triangle](./episode_48/pascals-triangle.js) - [8 kyu](https://www.codewars.com/kata/pascals-triangle)
+
 ## [Episode 047](./episode_47)
 
 [Watch on YouTube](https://youtu.be/N8rmiFnExa8)
