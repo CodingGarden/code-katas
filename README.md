@@ -4,6 +4,12 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 050](./episode_50)
+
+[Watch on YouTube](https://youtu.be/YeUuxgCY99o)
+
+- [give-me-a-diamond](./episode_50/give-me-a-diamond.js) - [6 kyu](https://www.codewars.com/kata/give-me-a-diamond)
+
 ## [Episode 049](./episode_49)
 
 [Watch on YouTube](https://youtu.be/fwV64X7nCAs)
