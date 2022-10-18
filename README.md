@@ -4,6 +4,14 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 047](./episode_47)
+
+[Watch on YouTube](https://youtu.be/N8rmiFnExa8)
+
+- [Abbreviate a Two Word Name](./episode_47/abbreviate-a-two-word-name.js) - [8 kyu](https://www.codewars.com/kata/abbreviate-a-two-word-name)
+- [Is n divisible by x and y?](./episode_47/is-n-divisible-by-x-and-y.js) - [8 kyu](https://www.codewars.com/kata/is-n-divisible-by-x-and-y)
+- [Multiply](./episode_47/multiply.js) - [8 kyu](https://www.codewars.com/kata/multiply)
+
 ## [Episode 046](./episode_46)
 
 [Watch on YouTube](https://youtu.be/Ham8KLnwzsg)
