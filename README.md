@@ -4,6 +4,14 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 059](./episode_59)
+
+[Watch on YouTube](https://youtu.be/j214b715Kjs)
+
+- [Do I get a bonus?](./episode_59/do-i-get-a-bonus.js) - [8 kyu](https://www.codewars.com/kata/do-i-get-a-bonus)
+- [Maximum Multiple](./episode_59/maximum-multiple.js) - [7 kyu](https://www.codewars.com/kata/maximum-multiple)
+- [Sorted? yes? no? how?](./episode_59/sorted-yes-no-how.js) - [7 kyu](https://www.codewars.com/kata/sorted-yes-no-how)
+
 ## [Episode 058](./episode_58)
 
 [Watch on YouTube](https://youtu.be/LVcZ5UPob5s)
