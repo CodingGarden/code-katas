@@ -4,6 +4,12 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 054](./episode_54)
+
+[Watch on YouTube](https://youtu.be/toMfLPaA3-Q)
+
+- [Simple Fun #176: Reverse Letter](./episode_54/simple-fun-number-176-reverse-letter.js) - [7 kyu](https://www.codewars.com/kata/simple-fun-number-176-reverse-letter)
+
 ## [Episode 053](./episode_53)
 
 [Watch on YouTube](https://youtu.be/KDPHAJWARiM)
