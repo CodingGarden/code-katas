@@ -4,6 +4,13 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 044](./episode_44)
+
+[Watch on YouTube](https://youtu.be/45RT8GZNE-Q)
+
+- [Deodorant Evaporator](./episode_44/deodorant-evaporator.js) - [7 kyu](https://www.codewars.com/kata/deodorant-evaporator)
+- [Array.diff](./episode_44/array-dot-diff.js) - [6 kyu](https://www.codewars.com/kata/array-dot-diff)
+
 ## [Episode 043](./episode_43)
 
 [Watch on YouTube](https://youtu.be/-61r_O7sM7I)
