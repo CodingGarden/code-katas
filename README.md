@@ -4,6 +4,13 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 039](./episode_39)
+
+[Watch on YouTube](https://youtu.be/vG-cFsbed6o)
+
+- [Function 1 - hello world](./episode_39/function-1-hello-world.js) - [8 kyu](https://www.codewars.com/kata/function-1-hello-world)
+- [Sum Arrays](./episode_39/sum-arrays.js) - [8 kyu](https://www.codewars.com/kata/sum-arrays)
+
 ## [Episode 038](./episode_38)
 
 [Watch on YouTube](https://youtu.be/-EEgavND8X8)
