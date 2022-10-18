@@ -4,6 +4,15 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 062](./episode_62)
+
+- [Watch on YouTube](https://youtu.be/3-78BWtmQmU)
+
+- [Count Odd Numbers below n](./episode_62/count-odd-numbers-below-n.js) - [8 kyu](https://www.codewars.com/kata/count-odd-numbers-below-n)
+- [Find Count of Most Frequent Item in an Array](./episode_62/find-count-of-most-frequent-item-in-an-array.js) - [7 kyu](https://www.codewars.com/kata/find-count-of-most-frequent-item-in-an-array)
+- [Help the bookseller !](./episode_62/help-the-bookseller.js) - [6 kyu](https://www.codewars.com/kata/help-the-bookseller)
+- [Josephus Survivor](./episode_62/josephus-survivor.js) - [5 kyu](https://www.codewars.com/kata/josephus-survivor)
+
 ## [Episode 061](./episode_61)
 
 - [Returning Strings](./episode_61/returning-strings.js) - [8 kyu](https://www.codewars.com/kata/returning-strings)
