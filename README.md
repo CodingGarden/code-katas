@@ -4,6 +4,19 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 041](./episode_41)
+
+[Watch on YouTube](https://youtu.be/9nmo27oG9ec)
+
+- [Even or Odd](./episode_41/c-sharp-solutions.cs) - [8 kyu](https://www.codewars.com/kata/even-or-odd)
+- [Opposite number](./episode_41/c-sharp-solutions.cs) - [8 kyu](https://www.codewars.com/kata/opposite-number)
+- [Sum of positive](./episode_41/c-sharp-solutions.cs) - [8 kyu](https://www.codewars.com/kata/sum-of-positive)
+- [Find the smallest integer in the array](./episode_41/c-sharp-solutions.cs) - [8 kyu](https://www.codewars.com/kata/find-the-smallest-integer-in-the-array)
+- [Return Negative](./episode_41/c-sharp-solutions.cs) - [8 kyu](https://www.codewars.com/kata/return-negative)
+- [Multiply](./episode_41/c-sharp-solutions.cs) - [8 kyu](https://www.codewars.com/kata/multiply)
+- [Vowel Count](./episode_41/c-sharp-solutions.cs) - [7 kyu](https://www.codewars.com/kata/vowel-count)
+- [Two Oldest Ages](./episode_41/two-oldest-ages-1.js) - [7 kyu](https://www.codewars.com/kata/two-oldest-ages-1)
+
 ## [Episode 040](./episode_40)
 
 [Watch on YouTube](https://youtu.be/JEYJ6oRZd9A)
