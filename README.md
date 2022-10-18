@@ -4,6 +4,13 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 060](./episode_60)
+
+[Watch on YouTube](https://youtu.be/AhJZM_ZNATc)
+
+- [Get the mean of an array](./episode_60/get-the-mean-of-an-array.js) - [8 kyu](https://www.codewars.com/kata/get-the-mean-of-an-array)
+- [Two fighters, one winner.](./episode_60/two-fighters-one-winner.js) - [7 kyu](https://www.codewars.com/kata/two-fighters-one-winner)
+
 ## [Episode 059](./episode_59)
 
 [Watch on YouTube](https://youtu.be/j214b715Kjs)
