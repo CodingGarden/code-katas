@@ -4,6 +4,13 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 063](./episode_63)
+
+[Watch on YouTube](https://youtu.be/vQ4WltnDR88)
+
+- [Double Char](./episode_63/double-char.js) - [8 kyu](https://www.codewars.com/kata/double-char)
+- [Small enough? - Beginner](./episode_63/small-enough-beginner.js) - [7 kyu](https://www.codewars.com/kata/small-enough-beginner)
+
 ## [Episode 062](./episode_62)
 
 - [Watch on YouTube](https://youtu.be/3-78BWtmQmU)
