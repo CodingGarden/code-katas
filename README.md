@@ -4,6 +4,15 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 064](./episode_64)
+
+[Watch on YouTube](https://youtu.be/MTuMskE5bnA)
+
+- [Check the exam](./episode_64/check-the-exam.js) - [7 kyu](https://www.codewars.com/kata/check-the-exam)
+- [Make the Deadfish Swim](./episode_64/make-the-deadfish-swim.js) - [6 kyu](https://www.codewars.com/kata/make-the-deadfish-swim)
+- [Multiplication table](./episode_64/multiplication-table.js) - [6 kyu](https://www.codewars.com/kata/multiplication-table)
+- [Beeramid](./episode_64/beeramid.js) - [5 kyu](https://www.codewars.com/kata/beeramid)
+
 ## [Episode 063](./episode_63)
 
 [Watch on YouTube](https://youtu.be/vQ4WltnDR88)
