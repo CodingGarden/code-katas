@@ -4,6 +4,12 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 052](./episode_52)
+
+[Watch on YouTube](https://youtu.be/Co7bsS_VpkM)
+
+- [How many days are we represented in a foreign country?](./episode_52/how-many-days-are-we-represented-in-a-foreign-country.js) - [7 kyu](https://www.codewars.com/kata/how-many-days-are-we-represented-in-a-foreign-country)
+
 ## [Episode 051](./episode_51)
 
 [Watch on YouTube](https://youtu.be/XWNqP3j91Dw)
