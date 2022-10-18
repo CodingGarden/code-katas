@@ -4,6 +4,12 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 051](./episode_51)
+
+[Watch on YouTube](https://youtu.be/XWNqP3j91Dw)
+
+- [Hexagon Beam Max Sum](./episode_51/hexagon-beam-max-sum) - [6 kyu](https://www.codewars.com/kata/hexagon-beam-max-sum)
+
 ## [Episode 050](./episode_50)
 
 [Watch on YouTube](https://youtu.be/YeUuxgCY99o)
