@@ -4,6 +4,13 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 037](./episode_037)
+
+[Watch on YouTube](https://youtu.be/EnfLqIm3dDg)
+
+- [Numerical Palindrome #3.5](./episode_037/numerical-palindrome-number-3-dot-5.js) - [6 kyu](https://www.codewars.com/kata/58e2708f9bd67fee17000080)
+- [Playing with digits](./episode_037/playing-with-digits.js) - [6 kyu](https://www.codewars.com/kata/playing-with-digits)
+
 ## [Episode 036](./episode_036)
 
 [Watch on YouTube](https://youtu.be/_8N-Vkdwuq8)
