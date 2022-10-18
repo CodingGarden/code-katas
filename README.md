@@ -4,6 +4,12 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 046](./episode_46)
+
+[Watch on YouTube](https://youtu.be/Ham8KLnwzsg)
+
+- [Strongest even number in an interval](./episode_46/strongest-even-number-in-an-interval.js) - [6 kyu](https://www.codewars.com/kata/strongest-even-number-in-an-interval)
+
 ## [Episode 045](./episode_45)
 
 [Watch on YouTube](https://youtu.be/aBrkNwRc7j0)
