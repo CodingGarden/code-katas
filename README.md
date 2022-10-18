@@ -4,6 +4,14 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 038](./episode_38)
+
+[Watch on YouTube](https://youtu.be/-EEgavND8X8)
+
+- [Casino chips](./episode_38/casino-chips.js) - [6 kyu](https://www.codewars.com/kata/casino-chips)
+- [Find the safest places in town](./episode_38/find-the-safest-places-in-town) - [5 kyu](https://www.codewars.com/kata/find-the-safest-places-in-town)
+- [Interleaving Arrays](./episode_38/interleaving-arrays.js) - [5 kyu](https://www.codewars.com/kata/interleaving-arrays)
+
 ## [Episode 037](./episode_037)
 
 [Watch on YouTube](https://youtu.be/EnfLqIm3dDg)
