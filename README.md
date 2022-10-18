@@ -4,6 +4,13 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 049](./episode_49)
+
+[Watch on YouTube](https://youtu.be/fwV64X7nCAs)
+
+- [field chained HTML formatting ](./episode_49/field-chained-html-formatting) - [5 kyu](https://www.codewars.com/kata/field-chained-html-formatting)
+- [Adding Big Numbers](./episode_49/adding-big-numbers.js) - [4 kyu](https://www.codewars.com/kata/adding-big-numbers)
+
 ## [Episode 048](./episode_48)
 
 [Watch on YouTube](https://youtu.be/1WxoJpic-wA)
