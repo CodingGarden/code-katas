@@ -22,7 +22,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 ## [Episode 062](./episode_62)
 
-- [Watch on YouTube](https://youtu.be/3-78BWtmQmU)
+[Watch on YouTube](https://youtu.be/3-78BWtmQmU)
 
 - [Count Odd Numbers below n](./episode_62/count-odd-numbers-below-n.js) - [8 kyu](https://www.codewars.com/kata/count-odd-numbers-below-n)
 - [Find Count of Most Frequent Item in an Array](./episode_62/find-count-of-most-frequent-item-in-an-array.js) - [7 kyu](https://www.codewars.com/kata/find-count-of-most-frequent-item-in-an-array)
@@ -101,13 +101,13 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 [Watch on YouTube](https://youtu.be/YeUuxgCY99o)
 
-- [give-me-a-diamond](./episode_50/give-me-a-diamond.js) - [6 kyu](https://www.codewars.com/kata/give-me-a-diamond)
+- [Give me a Diamond](./episode_50/give-me-a-diamond.js) - [6 kyu](https://www.codewars.com/kata/give-me-a-diamond)
 
 ## [Episode 049](./episode_49)
 
 [Watch on YouTube](https://youtu.be/fwV64X7nCAs)
 
-- [field chained HTML formatting ](./episode_49/field-chained-html-formatting) - [5 kyu](https://www.codewars.com/kata/field-chained-html-formatting)
+- [field chained HTML formatting](./episode_49/field-chained-html-formatting) - [5 kyu](https://www.codewars.com/kata/field-chained-html-formatting)
 - [Adding Big Numbers](./episode_49/adding-big-numbers.js) - [4 kyu](https://www.codewars.com/kata/adding-big-numbers)
 
 ## [Episode 048](./episode_48)
@@ -147,7 +147,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 [Watch on YouTube](https://youtu.be/-61r_O7sM7I)
 
-- [Expressions Matter ](./episode_43/expressions-matter.js) - [8 kyu](https://www.codewars.com/kata/expressions-matter)
+- [Expressions Matter](./episode_43/expressions-matter.js) - [8 kyu](https://www.codewars.com/kata/expressions-matter)
 - [get ascii value of character](./episode_43/get-ascii-value-of-character.js) - [8 kyu](https://www.codewars.com/kata/get-ascii-value-of-character)
 
 ## [Episode 042](./episode_42)
@@ -287,7 +287,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 [Watch on YouTube](https://www.youtube.com/watch?v=KwekhEaA9f4)
 
 - [The Poet And The Pendulum](./episode_028/the-poet-and-the-pendulum.js) - [7 kyu](https://www.codewars.com/kata/the-poet-and-the-pendulum)
-- [New Cashier Does Not Know About Space or Shift ](./episode_028/new-cashier-does-not-know-about-space-or-shift.js) - [6 kyu](https://www.codewars.com/kata/new-cashier-does-not-know-about-space-or-shift)
+- [New Cashier Does Not Know About Space or Shift](./episode_028/new-cashier-does-not-know-about-space-or-shift.js) - [6 kyu](https://www.codewars.com/kata/new-cashier-does-not-know-about-space-or-shift)
 - [int32 to IPv4](./episode_028/int32-to-ipv4.js) - [5 kyu](https://www.codewars.com/kata/int32-to-ipv4)
 
 ## [Episode 027](./episode_027)
@@ -443,7 +443,7 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 [Watch on YouTube](https://www.youtube.com/watch?v=6eoqEYc5SGI)
 
-- [Find the divisors! ](./episode_010/find-the-divisors.js) - [7 kyu](https://www.codewars.com/kata/find-the-divisors)
+- [Find the divisors!](./episode_010/find-the-divisors.js) - [7 kyu](https://www.codewars.com/kata/find-the-divisors)
 - [Stop gninnipS My sdroW!](./episode_010/stop-gninnips-my-sdrow.js) - [6 kyu](https://www.codewars.com/kata/stop-gninnips-my-sdrow)
 - [Pete, the baker](./episode_010/pete-the-baker.js) - [5 kyu](https://www.codewars.com/kata/pete-the-baker)
 
@@ -539,4 +539,4 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 - [Student's Final Grade](./episode_001/students-final-grade.js) - [8 kyu](https://www.codewars.com/kata/students-final-grade)
 - [Binary Addition](./episode_001/binary-addition.js) - [7 kyu](https://www.codewars.com/kata/binary-addition)
 - [Mumbling](./episode_001/mumbling.js) - [7 kyu](https://www.codewars.com/kata/mumbling)
-- [Decode the Morse code ](./episode_001/decode-the-morse-code.js) - [6 kyu](https://www.codewars.com/kata/decode-the-morse-code)
+- [Decode the Morse code](./episode_001/decode-the-morse-code.js) - [6 kyu](https://www.codewars.com/kata/decode-the-morse-code)
