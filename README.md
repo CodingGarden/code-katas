@@ -4,6 +4,12 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 045](./episode_45)
+
+[Watch on YouTube](https://youtu.be/aBrkNwRc7j0)
+
+- [Tiny Three-Pass Compiler](./episode_45/tiny-three-pass-compiler) - [1 kyu](https://www.codewars.com/kata/tiny-three-pass-compiler)
+
 ## [Episode 044](./episode_44)
 
 [Watch on YouTube](https://youtu.be/45RT8GZNE-Q)
