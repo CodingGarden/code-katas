@@ -4,6 +4,12 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 056](./episode_56)
+
+[Watch on YouTube](https://youtu.be/4zrjg5ZMBsE)
+
+- [class List](./episode_56/class-list) - [2 kyu](https://www.codewars.com/kata/class-list)
+
 ## [Episode 055](./episode_55)
 
 [Watch on YouTube](https://youtu.be/xB8JQSwTA_U)
