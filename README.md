@@ -4,6 +4,13 @@ Search / Filter solutions [here](https://code-katas.now.sh/)
 
 # Episodes
 
+## [Episode 043](./episode_43)
+
+[Watch on YouTube](https://youtu.be/-61r_O7sM7I)
+
+- [Expressions Matter ](./episode_43/expressions-matter.js) - [8 kyu](https://www.codewars.com/kata/expressions-matter)
+- [get ascii value of character](./episode_43/get-ascii-value-of-character.js) - [8 kyu](https://www.codewars.com/kata/get-ascii-value-of-character)
+
 ## [Episode 042](./episode_42)
 
 [Watch on YouTube](https://youtu.be/C-_OEBc7h10)
